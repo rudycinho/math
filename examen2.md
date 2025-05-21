@@ -72,4 +72,23 @@ x^2 \sin\left(\frac{1}{x}\right) & \text{si } x \neq 0, \\
 - ¿Es $f$ derivable en $x = 0$?  
 - Calcula $f'(0)$ si existe.  
 
-b) Demuestra que si $f$ es derivable en $\mathbb{R}$ y $
+b) Demuestra que si $f$ es derivable en $\mathbb{R}$ y $f'(x) \neq 0$ para todo $x$, entonces $f$ es inyectiva.  
+
+---
+
+### **Problema 8. Desafío (Integración de Temas)**  
+a) Usa el **Teorema del Valor Medio para derivadas** para demostrar que:  
+$$
+|\cos a - \cos b| \leq |a - b|, \quad \forall a, b \in \mathbb{R}.
+$$  
+
+b) Sea $f$ continua en $[0, 1]$ y derivable en $(0, 1)$, con $f(0) = 0$ y $|f'(x)| \leq 1$. Demuestra que $|f(x)| \leq x$ para todo $x \in [0, 1]$.  
+
+---
+
+**Instrucciones:**  
+- Resuelve **5 problemas** de tu elección (todos deben incluir al menos uno de cada tema principal).  
+- Justifica cada paso y menciona los teoremas utilizados.  
+- Duración: 2 horas.  
+
+¡Éxito! 📝🔍
