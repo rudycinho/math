@@ -55,4 +55,4 @@ teoria de extensioones de campos.
 hacer el teorema del val9r medio sin rolle.
 imitar el teorema dw roolw
 
-
+la raiz cuadrada ya viene incorporada ya viene incorporada con signo.
