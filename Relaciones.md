@@ -42,10 +42,15 @@ Entonces
 
 $$
 \begin{align}
-D_5 = \emptyset && I_5 = \emptyset,
-i.e
+D_5 = \emptyset && I_5 = \emptyset,\\
+i.e,\\
+S = \emptyset && \blacksquare
 \end{align}
 $$
+**Ejemplo:** Sea $A=B=\mathbb{Z}$ y pongamos:
+R
+
+
 **B. Relaciones de equivalencia**  
 En $\mathbb{R}$ definimos $x \sim y \Leftrightarrow x^2 = y^2$. ¿Es $\sim$ una relación de equivalencia?  
 - **(i) Reflexividad**: ($\forall x \in \mathbb{R}$) ($x \sim x$). Para todo $x \in \mathbb{R}$, es obvio que $x^2 = x^2$; luego $x \sim x$.  
