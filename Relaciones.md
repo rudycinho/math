@@ -35,10 +35,17 @@ D_R = \mathbb{Z} && I_{R} = \{x^2 : x \in \mathbb{Z}\}\\
 \end{align}
 $$
 
-**Ejemplo:** Sea $A={$ y $$
-- $\text{Dom}(R) = \{1, 2, 3\}$ (pues $A = \text{Dom}(R)$).  
-- $\text{Im}(R) = \{2, 4, 6\}$.  
+**Ejemplo:** Sea $A=\{1,2,3\}$ y $B=\{1,3,5,7\}$
+Pongamos
+$$S = \{(x,2x):x \in A\}$$
+Entonces 
 
+$$
+\begin{align}
+D_5 = \emptyset && I_5 = \emptyset,
+i.e
+\end{align}
+$$
 **B. Relaciones de equivalencia**  
 En $\mathbb{R}$ definimos $x \sim y \Leftrightarrow x^2 = y^2$. ¿Es $\sim$ una relación de equivalencia?  
 - **(i) Reflexividad**: ($\forall x \in \mathbb{R}$) ($x \sim x$). Para todo $x \in \mathbb{R}$, es obvio que $x^2 = x^2$; luego $x \sim x$.  
