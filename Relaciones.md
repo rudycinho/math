@@ -9,14 +9,15 @@ $R$ es una relación si $R \subseteq A \times B$.
 Ejemplo. $\emptyset \subseteq A \times B$ es una relación. $\blacksquare$
 Ejemplo. Sean $A = \{a, b, c\}$ y $B = \{3, 5, 7\}$.  
   $R_1 = \{(a, 3)\}$,  
-  $R_2 = \{(a, 3), (b, 5), (c, 7)\}$,  
-  $R_3 = \{(b, 3), (c, 3), (c, 5)\}$.  
+  $R_2 = \{(a, 3), (a, 5), (a, 7)\}$,  
+  $R_3 = \{(b, 3), (a, 3), (c, 3)\}$.  
   Son relaciones de $A$ en $B$. 
   Como $|A \times B| = 9$, hay $2^9 = 512$ posibles relaciones de $A$ en $B$.  
 
-Ejemplo. Sean $A = B = \mathbb{Z}$ y definamos $$R = \{(x, x^2) : x \in \mathbb{R}\}$$.  
-Así, por ejemplo, $(1, 1)$, $(2, 4)$, $(-2, 4) \in R$,  
+Ejemplo. Sean $A = B = \mathbb{Z}$ y definamos $$R = \{(x, x^2) : x \in \mathbb{Z}\}$$.  
+Así, por ejemplo, $$(1, 1), (2, 4), (-2, 4) \in R$$,  
 pero $(2, 3) \notin R$ pues $3 \neq 2^2$.  
+pero $(\sqrt{2}, 2) \notin R$ pues $\sqrt{2} \neq 2^2$.  
 Nota: $(x, y) \in R$ cuando $y = x^2$.  $\blacksquare$
 
 
@@ -25,7 +26,13 @@ Toda relación $R \subseteq A \times B$ tiene asociados dos conjuntos:
 - La **imagen** de $R$: $$I_R = \{b \in B : (\exists a \in A) \text{ tal que } ((a, b) \in R)\}$$.  
 
 **Ejemplo:**  De los ejemplos anteriores:
-$D_{R_1} = \{a\} $
+$$
+\begin{align}
+D_{R_1} = \{a\} && I_{R_1} = \{3\}\\
+D_{R_2} = \{a\} && I_{R_2} = \{3,5,7\}\\
+\end{align}
+$$
+
 
 - $\text{Dom}(R) = \{1, 2, 3\}$ (pues $A = \text{Dom}(R)$).  
 - $\text{Im}(R) = \{2, 4, 6\}$.  
