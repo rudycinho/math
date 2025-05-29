@@ -17,7 +17,7 @@ Ejemplo. Sean $A = \{a, b, c\}$ y $B = \{3, 5, 7\}$.
 Ejemplo. Sean $A = B = \mathbb{Z}$ y definamos $$R = \{(x, x^2) : x \in \mathbb{Z}\}$$.  
 Así, por ejemplo, $$(1, 1), (2, 4), (-2, 4) \in R$$,  
 pero $(2, 3) \notin R$ pues $3 \neq 2^2$.  
-pero $(\sqrt{2}, 2) \notin R$ pues $\sqrt{2} \neq 2^2$.  
+pero $(\sqrt{2}, 2) \notin R$ pues $\sqrt{2} \notin \mathbb{Z}$.  
 Nota: $(x, y) \in R$ cuando $y = x^2$.  $\blacksquare$
 
 
@@ -30,10 +30,12 @@ $$
 \begin{align}
 D_{R_1} = \{a\} && I_{R_1} = \{3\}\\
 D_{R_2} = \{a\} && I_{R_2} = \{3,5,7\}\\
+D_{R_3} = \{b,a,c\} = A && I_{R_3} = \{3\}\\
+D_R = \mathbb{Z} && I_{R} = \{x^2 : x \in \mathbb{Z}\}\\
 \end{align}
 $$
 
-
+**Ejemplo:** Sea $A={$ y $$
 - $\text{Dom}(R) = \{1, 2, 3\}$ (pues $A = \text{Dom}(R)$).  
 - $\text{Im}(R) = \{2, 4, 6\}$.  
 
