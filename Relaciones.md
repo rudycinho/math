@@ -3,7 +3,7 @@
 En este capítulo estudiamos dos tipos especiales de conjuntos: las relaciones y las funciones.  
 
 **A. Relaciones**  
-- Sean $A$, $B$ dos conjuntos no vacíos. Una relación $R$ de $A$ en $B$ es un subconjunto $R \subseteq A \times B$.  
+- Sean $A$, $B$ dos conjuntos no vacíos, una relación $R$ de $A$ en $B$ es un subconjunto $R \subseteq A \times B$.  
 - $R$ es una relación si $R \subseteq A \times B$.  
 - Sean $A = \{a, b, c\}$ y $B = \{3, 5, 7\}$. Ejemplos:  
   $R_1 = \{(a, 3)\}$,  
