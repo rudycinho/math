@@ -6,17 +6,18 @@ En este capítulo estudiamos dos tipos especiales de conjuntos: las relaciones y
 Sean $A$, $B$ dos conjuntos no vacíos, una **relación $R$ de $A$ en $B$** es un subconjunto $R \subseteq A \times B$.  
 $R$ es una relación si $R \subseteq A \times B$. 
 
-Ej. $\voidset$ 
-- Sean $A = \{a, b, c\}$ y $B = \{3, 5, 7\}$. Ejemplos:  
+Ej. $\emptyset \subseteq A \times B$ es una relación. $\blacksquare$
+Ej. Sean $A = \{a, b, c\}$ y $B = \{3, 5, 7\}$.  
   $R_1 = \{(a, 3)\}$,  
   $R_2 = \{(a, 3), (b, 5), (c, 7)\}$,  
   $R_3 = \{(b, 3), (c, 3), (c, 5)\}$.  
-  Son relaciones de $A$ en $B$. Como $|A \times B| = 9$, hay $2^9 = 512$ posibles relaciones de $A$ en $B$.  
+  Son relaciones de $A$ en $B$. 
+  Como $|A \times B| = 9$, hay $2^9 = 512$ posibles relaciones de $A$ en $B$.  
 
-- Sean $A = B = \mathbb{R}$ y definamos $R = \{(x, x^2) : x \in \mathbb{R}\}$.  
-  Por ejemplo, $(1, 1)$, $(2, 4)$, $(-2, 4) \in R$,  
-  pero $(2, 3) \notin R$ pues $3 \neq 2^2$.  
-  Nota: $(x, y) \in R$ cuando $y = x^2$.  
+Ej. Sean $A = B = \mathbb{Z}$ y definamos $$R = \{(x, x^2) : x \in \mathbb{R}\}$$.  
+Asi por ejemplo, $(1, 1)$, $(2, 4)$, $(-2, 4) \in R$,  
+pero $(2, 3) \notin R$ pues $3 \neq 2^2$.  
+Nota: $(x, y) \in R$ cuando $y = x^2$.  $\blacksquare$
 
 **Propiedades asociadas a una relación**  
 Toda relación $R \subseteq A \times B$ tiene asociados dos conjuntos:  
