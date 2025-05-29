@@ -24,9 +24,9 @@ Toda relación $R \subseteq A \times B$ tiene asociados dos conjuntos:
 - El **dominio** de $R$: $$D_R = \{a \in A : (\exists b \in B) \text{ tal que } ((a, b) \in R)\}$$.  
 - La **imagen** de $R$: $$I_R = \{b \in B : (\exists a \in A) \text{ tal que } ((a, b) \in R)\}$$.  
 
-**Ejemplo:**  
-Sean $A = \{1, 2, 3\}$, $B = \{1, 3, 5, 7\}$, y $R = \{(x, 2x) : x \in A\}$.  
-Entonces:  
+**Ejemplo:**  De los ejemplos anteriores:
+$D_{R_1} = \{a\} $
+
 - $\text{Dom}(R) = \{1, 2, 3\}$ (pues $A = \text{Dom}(R)$).  
 - $\text{Im}(R) = \{2, 4, 6\}$.  
 
