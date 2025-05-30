@@ -348,6 +348,13 @@ Los conjuntos (parcialmente) ordenados, a veces llamamos **c.o.p.o.s**, que son 
 Construimos el diagrama de Hasse de la siguiete forma:
 
 
+1. Colocamos los elemtnso del copo en un plano : si $a \leq b$, dibujamos $a$ por debajo de $b$ y los unimos con un segmento de recta
+```  
+    b        b     b
+    |       /
+    a      a
+```  
+
 Para conjuntos finitos parcialmente ordenados, se usan diagramas de Hasse:  
 1. Elementos se dibujan en el plano: si $a \preccurlyeq b$, $a$ va debajo de $b$ y se conectan con un segmento.  
 2. Las conexiones implican transitividad (no se dibujan todas las relaciones).  
