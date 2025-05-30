@@ -165,10 +165,17 @@ $$
 \begin{align}
   \left[\ell: y = \frac{2}{3}x - \frac{4}{3}\right] &= \{M \in \mathcal{L}: M \sim \mathcal{L}\} \\
   &= \{M \in \mathcal{L}: M \parallel \mathcal{L}\} \\
-  &= \{M \in \mathcal{L}: m_M = \frac{2}{3}\} \\
+  &= \left\{M \in \mathcal{L}: m_M = \frac{2}{3}\right\} \\
+  &= \left\{ \left\{ \ell: y = \frac{2}{3}x + b \right\} : b \in \mathbb{R} \right\} \\
+  &= \left[ y = \frac{2}{3}x \right] \\
 \end{align}
 $$  
-- El conjunto cociente es:  
+De forma análoga:
+$$
+
+$$
+
+El conjunto cociente es:  
   $$
   L/{\parallel} = \left\{ \left\{ y = mx + b : b \in \mathbb{R} \right\} : m \in \mathbb{R} \right\} \quad (\text{conjunto de todas las direcciones}).
   $$  
