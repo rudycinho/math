@@ -322,6 +322,13 @@ max B no existe
 min C = 1
 max C = 2
 
+**Ejemplo:** En $\mathbb{R}$ con el orden usual:  
+- $A = (1, 2)$: $\min A$ no existe, $\max A$ no existe.  
+- $B = [1, 2)$: $\min B = 1$, $\max B$ no existe.  
+- $C = [1, 2]$: $\min C = 1$, $\max C = 2$.  
+
+
+
 3. **Cotas inferiores**: Se dice que $a \in A$ es una **cota inferior** de $B$ si $$(\forall x \in B)(a \mathbin{R} x)$$. 
 	El conjunto de todas las cotas inferiores de B se denota por $B^-$.  
 4. **Cotas superiores**: Se dice que $b \in A$ es una **cota superior** de $B$ si $$(\forall x \in B)(x \mathbin{R} b)$$.
@@ -333,14 +340,14 @@ max C = 2
 7. **Elementos minimales**: Se dice que $b \in B$ es **minimal** o un **elemento minimal** si $$x \mathbin{R} b \Rightarrow x = b $$. I. e., un elemento minimal no tiene ningun elemento menor que el sin que esto signifique que es el minimo
 	**Observacion** Minimo implica minimal, pero minimal no neceriamente implica minimos. $\blacksquare$
 - **Elementos maximales**: Se dice que $d \in B$ es **maximal** o un **elemento maximal** si $$d \mathbin{R} x \Rightarrow x = d $$. I. e., un elemento maximal no tiene ningun elemento mayor que el sin que esto signifique que es el maximo.
-	**Observacion** Maximo implica minimal, pero minimal no neceriamente implica minimos. $\blacksquare$  
+	**Observacion** Maximo implica maximal, pero maximal no neceriamente implica maximo. $\blacksquare$  
 
-**Ejemplo:** En $\mathbb{R}$ con el orden usual:  
-- $A = (1, 2)$: $\min A$ no existe, $\max A$ no existe.  
-- $B = [1, 2)$: $\min B = 1$, $\max B$ no existe.  
-- $C = [1, 2]$: $\min C = 1$, $\max C = 2$.  
 
-**Diagramas de Hasse:**  
+Los conjuntos (parcialmente) ordenados, a veces llamamos **c.o.p.o.s**, que son finitios son representados graficamente por unos diagramas llamados **diagramas de Hasse:**
+
+Construimos el diagrama de Hasse de la siguiete forma:
+
+
 Para conjuntos finitos parcialmente ordenados, se usan diagramas de Hasse:  
 1. Elementos se dibujan en el plano: si $a \preccurlyeq b$, $a$ va debajo de $b$ y se conectan con un segmento.  
 2. Las conexiones implican transitividad (no se dibujan todas las relaciones).  
