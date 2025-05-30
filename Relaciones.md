@@ -235,13 +235,20 @@ $$
 \end{align}
 $$  
 **Observacion**
-Notemos que la clase de equivalencia $[7]$ que acabamos de calcular tiene definidos elemtnos por 
+Notemos que la clase de equivalencia $[7]$ que acabamos de calcular tiene infinitos elementos por ente $[7]$ tiene infinitos representantes. e.g
+$$
+[7] = [2] = [12] = [-3] = [-8] = \dots
+$$
+$\blacksquare$
+
+El **Algoritmo de la division** nos garantiza que esta relacion de equivalencia solo tiene 5 clases de equivalencia a saber:
+
 El conjunto cociente es $\mathbb{Z}/\equiv_5 = \{[0], [1], [2], [3], [4]\}$.  
 $\blacksquare$
 
 Entonces una relacion de equivalentecia es una **clasificacion** de los elementos de l conjunto.
 
-Sea $\{A_i\}_{i \in I}$ una familila de subconjuntos de $\mathbin{X}$, se denomina una **particion** de $\mathbin{X}$
+Sea $\{A_i\}_{i \in I}$ una familila de subconjuntos de $\mathbin{X}$, se denomina una **particion** de $\mathbin{X}$ si 
 
 
 **Teorema fundamental:**  
