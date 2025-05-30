@@ -103,9 +103,11 @@ Sea $R \subseteq A^2$ una relación de equivalencia y sea $a \in A$. La **clase 
 $$
 [a] = \{x \in A : x \mathbin{R} a\}.
 $$  
-Por reflexividad, para todo $a \in A$, $[a] \neq \emptyset$. A saber, por lo menos  $a \in [a]$.  
-- Si $a \mathbin{R} b$, entonces $[a] = [b]$.  
-- Si $\neg(a \mathbin{R} b)$, entonces $[a] \cap [b] = \emptyset$.  
+Por reflexividad, para todo $a \in A$, $[a] \neq \emptyset$. A saber, por lo menos  $a \in [a]$.
+Si $\neg(a \mathbin{R} b)$, entonces $[a] \cap [b] = \emptyset$.  
+En efecto, supongamos que $x \in [a] \cap [b]$.
+Entonces $x \in [a]$ y $x \in [b]$, luego $$x \mathbin{R} a \qquad \text{ y } \qquad x \mathbin{R} b$$, y de aqui se obtendra que $a \mathbin{R} b$, lo que contradice lo supuesto
+Si $a  b$, entonces $[a] = [b]$.  
 - Además, $\bigcup_{a \in A} [a] = A$.  
 
 La colección de todas las clases de equivalencia forma el **conjunto cociente** de $A$ por $R$, denotado $A/R$.  
