@@ -327,9 +327,10 @@ max C = 2
 4. **Cotas superiores**: Se dice que $b \in A$ es una **cota superior** de $B$ si $$(\forall x \in B)(x \mathbin{R} b)$$.
 	El conjunto de todas las cotas superiores de B se denota por $B^+$.  
 5. **Ínfimo o maxima cota inferior**: Se dice que $a \in A$ es el **ínfimo** de $B$ si es el máximo de $B^-$. 
-	Si existe, escribimos $a = \text{inf } B$ y $\text{inf B} = B^-$.  
-- **Supremo o minima cota superior** : Se dice que $b \in A$ es el **supremo** de $B$ si es el mínimo de $B^+$. Se denota $b = \sup B$.  
-- **Elemento minimal**: $b \in B$ es minimal si $\neg(\exists x \in B)(x \preccurlyeq b \land x \neq b)$.  
+	Si existe, escribimos $a = \text{inf } B$ y $\text{inf B} = \text {max } B^-$.  
+6. **Supremo o minima cota superior** : Se dice que $b \in A$ es el **supremo** de $B$ si es el mínimo de $B^+$. 
+	Si existe, escribimos $b = \text{sup } B$ y $\text{sup } B = \text{min } B^+$.  
+7. **Elementos minimales**: $b \in B$ es minimal si $\neg(\exists x \in B)(x \preccurlyeq b \land x \neq b)$.  
 - **Elemento maximal**: $d \in B$ es maximal si $\neg(\exists x \in B)(d \preccurlyeq x \land x \neq d)$.  
 
 **Ejemplo:** En $\mathbb{R}$ con el orden usual:  
