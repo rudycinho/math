@@ -217,7 +217,7 @@ $$
 &= \{x \in \mathbb{Z} : (\exists c \in \mathbb{Z}) (x = 7 + 5\cdot c)\} \\
 &= \{x \in \mathbb{Z} : (\exists c \in \mathbb{Z}) (x = 2 + 5\cdot (c+1)\} \\
 &= \{ 5 \cdot k + 2 : k \in \mathbb{Z}\} \\
-&= \{\ldots, -8-3, 2, 7, 12, \ldots\}.
+&= \{\ldots, -8,-3, 2, 7, 12, \ldots\} = [2].
 \end{align}
 $$  
 El conjunto cociente es $\mathbb{Z}/5\mathbb{Z} = \{[0], [1], [2], [3], [4]\}$.  
