@@ -310,7 +310,10 @@ Sea $B \subseteq A$, entonces
 2. **Máximo**: Se dice que $k\in B$ es el **maximo** de $B$ o el **ultimo elemento** de B si $$(\forall c \in B)(c \mathbin{R} k)$$
 	Si existe, se escribe $k=\text{max } B$
 
-**Ejemplo:** En $\mathbb{R}$ con el ordn usual sean $A=(1,2)$, $A=(1,2)$ y $A=(1,2)$
+**Ejemplo:** En $\mathbb{R}$ con el orden usual sean $A=(1,2)$, $A=[1,2)$ y $A=[1,2]$
+
+Etonces:
+max
 
 **Cotas inferiores**: $a \in A$ es cota inferior de $B$ si $\forall x \in B$, $a \preccurlyeq x$. El conjunto de cotas inferiores se denota $B_-$.  
 - **Cotas superiores**: $b \in A$ es cota superior de $B$ si $\forall x \in B$, $x \preccurlyeq b$. El conjunto de cotas superiores se denota $B^+$.  
