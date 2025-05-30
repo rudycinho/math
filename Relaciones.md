@@ -43,12 +43,12 @@ Entonces
 $$
 \begin{align}
 D_5 = \emptyset && I_5 = \emptyset,\\
-i.e,\\
+\text{i.e. } ,\\
 S = \emptyset && \blacksquare
 \end{align}
 $$
 **Ejemplo:** Sea $A=B=\mathbb{Z}$ y pongamos:
-R
+$$R=\{\$$
 
 
 **B. Relaciones de equivalencia**  
