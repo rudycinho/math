@@ -53,9 +53,12 @@ Asi, por ejemplo,
 $(1,1),(2,4),(-2,4) \in R$
 
 Pero
-$(2,3) \notin R$ pues $3 \neq 2^2$
-$(\sqrt2,3) \notin R$ pues $3 \neq 2^2$
+$(2,3) \notin R$ , pues $3 \neq 2^2$
+$(\sqrt{2},2) \notin R$ , pues $\sqrt{2} \notin \mathbb{Z}$ $\blacksquare$
 
+**Ejemplo:** En $R$ definimos
+$$
+x \sim y \Rightleftarrow x^2 = y^2
 $$
 **B. Relaciones de equivalencia**  
 En $\mathbb{R}$ definimos $x \sim y \Leftrightarrow x^2 = y^2$. ¿Es $\sim$ una relación de equivalencia?  
