@@ -60,6 +60,16 @@ $(\sqrt{2},2) \notin R$ , pues $\sqrt{2} \notin \mathbb{Z}$ $\blacksquare$
 $$
 x \sim y \Longleftrightarrow x^2 = y^2
 $$
+
+Es $\sim$ una relacion de equivalencia?
+
+**Demostrar:**
+
+i. **Reflexividad:** $(\forall x \in \mathbb{R})(x \sim x)$
+Para todo $x \in \mathbb{R}$, es obvio que $x=x$ ; de aqui se sigue que $x^2 = x^2$, i.e., $x \sim x$.
+ii. **Simetria:** $(\forall x \in \mathbb{R})(x \sim x)$
+Para todo $x \in \mathbb{R}$, es obvio que $x=x$ ; de aqui se sigue que $x^2 = x^2$, i.e., $x \sim x$.
+
 **B. Relaciones de equivalencia**  
 En $\mathbb{R}$ definimos $x \sim y \Leftrightarrow x^2 = y^2$. ¿Es $\sim$ una relación de equivalencia?  
 - **(i) Reflexividad**: ($\forall x \in \mathbb{R}$) ($x \sim x$). Para todo $x \in \mathbb{R}$, es obvio que $x^2 = x^2$; luego $x \sim x$.  
