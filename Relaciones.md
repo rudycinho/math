@@ -143,9 +143,10 @@ $$R/\sim = [0,+ \inf) = (-\inf,+ 0]$$ $\blacksquare$
 **Ejemplo:**
 En $\mathbb{R}^2$ sea $\mathcal{L}$ el conjunto de todas las rectas en $\mathbb{R}^2$. En $\mathcal{L}$ definimos:  
 $$
-\ell_1 \parallel \ell_2 \Leftrightarrow \text{$\ell_1$ y $\ell_2$ son paralelas}.
-$$  
-Es evidente que $\parallel$ es relación de equivalencia.  
+\ell_1 \sim \ell_2 \Longleftrightarrow \ell_1 \parallel \ell_2.
+$$
+
+Es evidente que $\sim$ es una relación de equivalencia, dada.  
 - Para la recta $\ell: y - 2 = \frac{2}{3}(x - 1)$ (i.e., $y = \frac{2}{3}x + \frac{4}{3}$), su clase es:  
   $$
   [\ell] = \{m \in L : m \parallel \ell\} = \left\{ \text{rectas con pendiente } \frac{2}{3} \right\} = \left\{ y = \frac{2}{3}x + b : b \in \mathbb{R} \right\}.
