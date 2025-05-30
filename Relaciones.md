@@ -110,9 +110,21 @@ Entonces $x \in [a]$ y $x \in [b]$, luego $$x \mathbin{R} a \qquad \text{ y } \q
 Si $a \mathbin{R} b$, entonces $[a] = [b]$.  
 Por ultimo es evidente que $$\bigcup_{a \in A} [a] = A$$.  
 
-Entonces podemos coleccionar todoas las clases de equvialentecia que forma la relacion de equivalencia $\mathbin{R} \subseteq A^2$ y obtenemos el conjunto $$A/R = \{[a] : a \in A\}$$ que se llama el **conjunto cociente** de A por R.
+Entonces podemos coleccionar todoas las clases de equvialentecia que forma la relacion de equivalencia $\mathbin{R} \subseteq A^2$ y obtenemos el conjunto $$A/\mathbin{R} = \{[a] : a \in A\}$$ que se llama el **conjunto cociente** de A por R.
 
+$$
+\begin{align}
+[a] &= \{x \in \mathbb{R} : x \sim a\}\\
+&= \{x \in \mathbb{R} : x^2 = a^2\}\\
+&= \{x \in \mathbb{R} : x^2 - a^2 = 0\}\\
+&= \{x \in \mathbb{R} : (x - a)(x + a) = 0\}\\
+&= \{x \in \mathbb{R} : x = a \vee x = -a\}\\
+&= \{a,-a\}\\
+\end{align}
+$$
 
+Podemos "graficar" esto:
+![[Pasted image 20250530004123.png]]
 
 **Ejemplo:**  
 Para $\sim$ en $\mathbb{R}$ ($x \sim y \Leftrightarrow x^2 = y^2$):  
