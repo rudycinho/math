@@ -127,6 +127,20 @@ Podemos "graficar" esto:
 ![[Pasted image 20250530004123.png]]
 
 **Ejemplo:**  
+Por ejemplo,
+$$
+\begin{align}
+[1] &= \{1,-1\} = [-1]\\
+[-\frac{3}{2}] &= \{-\frac{3}{2},\frac{3}{2}\} = [\frac{3}{2}]\\
+[\sqrt{2}] &= \{\sqrt{2},-\sqrt{2}\} = [-\sqrt{2}]\\
+[e] &= \{e,-e\} = [-e]\\
+\end{align}
+$$
+
+Por tanto,
+$$R\$$
+
+
 Para $\sim$ en $\mathbb{R}$ ($x \sim y \Leftrightarrow x^2 = y^2$):  
 $$
 [x] = \{y \in \mathbb{R} : y^2 = x^2\} = \{x, -x\}.
