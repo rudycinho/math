@@ -323,9 +323,11 @@ min C = 1
 max C = 2
 
 3. **Cotas inferiores**: Se dice que $a \in A$ es una **cota inferior** de $B$ si $$(\forall x \in B)(a \mathbin{R} x)$$. 
-	El conjunto de cotas inferiores de B se denota por $B^-$.  
-4. **Cotas superiores**: Se dice que $b \in A$ es **cota superior** de $B$ si $$(\forall x \in B)(x )$$, $x \preccurlyeq b$. El conjunto de cotas superiores se denota $B^+$.  
-- **Ínfimo**: $a \in A$ es ínfimo de $B$ si es el máximo de $B_-$. Se denota $a = \inf B$.  
+	El conjunto de todas las cotas inferiores de B se denota por $B^-$.  
+4. **Cotas superiores**: Se dice que $b \in A$ es una **cota superior** de $B$ si $$(\forall x \in B)(x \mathbin{R} b)$$.
+	El conjunto de todas las cotas superiores de B se denota por $B^+$.  
+5. **Ínfimo o maxima cota inferior**: Se dice que $a \in A$ es el **ínfimo** de $B$ si es el máximo de $B^-$. 
+	Si existe, escribimos $a = \text{inf } B$.  
 - **Supremo**: $b \in A$ es supremo de $B$ si es el mínimo de $B^+$. Se denota $b = \sup B$.  
 - **Elemento minimal**: $b \in B$ es minimal si $\neg(\exists x \in B)(x \preccurlyeq b \land x \neq b)$.  
 - **Elemento maximal**: $d \in B$ es maximal si $\neg(\exists x \in B)(d \preccurlyeq x \land x \neq d)$.  
