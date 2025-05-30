@@ -288,6 +288,45 @@ Esta es una relacion de orden sobre $\mathbb{R}$:
 
 **Orden total:** Un orden parcial $R$ es **total** si $\forall a, b \in A$, $a \mathbin{R} b \lor b \mathbin{R} a$.  
 
+I. En $\mathbb{N}$ definimos $mRn$ si $n = m \cdot c$ (para algún $c \in \mathbb{N}$).  
+
+Demostrar que esto define un orden en $\mathbb{N}$.  
+
+**Demostración:**  
+**(i) Reflexividad:**  
+Para todo $m \in \mathbb{N}$, tomamos $c=1$, entonces $n = m \cdot 1 = m$. Luego $mRm$.  
+
+**(ii) Transitividad:**  
+Sean $m, n, r \in \mathbb{N}$ tales que $mRn$ y $nRr$. Entonces existen $c_1, c_2 \in \mathbb{N}$ tales que $n = m \cdot c_1$ y $r = n \cdot c_2$.  
+Reemplazando: $r = n \cdot c_2 = (m \cdot c_1) \cdot c_2 = m \cdot (c_1 \cdot c_2)$, con $c_1 \cdot c_2 \in \mathbb{N}$. Por tanto, $mRr$.  
+
+**(iii) Antisimetría:**  
+Sean $a, b \in \mathbb{N}$ tales que $aRb$ y $bRa$. Entonces existen $m, n \in \mathbb{N}$ tales que $b = a \cdot m$ y $a = b \cdot n$.  
+Sustituyendo: $a = b \cdot n = (a \cdot m) \cdot n = a \cdot (m \cdot n)$.  
+Simplificando: $a \cdot (m \cdot n - 1) = 0$.  
+Como $a \in \mathbb{N}$, si $a \neq 0$, entonces $m \cdot n = 1$, luego $m = n = 1$ (pues $m, n \in \mathbb{N}$). Así, $b = a \cdot 1 = a$. Si $a = 0$, entonces $b = 0 \cdot m = 0 = a$. En ambos casos, $a = b$.  
+
+¿Es esta relación de orden sobre $\mathbb{N}$ un orden total? Es decir, ¿para todo $x, y \in \mathbb{N}$ se cumple $xRy$ o $yRx$? Consideremos $x=2$, $y=3$:  
+- ¿$2R3$? Requeriría $3 = 2 \cdot c$ para algún $c \in \mathbb{N}$, pero $c = 3/2 \notin \mathbb{N}$.  
+- ¿$3R2$? Requeriría $2 = 3 \cdot c$ para algún $c \in \mathbb{N}$, pero $c = 2/3 \notin \mathbb{N}$.  
+Ninguno es cierto. Por tanto, no es un orden total.  
+
+Sea $R \subseteq A \times A$ una relación de orden. Si $\exists x, y \in A$ tales que $\neg(xRy) \land \neg(yRx)$, entonces $R$ es un **orden parcial**.  
+
+En microeconomía se usan relaciones de orden totales para modelar las preferencias de un consumidor "racional".  
+
+Toda relación de orden $R \subseteq A \times A$ tiene asociada una relación $S \subseteq A \times A$ que satisface:  
+(i) **Irreflexividad:** $\forall a \in A$, $\neg(aSa)$.  
+(ii) **Transitividad:** $\forall a, b, c \in A$, $(aSb \land bSc) \implies aSc$.  
+Esta relación $S$ se llama un **orden estricto** o **relación de orden estricto**.  
+
+*Ej.* En $\mathbb{R}$ definimos para todo $a, b \in \mathbb{R}$:  
+$a < b \iff \exists c \in \mathbb{R}~(c > 0 \land b = a + c)$.  
+Esto define un orden estricto.  
+
+En un conjunto ordenado $(A, R)$ (con $R$ un orden), tenemos algunos elementos especiales.  
+Sea $B \subseteq A$, entonces
+
 **Relación de orden estricto:**  
 Toda relación de orden $R \subseteq A \times A$ tiene asociada una relación $S \subseteq A \times A$ que satisface:  
 (i) **Irreflexividad**: $\forall a \in A$, $\neg(a \mathbin{S} a)$.  
