@@ -95,14 +95,15 @@ $$
 - **(iii) Transitividad**: 
 	Sean $\alpha, \beta, \gamma \in \mathbb{R}$ y supongamos que $\alpha \mathbin{\Delta} \beta$ e $\beta \mathbin{\Delta} \gamma$. Entonces  existen $a, b \in \mathbb{Z}$ talque $$\beta = \alpha + a$$ y $$\gamma = \beta + b$$. Luego, $$\gamma = \beta + b = (\alpha + a) + b =  \alpha + (a + b)$$ con $a + b \in \mathbb{Z}$; Asi, $\alpha \mathbin{\Delta} \gamma$ .  $\blacksquare$
 	
-Por tanto, $\Delta$ es relación de equivalencia.  
-**Clases de equivalencia y particiones**  
-Las relaciones de equivalencia particionan el conjunto donde están definidas en "partes" llamadas **clases de equivalencia**.  
-Sea $R \subseteq A \times A$ una relación de equivalencia y $a \in A$. La clase de equivalencia de $a$ es:  
+Por tanto, $\Delta$ es relación de equivalencia.
+
+Que hacen las relaciones de equivalencia? Particionan al conjunto donde estan definidas en "pedazos" llamados "**clases de equivalencia**".
+
+Sea $R \subseteq A^2$ una relación de equivalencia y sea $a \in A$. La **clase de equivalencia** de $a$ es:  
 $$
 [a] = \{x \in A : x \mathbin{R} a\}.
 $$  
-Por reflexividad, para todo $a \in A$, $[a] \neq \emptyset$ (pues $a \in [a]$).  
+Por reflexividad, para todo $a \in A$, $[a] \neq \emptyset$. A saber, por lo menos  $a \in [a]$.  
 - Si $a \mathbin{R} b$, entonces $[a] = [b]$.  
 - Si $\neg(a \mathbin{R} b)$, entonces $[a] \cap [b] = \emptyset$.  
 - Además, $\bigcup_{a \in A} [a] = A$.  
