@@ -83,10 +83,10 @@ En $\mathbb{R}$ definimos $$x \mathbin{\Delta} y \Longleftrightarrow (\exists z 
 En esta relacion tenemos que
 $$
 \begin{align}
-1,1 \triangule 0,1 pues 0,1 = 1,1 + (-1)
-1,1 \triangule 0,1 pues 0,1 = 1,1 + (-1)
-1,1 \triangule 0,1 pues 0,1 = 1,1 + (-1)
-\begin{align}
+1.1 \; \triangle \; 0.1 && \text{pues } 0.1 = 1.1 + (-1) \\
+3.73 \; \triangle \;  -5.73 && pues -5.73 = 3.73 + (-8) \\
+1,1 \; \triangle \; 0,1 && pues 0,1 = 1,1 + (-1) \\
+\end{align}
 $$
 
 - **(i) Reflexividad**: ($\forall x \in \mathbb{R}$) ($x \mathbin{\Delta} x$). Como $x = x + 0$ con $0 \in \mathbb{R}$, entonces $x \mathbin{\Delta} x$.  
