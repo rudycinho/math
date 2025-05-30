@@ -199,24 +199,22 @@ $$
 Sumando estas dos igualdades:
 $$
 \begin{align}
-(a - b) + (b - c) = \alpha \cdot n + \beta \cdot n\\
-(a - b) + (b - c) = \alpha \cdot n + \beta \cdot n\\
+(a - b) + (b - c) &= \alpha \cdot n + \beta \cdot n\\
+a - c &= (\alpha + \beta ) \cdot n\\
 \end{align}
-$$
-
-**Congruencia módulo $n$:**  
-En $\mathbb{Z}$ definimos para $n \in \mathbb{N}$:  
+$$, i,e, $a \sim c$.
+Esta relacion de equivalencia se llama **congruencia modulo n** y se denota por 
 $$
 a \equiv b \pmod{n} \Leftrightarrow (\exists c \in \mathbb{Z})(a - b = c \cdot n).
-$$  
-Esta es una relación de equivalencia:  
-- **(i) Reflexividad**: $a - a = 0 = 0 \cdot n$, luego $a \equiv a \pmod{n}$.  
-- **(ii) Simetría**: Si $a \equiv b \pmod{n}$, existe $c \in \mathbb{Z}$ con $a - b = c \cdot n$. Entonces $b - a = (-c) \cdot n$, con $-c \in \mathbb{Z}$; luego $b \equiv a \pmod{n}$.  
-- **(iii) Transitividad**: Si $a \equiv b \pmod{n}$ y $b \equiv c \pmod{n}$, existen $c_1, c_2 \in \mathbb{Z}$ con $a - b = c_1 n$ y $b - c = c_2 n$. Sumando: $a - c = (c_1 + c_2)n$, luego $a \equiv c \pmod{n}$.  
+$$
+
 
 **Ejemplo:** Sea $n = 5$. La clase de $7$ es:  
 $$
-[7] = \{x \in \mathbb{Z} : x \equiv 7 \pmod{5}\} = \{x \in \mathbb{Z} : x - 7 = 5k, k \in \mathbb{Z}\} = \{\ldots, -3, 2, 7, 12, \ldots\}.
+\begin{align}
+[7] &= \{x \in \mathbb{Z} : x \equiv 7 \pmod{5}\} \\
+&= \{x \in \mathbb{Z} : x - 7 = 5k, k \in \mathbb{Z}\} = \{\ldots, -3, 2, 7, 12, \ldots\}.
+\end{align}
 $$  
 El conjunto cociente es $\mathbb{Z}/5\mathbb{Z} = \{[0], [1], [2], [3], [4]\}$.  
 
