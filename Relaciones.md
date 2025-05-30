@@ -151,14 +151,22 @@ Es evidente que $\sim$ es una relación de equivalencia, dada
 $$\ell: y - 2 = \frac{2}{3}(x - 1)$$, calcular $[\ell]$ y bosquejar $\mathcal{L}/\sim$
 **Solucion**
 Primero reeescribimos la ecuacion de L.
+$$ 
+\begin{align}
+y - 2 &= \frac{2}{3}(x - 1)\\
+y     &= \frac{2}{3}x - \frac{2}{3}+ 2\\
+y     &= \frac{2}{3}x - \frac{4}{3}\\
+\end{align}
 $$
-\$$
 
+Sabemos que dos rectas son paralelas si tienen igual pendiente.
 
- (i.e., $y = \frac{2}{3}x + \frac{4}{3}$), su clase es:  
-  $$
-  [\ell] = \{m \in L : m \parallel \ell\} = \left\{ \text{rectas con pendiente } \frac{2}{3} \right\} = \left\{ y = \frac{2}{3}x + b : b \in \mathbb{R} \right\}.
-  $$  
+$$
+\begin{align}
+  \left[\ell: y = \frac{2}{3}x - \frac{4}{3}\right] = \{M \sim L : m \parallel \ell\} = \left\{ \text{rectas con pendiente } \frac{2}{3} \right\} = \left\{ y = \frac{2}{3}x + b : b \in \mathbb{R} \right\}.
+\begin{align}
+  
+$$  
 - El conjunto cociente es:  
   $$
   L/{\parallel} = \left\{ \left\{ y = mx + b : b \in \mathbb{R} \right\} : m \in \mathbb{R} \right\} \quad (\text{conjunto de todas las direcciones}).
