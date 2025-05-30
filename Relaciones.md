@@ -330,7 +330,8 @@ max C = 2
 	Si existe, escribimos $a = \text{inf } B$ y $\text{inf B} = \text {max } B^-$.  
 6. **Supremo o minima cota superior** : Se dice que $b \in A$ es el **supremo** de $B$ si es el mínimo de $B^+$. 
 	Si existe, escribimos $b = \text{sup } B$ y $\text{sup } B = \text{min } B^+$.  
-7. **Elementos minimales**: $b \in B$ es minimal si $\neg(\exists x \in B)(x \preccurlyeq b \land x \neq b)$.  
+7. **Elementos minimales**: Se dice que $b \in B$ es **minimal** o un **elemento minimal** si $$x \mathbin{R} b \Rightarrow x = b $$. I. e., un elemento minimal no tiene ningun elemento menor que el sin que esto signifique que es el minimo
+	**Observacion** Minimo implica minimal, pero minimal no neceriamente implica minimos. $blacksquare$
 - **Elemento maximal**: $d \in B$ es maximal si $\neg(\exists x \in B)(d \preccurlyeq x \land x \neq d)$.  
 
 **Ejemplo:** En $\mathbb{R}$ con el orden usual:  
