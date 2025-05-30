@@ -65,24 +65,9 @@ Es $\sim$ una relacion de equivalencia?
 
 **Demostrar:**
 
-i. **Reflexividad:** $(\forall x \in \mathbb{R})(x \sim x)$
-Para todo $x \in \mathbb{R}$, es obvio que $x=x$ ; de aqui se sigue que $x^2 = x^2$, i.e., $x \sim x$.
-ii. **Simetria:** $(\forall x,y \in \mathbb{R})(x \sim y \Rightarrow y \sim x)$
-Sean $x,y \in \mathbb{R}$ t.q. $x \sim y$, i.e., $x^2 = y^2$.
-Por la simetria de la igualdad, se sigue que $y^2=x^2$. Esto quiere decir que $y \sim x$.
-iii. **Transitividad:** $(\forall x,y,z \in \mathbb{R})(x \sim y \wedge y \sim z \Rightarrow x \sim z\}$
-Sean $x,y,z \in \mathbb{R}$ y supongamos que $x \sim y$ e $y \sim z$. Entonces, por la definicion de $\sim$ tenemos que 
-$$x^2 = y^2 \wedge y^2 = z^2$$.
-De aqui se obtiene que $x^2 = z^2$, i.e. , $x \sim z$.
-Por tanto, $\sim$ es una relacion de equivalencia. $\blacksquare$
-
-
-**Ejemplo:** En $\mathbb{R}$ se definie la relacion
-$$x \triangle y \Longleftrightarrow $$
-
-**B. Relaciones de equivalencia**  
-En $\mathbb{R}$ definimos $x \sim y \Leftrightarrow x^2 = y^2$. ¿Es $\sim$ una relación de equivalencia?  
-- **(i) Reflexividad**: ($\forall x \in \mathbb{R}$) ($x \sim x$). Para todo $x \in \mathbb{R}$, es obvio que $x^2 = x^2$; luego $x \sim x$.  
+En $\mathbb{R}$ definimos $$x \sim y \Leftrightarrow x^2 = y^2$$. ¿Es $\sim$ una relación de equivalencia?  
+- **(i) Reflexividad**: $(\forall x \in \mathbb{R}) ($x \sim x)$. 
+  Para todo $x \in \mathbb{R}$, es obvio que $x = x$ ; de aqui se sigue que $x^2 = x^2$; i.e., $x \sim x$.  
 - **(ii) Simetría**: ($\forall x, y \in \mathbb{R}$) ($x \sim y \Rightarrow y \sim x$). Por simetría de la igualdad, $x^2 = y^2$ implica $y^2 = x^2$; luego $y \sim x$.  
 - **(iii) Transitividad**: ($\forall x, y, z \in \mathbb{R}$) ($x \sim y \land y \sim z \Rightarrow x \sim z$). Sean $x, y, z \in \mathbb{R}$ tales que $x \sim y$ y $y \sim z$. Entonces $x^2 = y^2$ y $y^2 = z^2$, de donde $x^2 = z^2$; luego $x \sim z$.  
 Por tanto, $\sim$ es relación de equivalencia.  
