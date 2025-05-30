@@ -357,14 +357,13 @@ Construimos el diagrama de Hasse de la siguiete forma:
 
 2. Las interconexiones entre tres o mas puntos nos indican transitividad; i.e no colocamos las "lineas de transitividad"
 ```  
-  d   c
-   \ /
-    b        b     b
-     \       /       \
-      a      a         q
+  d   c              ---- c
+   \ /             /    /
+    b            b    /
+     \             \ /
+      a              a
 ```  
-2. No se dibujan todas las relaciones).  
-3. No se dibujan bucles (autoconexiones). = 
+3. No se dibujan bucles i,e, no se dibuja una linea que conecte con cada elemento  
 
 **Ejemplo:** Sea $D(12)$ el conjunto de divisores de $12$: $\{1, 2, 3, 4, 6, 12\}$. Ordenamos por divisibilidad:  
 $$
