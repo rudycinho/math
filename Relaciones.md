@@ -282,9 +282,27 @@ $$
 x \leq y \Longleftrightarrow (\exists \; z \in \mathbb{R})(z \geq 0 \land x + z = y).
 $$  
 Esta es una relacion de orden sobre $\mathbb{R}$:  
-- **(i) Reflexividad**: $\forall x \in \mathbb{R}$, $x + 0 = x$, luego $x \preccurlyeq x$.  
-- **(ii) Transitividad**: Si $x \preccurlyeq y$ e $y \preccurlyeq z$, existen $a, b \geq 0$ con $y = x + a$ y $z = y + b$. Entonces $z = x + (a + b)$ con $a + b \geq 0$; luego $x \preccurlyeq z$.  
-- **(iii) Antisimetría**: Si $x \preccurlyeq y$ e $y \preccurlyeq x$, existen $a, b \geq 0$ con $y = x + a$ y $x = y + b$. Sustituyendo: $y = (y + b) + a \Rightarrow 0 = a + b$. Como $a, b \geq 0$, $a = b = 0$; luego $x = y$.  
+- **(i) Reflexividad**: 
+	Como, para todo $x \in \mathbb{R}$ $$x + 0 = x$$, entonces $x \leq x$.  
+- **(ii) Transitividad**: 
+	Sean $x,y,z \in \mathbb{R}$ tal que $x \leq y$ e $y \leq z$. Entonces existen $\alpha, \beta \in \mathbb{R}$ tal que $$x+\alpha = y \qquad \text{e} \qquad y+\beta = z$$
+	Sustituyendo obtenemos que:
+			$$z = y + \beta = (x+\alpha)+\beta$$, donde $\alpha+\beta \geq 0$ pues $\alpha, \beta \geq 0$. Asi, $x \leq z$.
+- **(iii) Antisimetría**: 
+	Sean $a,b \in \mathbb{R}$ tal que $a \leq b$ y $b \leq a$.
+	Luego, existen $z_0, z_1 \in \mathbb{R^+} \cup \{0\}$ tal que $$a + z_0 = b \qquad \text{y} \qquad b+z_1 = a$$.
+Sumando miembro a miembro ambas igualdades, tenemos:  
+$$(a + z_0) + (b + z_1) = b+a$$.  
+
+Simplificando:  
+$$z_0 + z_1 = 0$$, y esto implica que $z_0 = z_1 = 0$.
+Por tanto $a = b$. 
+Así, $<=$ es una relación de orden; es el **orden usual** en ℝ. $\blacksquare$  
+
+**Observacion:** 
+**La ley de tricotomía** de los números reales nos dice que dados dos números reales, siempre podemos compararlos y determinar si uno es mayor, menor o igual al otro.  $\blacksquare$
+
+Sea $R \subseteq A^2$ una relación de orden, decimos que $\mathbin R$ es un **orden total** si $$(∀a,b \in A)(a\mathbin Rb \lor b\mathbin Ra)$$.  
 
 **Orden total:** Un orden parcial $R$ es **total** si $\forall a, b \in A$, $a \mathbin{R} b \lor b \mathbin{R} a$.  
 
@@ -294,45 +312,34 @@ Demostrar que esto define un orden en $\mathbb{N}$.
 
 **Demostración:**  
 **(i) Reflexividad:**  
-Como, para todo $m \in \mathbb{N}$, tomamos $c=1$, entonces $n = m \cdot 1 = m$. Luego $mRm$.  
+Como, para todo $m \in \mathbb{N}$, $$m=m \cdot 1$$, entonces $m \mathbin{R} m$. 
 
 **(ii) Transitividad:**  
 Sean $m, n, r \in \mathbb{N}$ tales que $mRn$ y $nRr$. Entonces existen $c_1, c_2 \in \mathbb{N}$ tales que $n = m \cdot c_1$ y $r = n \cdot c_2$.  
-Reemplazando: $r = n \cdot c_2 = (m \cdot c_1) \cdot c_2 = m \cdot (c_1 \cdot c_2)$, con $c_1 \cdot c_2 \in \mathbb{N}$. Por tanto, $mRr$.  
+Luego, reemplazando obtenemos
+$$r = n \cdot c_2 = (m \cdot c_1) \cdot c_2 = m \cdot (c_1 \cdot c_2)$$, donde $c_1 , c_2 \in \mathbb{N}$. Por tanto, $mRr$.  
 
 **(iii) Antisimetría:**  
-Sean $a, b \in \mathbb{N}$ tales que $aRb$ y $bRa$. Entonces existen $m, n \in \mathbb{N}$ tales que $b = a \cdot m$ y $a = b \cdot n$.  
-Sustituyendo: $a = b \cdot n = (a \cdot m) \cdot n = a \cdot (m \cdot n)$.  
-Simplificando: $a \cdot (m \cdot n - 1) = 0$.  
-Como $a \in \mathbb{N}$, si $a \neq 0$, entonces $m \cdot n = 1$, luego $m = n = 1$ (pues $m, n \in \mathbb{N}$). Así, $b = a \cdot 1 = a$. Si $a = 0$, entonces $b = 0 \cdot m = 0 = a$. En ambos casos, $a = b$.  
+Sean $\alpha, \beta \in \mathbb{N}$ tales que $\alpha \mathbin{R} \beta$ y $\beta \mathbin{R} \alpha$. Entonces existen $m, n \in \mathbb{N}$ tales que $$(*) \qquad \beta = \alpha \cdot m \qquad \text{y} \qquad  \alpha = \beta \cdot n$$ 
+.   
+Reemplazando la primera igualdad en la segunda obtenemos $$\alpha = \beta \cdot n = (\alpha \cdot m) \cdot n = \alpha \cdot (m \cdot n)$$,
+Simplificando: $\alpha$ $$1 = m \cdot n$$.  
+Se sigue que  $m = n = 1$, Reemplazando en $(*)$ se obtiene que $\alpha = \beta$.  $\blacksquare$
 
-¿Es esta relación de orden sobre $\mathbb{N}$ un orden total? Es decir, ¿para todo $x, y \in \mathbb{N}$ se cumple $xRy$ o $yRx$? Consideremos $x=2$, $y=3$:  
-- ¿$2R3$? Requeriría $3 = 2 \cdot c$ para algún $c \in \mathbb{N}$, pero $c = 3/2 \notin \mathbb{N}$.  
-- ¿$3R2$? Requeriría $2 = 3 \cdot c$ para algún $c \in \mathbb{N}$, pero $c = 2/3 \notin \mathbb{N}$.  
+¿Es esta relación de orden sobre $\mathbb{N}$ un orden total? Es decir, ¿ $2 \mathbin R 3$ o $3 \mathbin R2$ ?   
 Ninguno es cierto. Por tanto, no es un orden total.  
 
-Sea $R \subseteq A \times A$ una relación de orden. Si $\exists x, y \in A$ tales que $\neg(xRy) \land \neg(yRx)$, entonces $R$ es un **orden parcial**.  
+Sea $R \subseteq A^2$ una relación de orden, si $$(\exists x, y \in A)(\neg(xRy) \land \neg(yRx))$$, llamamos a $R$ un **orden parcial**.  
 
-En microeconomía se usan relaciones de orden totales para modelar las preferencias de un consumidor "racional".  
+**Ejemplo** En microeconomía se usa las relaciones de orden totales para modelar las preferencias de un consumidor "racional".  
+En estos modelos la antisimetria recibe el nombre de **indifirencia**. $\blacksquare$
 
-Toda relación de orden $R \subseteq A \times A$ tiene asociada una relación $S \subseteq A \times A$ que satisface:  
-(i) **Irreflexividad:** $\forall a \in A$, $\neg(aSa)$.  
-(ii) **Transitividad:** $\forall a, b, c \in A$, $(aSb \land bSc) \implies aSc$.  
-Esta relación $S$ se llama un **orden estricto** o **relación de orden estricto**.  
-
-*Ej.* En $\mathbb{R}$ definimos para todo $a, b \in \mathbb{R}$:  
-$a < b \iff \exists c \in \mathbb{R}~(c > 0 \land b = a + c)$.  
-Esto define un orden estricto.  
-
-En un conjunto ordenado $(A, R)$ (con $R$ un orden), tenemos algunos elementos especiales.  
-Sea $B \subseteq A$, entonces
-
-**Relación de orden estricto:**  
-Toda relación de orden $R \subseteq A \times A$ tiene asociada una relación $S \subseteq A \times A$ que satisface:  
-(i) **Irreflexividad**: $\forall a \in A$, $\neg(a \mathbin{S} a)$.  
-(ii) **Transitividad**: $\forall a, b, c \in A$, $a \mathbin{S} b \land b \mathbin{S} c \Rightarrow a \mathbin{S} c$.  
-Esta relación $S$ se llama **orden estricto**.  
-
+Toda relación de orden $R \subseteq A^2$ tiene asociada otra relación $R \subseteq A^2$ que satisface:  
+(i) **Arreflexividad:** $$(\forall a \in A)(\neg(a \overline{R} a))$$;
+  
+(ii) **Transitividad:** $$(\forall a, b, c \in A)(a \overline R b \land b \overline R c \implies a \overline Rc )$$;
+  
+Esta relación $\overline R$ se llama un **orden estricto** o **relación de orden estricto**.  
 
 **Ejemplo:** En $\mathbb{R}$ definimos para todo $a,b \in \mathbb{R}$:  
 $$
@@ -340,7 +347,7 @@ a < b \Leftrightarrow (\exists c \in \mathbb{R})(c > 0 \land b = a + c).
 $$  
 Esto define un orden estricto.  $\blacksquare$
 
-En un cojunto ordenado ($\mathbin{R} \subseteq A^2$ un orden) tenemos algunos elementos especiales
+En un conjunto ordenado ($\mathbin{R} \subseteq A^2$ un orden), tenemos algunos elementos especiales
 
 Sea $B \subseteq A$, entonces
 
@@ -378,11 +385,11 @@ max C = 2
 	Si existe, escribimos $b = \text{sup } B$ y $\text{sup } B = \text{min } B^+$.  
 7. **Elementos minimales**: Se dice que $b \in B$ es **minimal** o un **elemento minimal** si $$x \mathbin{R} b \Rightarrow x = b $$. I. e., un elemento minimal no tiene ningun elemento menor que el sin que esto signifique que es el minimo
 	**Observacion** Minimo implica minimal, pero minimal no neceriamente implica minimos. $\blacksquare$
-- **Elementos maximales**: Se dice que $d \in B$ es **maximal** o un **elemento maximal** si $$d \mathbin{R} x \Rightarrow x = d $$. I. e., un elemento maximal no tiene ningun elemento mayor que el sin que esto signifique que es el maximo.
+8. **Elementos maximales**: Se dice que $d \in B$ es **maximal** o un **elemento maximal** si $$d \mathbin{R} x \Rightarrow x = d $$. I. e., un elemento maximal no tiene ningun elemento mayor que el sin que esto signifique que es el maximo.
 	**Observacion** Maximo implica maximal, pero maximal no neceriamente implica maximo. $\blacksquare$  
 
 
-Los conjuntos (parcialmente) ordenados, a veces llamamos **c.o.p.o.s**, que son finitios son representados graficamente por unos diagramas llamados **diagramas de Hasse:**
+Los conjuntos (parcialmente) ordenados, a veces llamamos **copos**, que son finitios son representados graficamente por unos diagramas llamados **diagramas de Hasse:**
 
 Construimos el diagrama de Hasse de la siguiete forma:
 
@@ -396,12 +403,19 @@ Construimos el diagrama de Hasse de la siguiete forma:
 
 2. Las interconexiones entre tres o mas puntos nos indican transitividad; i.e no colocamos las "lineas de transitividad"
 ```  
-  d   c              ---- c
-   \ /             /    /
-    b            b    /
-     \             \ /
-      a              a
+  d   c
+   \ /
+    b
+     \
+      a 
 ```  
+```
+      c  
+    /  |  
+   b   |                  Mal !!! 
+    \ /  
+     a
+```
 3. No se dibujan bucles i,e, no se dibuja una linea que conecte cada elemento consigo mismo, pero se **sobreentiende la reflexiviodad**.  
 
 ```  
@@ -415,45 +429,75 @@ Construimos el diagrama de Hasse de la siguiete forma:
 
 No se dibuja los bucles para evitar sobrecargar el diagrama
 
-**Ejemplo:** Sea $D(12)$ el conjunto de divisores de $12$: $\{1, 2, 3, 4, 6, 12\}$. Ordenamos por divisibilidad:  
+**Ejemplo:** Sea $D(12)$ el conjunto de divisores naturales de i.e. $$D(12): \{1, 2, 3, 4, 6, 12\}$$. Ordenamos $D(12)$ mediante:  
 $$
-x \preccurlyeq y \Leftrightarrow (\exists k \in \mathbb{N})(y = k \cdot x).
-$$  
-Diagrama de Hasse:  
+x \leq y \Longleftrightarrow (\exists \;c \in \mathbb{N})(y = c \cdot x).
+$$
+
+Ahora dibujamos el diagrama de Hasse de este orden
+
 ```  
     12  
     / \  
-   6   4  
-   |   |  
-   3   2  
+   4   6  
+   | / |  
+   2   3  
     \ /  
      1  
-```  
-- $\min D(12) = 1$, $\max D(12) = 12$.  
+```
+
+En este orden 
+- $\min D(12) = 1$,
+- $\max D(12) = 12$.  $\blacksquare$
+
+
+**Observaciones** En una diagrama de Hasse, la ausencia de conexion entre dos puntos nos indice que esos elementos no son **comparables**. $\blacksquare$
+
+**Ejemplo.** Consideramos el siguiente diagrama de Hasee
+
 
 **Ejemplo con incomparabilidad:**  
 Sea $X = \{a, b, c, d, e, f, g, h\}$ con diagrama de Hasse:  
-```  
-    h  
-   /|\  
-  f g d  
-  | | |  
-  e c b  
-    |  
-    a  
-```  
-- $\max X = h$, $\min X$ no existe.  
-- Para $Z = \{d, e\}$:  
-  Cotas superiores: $Z^+ = \{d, g, h\}$, $\sup Z$ no existe.  
-  Cotas inferiores: $Z_- = \{a, c\}$, $\inf Z$ no existe.  
-- Elementos minimales: $a, b$.  
-- Elementos maximales: $h$.  
 
-**Aplicación en economía:**  
-En microeconomía, las relaciones de orden total modelan preferencias de consumidores "racionales". La antisimetría corresponde a la **indiferencia** entre opciones equivalentes.  
+![[Pasted image 20250530170927.png]]
 
-**B. Funciones**  
-*(El texto original termina aquí abruptamente)*.
+Segun diagrama (que define orden), tenemos que:
+
+$\max X = h$
+$\min X$ no existe pues $a \not \leq c$.  
+
+Sea $Z = \{b, c\}$, entonces: 
+$Z^+ = \{e, d, g, h\}$,
+$Z^- = \emptyset$, $\inf Z$ no existe. 
+
+Existe $\sup Z$ ? Veamos.
+```
+     h
+     |
+     | g
+    / \
+   d   e
+```
+se puede que $Z^+$ no tiene elemento minimo, entonces $\sup Z$ no existe.
+
+En $Z^+$, $d$ y $e$ son minimales.
+En $X$, $c$ y $a$ son minimales.
+
+Sea $K = \{d,e,f\}$, entonces:
+$K^+ = \{h\} \Longrightarrow \sup K = h$
+$K^- = \{a,c\}$, $\inf K$ no existe. 
+
+```
+. c
+
+. a
+```
+$K^-$ no tiene maximo. 
+
+
+Sea $E = \{b,d,e,f\}$, entonces:
+$E^+ = \{h\} \Longrightarrow \sup E = h$,
+$E^- = \{a\} \Longrightarrow \sup E = h$. $\blacksquare$ 
 
 
 falta 13-mayo
