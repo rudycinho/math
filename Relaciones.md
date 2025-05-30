@@ -260,12 +260,12 @@ es una partición de A.
 Asi, tenemos el **Teorema fundamental de las relaciones de equivalencia**.
 
 **Teorema:**  
-Sea $A \neq \emptyset$ y sea $R \subseteq A^2$ una relación de equivalencia, entonces $A/\mathbb{R}$ es una partición de $A$. Recíprocamente, si $\{A_i\}_{i \in I}$ es una partición de $A$, podemos definir una relación de equivalencia a saber,
+Sea $A \neq \emptyset$ y sea $R \subseteq A^2$ una relación de equivalencia, entonces $A/\mathbin{R}$ es una partición de $A$. Recíprocamente, si $\{A_i\}_{i \in I}$ es una partición de $A$, podemos definir una relación de equivalencia a saber,
 $$
-x \mathbin{R} y \Leftrightarrow (\exists i \in I)(x \in A_i \land y \in A_i).
+x \mathbin{R} y \Leftrightarrow (\exists i \in I)(x,y \in A_i).
 $$  
 
-**C. Relaciones de orden**  
+**B. Relaciones de orden**  
 Ahora generalizamos el concepto de orden de los números reales. La relación $\leq$ en $\mathbb{R}$ satisface:  
 (i) $\forall x \in \mathbb{R}$, $x \leq x$;  
 (ii) $\forall a, b, c \in \mathbb{R}$, $a \leq b \land b \leq c \Rightarrow a \leq c$;  
@@ -294,11 +294,14 @@ Toda relación de orden $R \subseteq A \times A$ tiene asociada una relación $S
 (ii) **Transitividad**: $\forall a, b, c \in A$, $a \mathbin{S} b \land b \mathbin{S} c \Rightarrow a \mathbin{S} c$.  
 Esta relación $S$ se llama **orden estricto**.  
 
-**Ejemplo:** En $\mathbb{R}$ definimos:  
+
+**Ejemplo:** En $\mathbb{R}$ definimos para todo $a,b \in \mathbb{R}$:  
 $$
-a < b \Leftrightarrow (\exists c > 0)(b = a + c).
+a < b \Leftrightarrow (\exists c \in \mathbb{R})(c > 0 \land b = a + c).
 $$  
-Esto define un orden estricto.  
+Esto define un orden estricto.  $\blacksquare$
+
+En un cojunto ordenado 
 
 **Elementos especiales en conjuntos ordenados:**  
 Sea $(A, \preccurlyeq)$ un conjunto parcialmente ordenado y $B \subseteq A$.  
