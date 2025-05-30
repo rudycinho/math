@@ -58,7 +58,7 @@ $(\sqrt{2},2) \notin R$ , pues $\sqrt{2} \notin \mathbb{Z}$ $\blacksquare$
 
 **Ejemplo:** En $R$ definimos
 $$
-x \sim y \Rightleftarrow x^2 = y^2
+x \sim y \Longleftrightarrow x^2 = y^2
 $$
 **B. Relaciones de equivalencia**  
 En $\mathbb{R}$ definimos $x \sim y \Leftrightarrow x^2 = y^2$. ¿Es $\sim$ una relación de equivalencia?  
