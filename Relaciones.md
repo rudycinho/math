@@ -305,13 +305,12 @@ En un cojunto ordenado ($\mathbin{R} \subseteq A^2$ un orden) tenemos algunos el
 
 Sea $B \subseteq A$, entonces
 
-1. **Mínimo**: Se dice que $b\in B$ es el **minimo** de $B$ o el **primer elemento** de $B$ si $$(\forall c 'i)(b \mathbb{R} c)$$
-2. 
-3. 
-4. 
-5. $b \in B$ es mínimo de $B$ si $\forall c \in B$, $b \preccurlyeq c$. Se denota $b = \min B$.  
-- **Máximo**: $k \in B$ es máximo de $B$ si $\forall c \in B$, $c \preccurlyeq k$. Se denota $k = \max B$.  
-- **Cotas inferiores**: $a \in A$ es cota inferior de $B$ si $\forall x \in B$, $a \preccurlyeq x$. El conjunto de cotas inferiores se denota $B_-$.  
+1. **Mínimo**: Se dice que $b\in B$ es el **minimo** de $B$ o el **primer elemento** de $B$ si $$(\forall c \in B)(b \mathbin{R} c)$$
+	Si existe, se escribe $b=\text{min }B$.
+2. **Máximo**: Se dice que $k\in B$ es el **maximo** de $B$ o el **ultimo elemento** de B si $$(\forall c \in B)(c \mathbin{R} k)$$
+	Si existe, se escribe $k=\text{max } B$
+
+**Cotas inferiores**: $a \in A$ es cota inferior de $B$ si $\forall x \in B$, $a \preccurlyeq x$. El conjunto de cotas inferiores se denota $B_-$.  
 - **Cotas superiores**: $b \in A$ es cota superior de $B$ si $\forall x \in B$, $x \preccurlyeq b$. El conjunto de cotas superiores se denota $B^+$.  
 - **Ínfimo**: $a \in A$ es ínfimo de $B$ si es el máximo de $B_-$. Se denota $a = \inf B$.  
 - **Supremo**: $b \in A$ es supremo de $B$ si es el mínimo de $B^+$. Se denota $b = \sup B$.  
