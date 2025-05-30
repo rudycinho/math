@@ -163,9 +163,10 @@ Sabemos que dos rectas son paralelas si tienen igual pendiente.
 
 $$
 \begin{align}
-  \left[\ell: y = \frac{2}{3}x - \frac{4}{3}\right] = \{M \sim L : m \parallel \ell\} = \left\{ \text{rectas con pendiente } \frac{2}{3} \right\} = \left\{ y = \frac{2}{3}x + b : b \in \mathbb{R} \right\}.
-\begin{align}
-  
+  \left[\ell: y = \frac{2}{3}x - \frac{4}{3}\right] &= \{M \in \mathcal{L}: M \sim \mathcal{L}\} \\
+  &= \{M \in \mathcal{L}: M \parallel \mathcal{L}\} \\
+  &= \{M \in \mathcal{L}: m_M = \frac{2}{3}\} \\
+\end{align}
 $$  
 - El conjunto cociente es:  
   $$
