@@ -106,11 +106,13 @@ $$
 Por reflexividad, para todo $a \in A$, $[a] \neq \emptyset$. A saber, por lo menos  $a \in [a]$.
 Si $\neg(a \mathbin{R} b)$, entonces $[a] \cap [b] = \emptyset$.  
 En efecto, supongamos que $x \in [a] \cap [b]$.
-Entonces $x \in [a]$ y $x \in [b]$, luego $$x \mathbin{R} a \qquad \text{ y } \qquad x \mathbin{R} b$$, y de aqui se obtendra que $a \mathbin{R} b$, lo que contradice lo supuesto
-Si $a  b$, entonces $[a] = [b]$.  
-- Además, $\bigcup_{a \in A} [a] = A$.  
+Entonces $x \in [a]$ y $x \in [b]$, luego $$x \mathbin{R} a \qquad \text{ y } \qquad x \mathbin{R} b$$, y de aqui se obtendra que $a \mathbin{R} b$, lo que contradice lo supuesto.
+Si $a \mathbin{R} b$, entonces $[a] = [b]$.  
+Por ultimo es evidente que $$\bigcup_{a \in A} [a] = A$$.  
 
-La colección de todas las clases de equivalencia forma el **conjunto cociente** de $A$ por $R$, denotado $A/R$.  
+Entonces podemos coleccionar todoas las clases de equvialentecia que forma la relacion de equivalencia $\mathbin{R} \subseteq A^2$ y obtenemos el conjunto $$A/R = \{[a] : a \in A\}$$ que se llama el **conjunto cociente** de A por R.
+
+
 
 **Ejemplo:**  
 Para $\sim$ en $\mathbb{R}$ ($x \sim y \Leftrightarrow x^2 = y^2$):  
