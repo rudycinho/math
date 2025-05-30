@@ -124,7 +124,7 @@ $$
 suele reducirse a "resolver" $x \mathbin{R} a$, donde, obviamente, $x$ es la incognita. $\blacksquare$
 
 **Ejemplo:**
-Ya vimos que en $\mathbb{R}$ $$x\sim y \Longlefta$$
+Ya vimos que en $\mathbb{R}$ $$x\sim y \Longleftrightarrow x^2 = y^2$$ es una relacion de equivalencia. Calculamos $[a]$ con $a \in \mathbb{R}$.
 
 $$
 \begin{align}
@@ -234,7 +234,12 @@ $$
 &= \{\ldots, -8,-3, 2, 7, 12, \ldots\} = [2].
 \end{align}
 $$  
-El conjunto cociente es $\mathbb{Z}/5\mathbb{Z} = \{[0], [1], [2], [3], [4]\}$.  
+El conjunto cociente es $\mathbb{Z}/\equiv_5 = \{[0], [1], [2], [3], [4]\}$.  
+$\blacksquare$
+
+Entonces una relacion de equivalentecia es una **clasificacion** de los elementos de l conjunto.
+
+Sea $\{A_i\}_{i \in I}$ una familila de subconjuntos de $X$
 
 **Teorema fundamental:**  
 Sea $A \neq \emptyset$ y $R \subseteq A \times A$ una relación de equivalencia. Entonces $A/R$ es una partición de $A$. Recíprocamente, si $\{A_i\}_{i \in I}$ es una partición de $A$, podemos definir una relación de equivalencia:  
