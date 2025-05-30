@@ -301,11 +301,15 @@ a < b \Leftrightarrow (\exists c \in \mathbb{R})(c > 0 \land b = a + c).
 $$  
 Esto define un orden estricto.  $\blacksquare$
 
-En un cojunto ordenado 
+En un cojunto ordenado ($\mathbin{R} \subseteq A^2$ un orden) tenemos algunos elementos especiales
 
-**Elementos especiales en conjuntos ordenados:**  
-Sea $(A, \preccurlyeq)$ un conjunto parcialmente ordenado y $B \subseteq A$.  
-- **Mínimo**: $b \in B$ es mínimo de $B$ si $\forall c \in B$, $b \preccurlyeq c$. Se denota $b = \min B$.  
+Sea $B \subseteq A$, entonces
+
+1. **Mínimo**: Se dice que $b\in B$ es el **minimo** de $B$ o el **primer elemento** de $B$ si $$(\forall c 'i)(b \mathbb{R} c)$$
+2. 
+3. 
+4. 
+5. $b \in B$ es mínimo de $B$ si $\forall c \in B$, $b \preccurlyeq c$. Se denota $b = \min B$.  
 - **Máximo**: $k \in B$ es máximo de $B$ si $\forall c \in B$, $c \preccurlyeq k$. Se denota $k = \max B$.  
 - **Cotas inferiores**: $a \in A$ es cota inferior de $B$ si $\forall x \in B$, $a \preccurlyeq x$. El conjunto de cotas inferiores se denota $B_-$.  
 - **Cotas superiores**: $b \in A$ es cota superior de $B$ si $\forall x \in B$, $x \preccurlyeq b$. El conjunto de cotas superiores se denota $B^+$.  
