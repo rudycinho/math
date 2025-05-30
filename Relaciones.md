@@ -351,14 +351,20 @@ Construimos el diagrama de Hasse de la siguiete forma:
 1. Colocamos los elemtnso del copo en un plano : si $a \leq b$, dibujamos $a$ por debajo de $b$ y los unimos con un segmento de recta
 ```  
     b        b     b
-    |       /
-    a      a
+    |       /       \
+    a      a         a
 ```  
 
-Para conjuntos finitos parcialmente ordenados, se usan diagramas de Hasse:  
-1. Elementos se dibujan en el plano: si $a \preccurlyeq b$, $a$ va debajo de $b$ y se conectan con un segmento.  
-2. Las conexiones implican transitividad (no se dibujan todas las relaciones).  
-3. No se dibujan bucles (autoconexiones).  
+2. Las interconexiones entre tres o mas puntos nos indican transitividad; i.e no colocamos las "lineas de transitividad"
+```  
+  d   c
+   \ /
+    b        b     b
+     \       /       \
+      a      a         q
+```  
+2. No se dibujan todas las relaciones).  
+3. No se dibujan bucles (autoconexiones). = 
 
 **Ejemplo:** Sea $D(12)$ el conjunto de divisores de $12$: $\{1, 2, 3, 4, 6, 12\}$. Ordenamos por divisibilidad:  
 $$
