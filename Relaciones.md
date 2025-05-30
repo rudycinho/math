@@ -131,24 +131,17 @@ Por ejemplo,
 $$
 \begin{align}
 [1] &= \{1,-1\} = [-1]\\
-[-\frac{3}{2}] &= \{-\frac{3}{2},\frac{3}{2}\} = [\frac{3}{2}]\\
+[-\frac{3}{2}] &= \left\{-\frac{3}{2},\frac{3}{2}\right\} = [\frac{3}{2}]\\
 [\sqrt{2}] &= \{\sqrt{2},-\sqrt{2}\} = [-\sqrt{2}]\\
 [e] &= \{e,-e\} = [-e]\\
 \end{align}
 $$
 
 Por tanto,
-$$R\$$
+$$R/\sim = [0,+ \inf) = (-\inf,+ 0]$$ $\blacksquare$
 
-
-Para $\sim$ en $\mathbb{R}$ ($x \sim y \Leftrightarrow x^2 = y^2$):  
-$$
-[x] = \{y \in \mathbb{R} : y^2 = x^2\} = \{x, -x\}.
-$$  
-Gráficamente: $[0] = \{0\}$, $[-2] = \{-2, 2\} = [2]$, $[3] = \{-3, 3\}$.  
-Luego, $\mathbb{R}/{\sim} = \{\{x, -x\} : x \in \mathbb{R}\}$.  
-
-**Ejemplo en $\mathbb{R}^2$:**  
+**Ejemplo:**
+En $\mathbb{R}^2$  
 Sea $L$ el conjunto de todas las rectas en $\mathbb{R}^2$. En $L$ definimos:  
 $$
 \ell_1 \parallel \ell_2 \Leftrightarrow \text{$\ell_1$ y $\ell_2$ son paralelas}.
