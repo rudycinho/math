@@ -266,7 +266,7 @@ x \mathbin{R} y \Leftrightarrow (\exists i \in I)(x,y \in A_i).
 $$  
 
 **B. Relaciones de orden**  
-Ahora generalizamos el concepto de orden de los números reales. La relación $\leq$ en $\mathbb{R}$ satisface:  
+Ahora generalizamos el concepto de orden de los números reales. La relación $\leq \subset $\mathbb{R}$ satisface:  
 (i) $\forall x \in \mathbb{R}$, $x \leq x$;  
 (ii) $\forall a, b, c \in \mathbb{R}$, $a \leq b \land b \leq c \Rightarrow a \leq c$;  
 (iii) $\forall a, b \in \mathbb{R}$, $a \leq b \land b \leq a \Rightarrow a = b$.  
