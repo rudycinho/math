@@ -93,9 +93,9 @@ $$
 	Como $x = x + 0$, entonces $x \mathbin{\Delta} x$.  
 - **(ii) Simetría**: Sean $x, y \in \mathbb{R}$ y supongamos que $x \mathbin{\Delta} y$. Entonces existe $c \in \mathbb{Z}$ tal que $$y = x + c$$. De aqui, $$x = y - c = y + (-c)$$con $-c \in \mathbb{Z}$. Por tanto, $y \mathbin{\Delta} x$.  
 - **(iii) Transitividad**: 
-	Sean $\alpha, \beta, \gamma \in \mathbb{R}$ y supongamos que $\alpha \mathbin{\Delta} \beta$ e $\beta \mathbin{\Delta} \gamma$. Entonces  existen $c, d \in \mathbb{R}$ con $y = x + c$ y $z = y + d$. Sustituyendo, $z = (x + c) + d = x + (c + d)$ con $c + d \in \mathbb{R}$; luego $x \mathbin{\Delta} z$.  
+	Sean $\alpha, \beta, \gamma \in \mathbb{R}$ y supongamos que $\alpha \mathbin{\Delta} \beta$ e $\beta \mathbin{\Delta} \gamma$. Entonces  existen $a, b \in \mathbb{Z}$ talque $$\beta = \alpha + a$$ y $$\gamma = \beta + b$$. Luego, $$\gamma = \beta + b = (\alpha + a) + b =  \alpha + (a + b)$$ con $a + b \in \mathbb{Z}$; Asi, $\alpha \mathbin{\Delta} \gamma$ .  $\blacksquare$
+	
 Por tanto, $\Delta$ es relación de equivalencia.  
-
 **Clases de equivalencia y particiones**  
 Las relaciones de equivalencia particionan el conjunto donde están definidas en "partes" llamadas **clases de equivalencia**.  
 Sea $R \subseteq A \times A$ una relación de equivalencia y $a \in A$. La clase de equivalencia de $a$ es:  
