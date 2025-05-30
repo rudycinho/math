@@ -172,13 +172,14 @@ $$
 $$  
 De forma análoga:
 $$
-
+[\ell : y = 3x - 1] = \{ \{ \ell: y = 3x + c \} : c \in \mathbb{R} \} = [ \ell : y = 3x ] 
 $$
 
 El conjunto cociente es:  
   $$
-  L/{\parallel} = \left\{ \left\{ y = mx + b : b \in \mathbb{R} \right\} : m \in \mathbb{R} \right\} \quad (\text{conjunto de todas las direcciones}).
+  L/{\sim} = \left\{ \left\{ y = mx + b : b \in \mathbb{R} \right\} : m \in \mathbb{R} \right\} \quad (\text{conjunto de todas las direcciones}).
   $$  
+$\br$
 
 **Congruencia módulo $n$:**  
 En $\mathbb{Z}$ definimos para $n \in \mathbb{N}$:  
