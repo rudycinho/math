@@ -76,7 +76,19 @@ En $\mathbb{R}$ definimos $$x \sim y \Leftrightarrow x^2 = y^2$$. ¿Es $\sim$ un
 Por tanto, $\sim$ es relación de equivalencia.  $\blacksquare$
 
 **Otro ejemplo:**  
-En $\mathbb{R}$ definimos $x \mathbin{\Delta} y \Leftrightarrow (\exists c \in \mathbb{R})(y = x + c)$. ¿Es $\Delta$ relación de equivalencia?  
+En $\mathbb{R}$ definimos $$x \mathbin{\Delta} y \Longleftrightarrow (\exists z \in \mathbb{Z})(y = x + z) \quad y-x \in \mathbb{Z}$$. 
+¿Es $\Delta$ relación de equivalencia?  
+
+**Demostrar:**
+En esta relacion tenemos que
+$$
+\begin{align}
+1,1 \triangule 0,1 pues 0,1 = 1,1 + (-1)
+1,1 \triangule 0,1 pues 0,1 = 1,1 + (-1)
+1,1 \triangule 0,1 pues 0,1 = 1,1 + (-1)
+\begin{align}
+$$
+
 - **(i) Reflexividad**: ($\forall x \in \mathbb{R}$) ($x \mathbin{\Delta} x$). Como $x = x + 0$ con $0 \in \mathbb{R}$, entonces $x \mathbin{\Delta} x$.  
 - **(ii) Simetría**: ($\forall x, y \in \mathbb{R}$) ($x \mathbin{\Delta} y \Rightarrow y \mathbin{\Delta} x$). Sean $x, y \in \mathbb{R}$ tales que $x \mathbin{\Delta} y$. Existe $c \in \mathbb{R}$ con $y = x + c$. Entonces $x = y + (-c)$ con $-c \in \mathbb{R}$; luego $y \mathbin{\Delta} x$.  
 - **(iii) Transitividad**: ($\forall x, y, z \in \mathbb{R}$) ($x \mathbin{\Delta} y \land y \mathbin{\Delta} z \Rightarrow x \mathbin{\Delta} z$). Sean $x, y, z \in \mathbb{R}$ tales que $x \mathbin{\Delta} y$ e $y \mathbin{\Delta} z$. Existen $c, d \in \mathbb{R}$ con $y = x + c$ y $z = y + d$. Sustituyendo, $z = (x + c) + d = x + (c + d)$ con $c + d \in \mathbb{R}$; luego $x \mathbin{\Delta} z$.  
