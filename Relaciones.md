@@ -190,7 +190,9 @@ Es una relacion de equivalencia:
 i. Reflexividad : Sea $a \in \mathbb{Z}$. Como $$a-a = 0 = 0 \cdot n$$, se tiene que $a \sim a$.
 
 ii. Simetria: Sean $a,b \in \mathbb{Z}$ tal que $a \sim b$. Entonces, existe $c \in \mathbb{Z}$ tal que $$a - b = c \cdot n$$ con $c \in \mathbb{Z}$.
-Multiplicamos esto por $-1$ obtenemos $$b-a = (-c)\cdot n$$, con
+Multiplicamos esto por $-1$ obtenemos $$b-a = (-c)\cdot n$$, con $-c \in \mathbb{Z}$. Asi, $b \sim a$.
+ 
+iii. Transitividad: Sean $a,b,c \in \mathbb{Z}$ tal que $a \sim b$ y $b \sim c$. Entonces, existen $\$
 
 **Congruencia módulo $n$:**  
 En $\mathbb{Z}$ definimos para $n \in \mathbb{N}$:  
