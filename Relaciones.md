@@ -281,7 +281,7 @@ Sea $A \neq \emptyset$ y sea $R \subseteq A^2$, decimos que $R$ es un **orden pa
 $$
 x \leq y \Longleftrightarrow (\exists \; z \in \mathbb{R})(z \geq 0 \land x + z = y).
 $$  
-Esta es un orden parcial sobre $\mathbb{R}$:  
+Esta es una relacion de orden sobre $\mathbb{R}$:  
 - **(i) Reflexividad**: $\forall x \in \mathbb{R}$, $x + 0 = x$, luego $x \preccurlyeq x$.  
 - **(ii) Transitividad**: Si $x \preccurlyeq y$ e $y \preccurlyeq z$, existen $a, b \geq 0$ con $y = x + a$ y $z = y + b$. Entonces $z = x + (a + b)$ con $a + b \geq 0$; luego $x \preccurlyeq z$.  
 - **(iii) Antisimetría**: Si $x \preccurlyeq y$ e $y \preccurlyeq x$, existen $a, b \geq 0$ con $y = x + a$ y $x = y + b$. Sustituyendo: $y = (y + b) + a \Rightarrow 0 = a + b$. Como $a, b \geq 0$, $a = b = 0$; luego $x = y$.  
