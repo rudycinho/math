@@ -176,10 +176,15 @@ $$
 $$
 
 El conjunto cociente es:  
+
+![[Pasted image 20250530015736.png]]
   $$
-  L/{\sim} = \left\{ \left\{ y = mx + b : b \in \mathbb{R} \right\} : m \in \mathbb{R} \right\} \quad (\text{conjunto de todas las direcciones}).
+  \mathcal{L}/{\sim} = \left\{ \left\{ y = mx + c : c \in \mathbb{R} \right\} : m \in \mathbb{R} \right\} \quad (\text{conjunto de todas las direcciones}).
   $$  
-$\br$
+$\blacksquare$
+
+**Ejemplo:** En teoria de numeros la siguiente relacion es, quizad la mas importante.
+En $\mathbb{Z}$ sea $n \in \mathbb{Z}$ con $n>1$ y definimos $$a \sim b \Longleftright $$
 
 **Congruencia módulo $n$:**  
 En $\mathbb{Z}$ definimos para $n \in \mathbb{N}$:  
