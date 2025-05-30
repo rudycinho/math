@@ -192,7 +192,17 @@ i. Reflexividad : Sea $a \in \mathbb{Z}$. Como $$a-a = 0 = 0 \cdot n$$, se tiene
 ii. Simetria: Sean $a,b \in \mathbb{Z}$ tal que $a \sim b$. Entonces, existe $c \in \mathbb{Z}$ tal que $$a - b = c \cdot n$$ con $c \in \mathbb{Z}$.
 Multiplicamos esto por $-1$ obtenemos $$b-a = (-c)\cdot n$$, con $-c \in \mathbb{Z}$. Asi, $b \sim a$.
  
-iii. Transitividad: Sean $a,b,c \in \mathbb{Z}$ tal que $a \sim b$ y $b \sim c$. Entonces, existen $\$
+iii. Transitividad: Sean $a,b,c \in \mathbb{Z}$ tal que $a \sim b$ y $b \sim c$. Entonces, existen $\alpha, \beta \in \mathbb{Z}$ talque 
+$$
+a - b = \alpha \cdot n \qquad \text{y} \qquad  b - c = \beta \cdot n
+$$
+Sumando estas dos igualdades:
+$$
+\begin{align}
+(a - b) + (b - c) = \alpha \cdot n + \beta \cdot n\\
+(a - b) + (b - c) = \alpha \cdot n + \beta \cdot n\\
+\end{align}
+$$
 
 **Congruencia módulo $n$:**  
 En $\mathbb{Z}$ definimos para $n \in \mathbb{N}$:  
