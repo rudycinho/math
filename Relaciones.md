@@ -331,8 +331,9 @@ max C = 2
 6. **Supremo o minima cota superior** : Se dice que $b \in A$ es el **supremo** de $B$ si es el mínimo de $B^+$. 
 	Si existe, escribimos $b = \text{sup } B$ y $\text{sup } B = \text{min } B^+$.  
 7. **Elementos minimales**: Se dice que $b \in B$ es **minimal** o un **elemento minimal** si $$x \mathbin{R} b \Rightarrow x = b $$. I. e., un elemento minimal no tiene ningun elemento menor que el sin que esto signifique que es el minimo
-	**Observacion** Minimo implica minimal, pero minimal no neceriamente implica minimos. $blacksquare$
-- **Elemento maximal**: $d \in B$ es maximal si $\neg(\exists x \in B)(d \preccurlyeq x \land x \neq d)$.  
+	**Observacion** Minimo implica minimal, pero minimal no neceriamente implica minimos. $\blacksquare$
+- **Elementos maximales**: Se dice que $d \in B$ es **maximal** o un **elemento maximal** si $$d \mathbin{R} x \Rightarrow x = d $$. I. e., un elemento maximal no tiene ningun elemento mayor que el sin que esto signifique que es el maximo.
+	**Observacion** Maximo implica minimal, pero minimal no neceriamente implica minimos. $\blacksquare$  
 
 **Ejemplo:** En $\mathbb{R}$ con el orden usual:  
 - $A = (1, 2)$: $\min A$ no existe, $\max A$ no existe.  
