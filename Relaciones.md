@@ -72,8 +72,8 @@ En $\mathbb{R}$ definimos $$x \sim y \Leftrightarrow x^2 = y^2$$. ¿Es $\sim$ un
 	Sean $x,y \in \mathbb{R}$ tal que $x \sim y$, i.e., $x^2 = y^2$. 
 	Por simetría de la igualdad, se sigue que $y^2 = x^2$. Esto quiere decir que $y \sim x$.    
 - **(iii) Transitividad**: $(\forall x, y, z \in \mathbb{R}) (x \sim y \land y \sim z \Rightarrow x \sim z)$. 
-	Sean $x, y, z \in \mathbb{R}$ y supongamos que $x \sim y$ e $y \sim z$. Entonces, por la definicion de $\sim$ tenemos que  $$x^2 = y^2 \wedge y^2 = z^2$$, de donde $x^2 = z^2$; luego $x \sim z$.  
-Por tanto, $\sim$ es relación de equivalencia.  
+	Sean $x, y, z \in \mathbb{R}$ y supongamos que $x \sim y$ e $y \sim z$. Entonces, por la definicion de $\sim$ tenemos que  $$x^2 = y^2 \wedge y^2 = z^2$$. De aqui se obtiene que $x^2 = z^2$; i.e.,  $x \sim z$.  
+Por tanto, $\sim$ es relación de equivalencia.  $\blacksquare$
 
 **Otro ejemplo:**  
 En $\mathbb{R}$ definimos $x \mathbin{\Delta} y \Leftrightarrow (\exists c \in \mathbb{R})(y = x + c)$. ¿Es $\Delta$ relación de equivalencia?  
