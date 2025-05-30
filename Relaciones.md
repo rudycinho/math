@@ -288,13 +288,13 @@ Esta es una relacion de orden sobre $\mathbb{R}$:
 
 **Orden total:** Un orden parcial $R$ es **total** si $\forall a, b \in A$, $a \mathbin{R} b \lor b \mathbin{R} a$.  
 
-I. En $\mathbb{N}$ definimos $mRn$ si $n = m \cdot c$ (para algún $c \in \mathbb{N}$).  
+**Ejemplo.** En $\mathbb{N}$ definimos $$m \mathbin{R} n \Longleftrightarrow (\exists c \in \mathbb{N})(n = m \cdot c)$$.  
 
 Demostrar que esto define un orden en $\mathbb{N}$.  
 
 **Demostración:**  
 **(i) Reflexividad:**  
-Para todo $m \in \mathbb{N}$, tomamos $c=1$, entonces $n = m \cdot 1 = m$. Luego $mRm$.  
+Como, para todo $m \in \mathbb{N}$, tomamos $c=1$, entonces $n = m \cdot 1 = m$. Luego $mRm$.  
 
 **(ii) Transitividad:**  
 Sean $m, n, r \in \mathbb{N}$ tales que $mRn$ y $nRr$. Entonces existen $c_1, c_2 \in \mathbb{N}$ tales que $n = m \cdot c_1$ y $r = n \cdot c_2$.  
