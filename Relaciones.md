@@ -272,9 +272,9 @@ Ahora generalizamos el concepto de orden de los números reales. Tenemos la rela
 (iii) $(\forall a, b \in \mathbb{R}$)($a \leq b \land b \leq a \Rightarrow a = b)$.  
 
 Generalizamos estas propiedades:  
-Sea $A \neq \emptyset$ y $R \subseteq A^2$. Decimos que $R$ es un **orden parcial** (o relación de orden) si satisface:  
-- **(i) Reflexividad**: $\forall x \in A$, $x \mathbin{R} x$.  
-- **(ii) Transitividad**: $\forall x, y, z \in A$, $x \mathbin{R} y \land y \mathbin{R} z \Rightarrow x \mathbin{R} z$.  
+Sea $A \neq \emptyset$ y sea $R \subseteq A^2$, decimos que $R$ es un **orden parcial** o una **relación de orden** si $\mathbin{R}$ satisface:  
+- **(i) Reflexividad**: $(\forall x \in A)(x \mathbin{R} x)$.  
+- **(ii) Transitividad**: $(\forall x, y, z \in A)( $x \mathbin{R} y \land y \mathbin{R} z \Rightarrow x \mathbin{R} z$.  
 - **(iii) Antisimetría**: $\forall x, y \in A$, $x \mathbin{R} y \land y \mathbin{R} x \Rightarrow x = y$.  
 
 **Ejemplo:** En $\mathbb{R}$ definimos:  
