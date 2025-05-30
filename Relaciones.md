@@ -234,6 +234,8 @@ $$
 &= \{\ldots, -8,-3, 2, 7, 12, \ldots\} = [2].
 \end{align}
 $$  
+**Observacion**
+Notemos que la clase de equivalencia $[7]$ que acabamos de calcular tiene definidos elemtnos por 
 El conjunto cociente es $\mathbb{Z}/\equiv_5 = \{[0], [1], [2], [3], [4]\}$.  
 $\blacksquare$
 
