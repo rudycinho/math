@@ -313,10 +313,18 @@ Sea $B \subseteq A$, entonces
 **Ejemplo:** En $\mathbb{R}$ con el orden usual sean $A=(1,2)$, $A=[1,2)$ y $A=[1,2]$
 
 Etonces:
-max
+min A no existe
+max A no existe
 
-**Cotas inferiores**: $a \in A$ es cota inferior de $B$ si $\forall x \in B$, $a \preccurlyeq x$. El conjunto de cotas inferiores se denota $B_-$.  
-- **Cotas superiores**: $b \in A$ es cota superior de $B$ si $\forall x \in B$, $x \preccurlyeq b$. El conjunto de cotas superiores se denota $B^+$.  
+min B = 1
+max B no existe
+
+min C = 1
+max C = 2
+
+3. **Cotas inferiores**: Se dice que $a \in A$ es una **cota inferior** de $B$ si $$(\forall x \in B)(a \mathbin{R} x)$$. 
+	El conjunto de cotas inferiores de B se denota por $B^-$.  
+4. **Cotas superiores**: Se dice que $b \in A$ es **cota superior** de $B$ si $$(\forall x \in B)(x )$$, $x \preccurlyeq b$. El conjunto de cotas superiores se denota $B^+$.  
 - **Ínfimo**: $a \in A$ es ínfimo de $B$ si es el máximo de $B_-$. Se denota $a = \inf B$.  
 - **Supremo**: $b \in A$ es supremo de $B$ si es el mínimo de $B^+$. Se denota $b = \sup B$.  
 - **Elemento minimal**: $b \in B$ es minimal si $\neg(\exists x \in B)(x \preccurlyeq b \land x \neq b)$.  
