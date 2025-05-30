@@ -114,7 +114,9 @@ Entonces podemos coleccionar todoas las clases de equvialentecia que forma la re
 
 Si $\mathbin{R} \subseteq A^2$ es una relacion de equivalencia y $[a] = \{x \in A : x \mathbin{R} a\}$ es una clase de equivalencia en $A/\mathbin{R}$, el elemento $a$ se llama el **representante** de la clase.
 
-***
+**Observacion**
+i. Si $\mathbin{R},\mathbin{S} \subseteq A^2$ son ambas relaciones de equivalencia, para evitar confusiones, escribimos $[a]_R$
+
 $$
 \begin{align}
 [a] &= \{x \in \mathbb{R} : x \sim a\}\\
