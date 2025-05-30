@@ -274,12 +274,12 @@ Ahora generalizamos el concepto de orden de los números reales. Tenemos la rela
 Generalizamos estas propiedades:  
 Sea $A \neq \emptyset$ y sea $R \subseteq A^2$, decimos que $R$ es un **orden parcial** o una **relación de orden** si $\mathbin{R}$ satisface:  
 - **(i) Reflexividad**: $(\forall x \in A)(x \mathbin{R} x)$.  
-- **(ii) Transitividad**: $(\forall x, y, z \in A)( $x \mathbin{R} y \land y \mathbin{R} z \Rightarrow x \mathbin{R} z$.  
-- **(iii) Antisimetría**: $\forall x, y \in A$, $x \mathbin{R} y \land y \mathbin{R} x \Rightarrow x = y$.  
+- **(ii) Transitividad**: $(\forall x, y, z \in A)$ $$(x \mathbin{R} y \land y \mathbin{R} z \Rightarrow x \mathbin{R} z)$$.  
+- **(iii) Antisimetría**: $(\forall x, y \in A)$ $$x \mathbin{R} y \land y \mathbin{R} x \Rightarrow x = y$$.  
 
 **Ejemplo:** En $\mathbb{R}$ definimos:  
 $$
-x \preccurlyeq y \Leftrightarrow (\exists z \geq 0)(x + z = y).
+x \leq y \Longleftrightarrow (\exists \; z \in \mathbb{R})(z \geq 0 \land x + z = y).
 $$  
 Esta es un orden parcial sobre $\mathbb{R}$:  
 - **(i) Reflexividad**: $\forall x \in \mathbb{R}$, $x + 0 = x$, luego $x \preccurlyeq x$.  
