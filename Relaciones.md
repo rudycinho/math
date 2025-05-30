@@ -239,7 +239,8 @@ $\blacksquare$
 
 Entonces una relacion de equivalentecia es una **clasificacion** de los elementos de l conjunto.
 
-Sea $\{A_i\}_{i \in I}$ una familila de subconjuntos de $X$
+Sea $\{A_i\}_{i \in I}$ una familila de subconjuntos de $\mathbin{X}$, se denomina una **particion** de $\mathbin{X}$
+
 
 **Teorema fundamental:**  
 Sea $A \neq \emptyset$ y $R \subseteq A \times A$ una relación de equivalencia. Entonces $A/R$ es una partición de $A$. Recíprocamente, si $\{A_i\}_{i \in I}$ es una partición de $A$, podemos definir una relación de equivalencia:  
