@@ -115,7 +115,16 @@ Entonces podemos coleccionar todoas las clases de equvialentecia que forma la re
 Si $\mathbin{R} \subseteq A^2$ es una relacion de equivalencia y $[a] = \{x \in A : x \mathbin{R} a\}$ es una clase de equivalencia en $A/\mathbin{R}$, el elemento $a$ se llama el **representante** de la clase.
 
 **Observacion**
-i. Si $\mathbin{R},\mathbin{S} \subseteq A^2$ son ambas relaciones de equivalencia, para evitar confusiones, escribimos $[a]_R$ y $[a]_S$ para indicar la clase de equivalencia de $a \in A$ respecto de $\mathbin{R}$ y $\mathbin{S}$, respecot
+i. Si $\mathbin{R},\mathbin{S} \subseteq A^2$ son ambas relaciones de equivalencia, para evitar confusiones, escribimos $[a]_R$ y $[a]_S$ para indicar la clase de equivalencia de $a \in A$ respecto de $\mathbin{R}$ y $\mathbin{S}$, respectivamente.
+ii. Calcular
+$$
+[a] = \{x \in A : x \mathbin{R} a\}
+$$
+
+suele reducirse a "resolver" $x \mathbin{R} a$, donde, obviamente, $x$ es la incognita. $\blacksquare$
+
+**Ejemplo:**
+Ya vimos que en $\mathbb{R}$ $$x\sim y \Longlefta$$
 
 $$
 \begin{align}
