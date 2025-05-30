@@ -83,14 +83,15 @@ En $\mathbb{R}$ definimos $$x \mathbin{\Delta} y \Longleftrightarrow (\exists z 
 En esta relacion tenemos que
 $$
 \begin{align}
-1.1 \; \triangle \; 0.1 && \text{pues } && 0.1 = 1.1 + (-1) \\
-3.73 \; \triangle \;  -5.73 && \text{pues } && -5.73 = 3.73 + (-8) \\
-\neg (1.1 \; \triangle \; 1) && \text{pues } && 1 - 1.1 = 0.1 \notin \mathbb{Z} \\
+1.1 \; \mathbin{\Delta} \; 0.1 && \text{pues } && 0.1 = 1.1 + (-1) \\
+3.73 \; \mathbin{\Delta} \;  -5.73 && \text{pues } && -5.73 = 3.73 + (-8) \\
+\neg (1.1 \; \mathbin{\Delta} \; 1) && \text{pues } && 1 - 1.1 = 0.1 \notin \mathbb{Z} \\
 \end{align}
 $$
 
-- **(i) Reflexividad**: ($\forall x \in \mathbb{R}$) ($x \mathbin{\Delta} x$). Como $x = x + 0$ con $0 \in \mathbb{R}$, entonces $x \mathbin{\Delta} x$.  
-- **(ii) Simetría**: ($\forall x, y \in \mathbb{R}$) ($x \mathbin{\Delta} y \Rightarrow y \mathbin{\Delta} x$). Sean $x, y \in \mathbb{R}$ tales que $x \mathbin{\Delta} y$. Existe $c \in \mathbb{R}$ con $y = x + c$. Entonces $x = y + (-c)$ con $-c \in \mathbb{R}$; luego $y \mathbin{\Delta} x$.  
+- **(i) Reflexividad**: Sea $x \in \mathbb{R}$. 
+	Como $x = x + 0$, entonces $x \mathbin{\Delta} x$.  
+- **(ii) Simetría**: Sean $x, y \in \mathbb{R}$ y supongamos que $x \mathbin{\Delta} y$. Entonces existe $c \in \mathbb{Z}$ con $y = x + c$. Entonces $x = y + (-c)$ con $-c \in \mathbb{R}$; luego $y \mathbin{\Delta} x$.  
 - **(iii) Transitividad**: ($\forall x, y, z \in \mathbb{R}$) ($x \mathbin{\Delta} y \land y \mathbin{\Delta} z \Rightarrow x \mathbin{\Delta} z$). Sean $x, y, z \in \mathbb{R}$ tales que $x \mathbin{\Delta} y$ e $y \mathbin{\Delta} z$. Existen $c, d \in \mathbb{R}$ con $y = x + c$ y $z = y + d$. Sustituyendo, $z = (x + c) + d = x + (c + d)$ con $c + d \in \mathbb{R}$; luego $x \mathbin{\Delta} z$.  
 Por tanto, $\Delta$ es relación de equivalencia.  
 
