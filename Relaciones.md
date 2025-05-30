@@ -252,15 +252,15 @@ Sea $\{A_i\}_{i \in I}$ una familila de subconjuntos de $\mathbin{X}$, se denomi
 
 (i) $(\forall i \in I)(A_i \neq \emptyset)$;
 (ii) $(\forall i,j \in I)(A_i \cap A_j = \emptyset)$;
-(ii) $\bigcup_{i \in I} Ai = X$.
+(ii) $\bigcup_{i \in I} A_i = X$.
 
 Lo visto anteriormente nos muestra que si $\mathbin{R} \subseteq A^2$ es una  relacion de equivalencia, entonces $$A/\mathbin{R}=\{[x]: x \in A\}$$
 es una partición de A. 
 
+Asi, tenemos el **Teorema fundamental de las relaciones de equivalencia**.
 
-
-**Teorema fundamental:**  
-Sea $A \neq \emptyset$ y $R \subseteq A \times A$ una relación de equivalencia. Entonces $A/R$ es una partición de $A$. Recíprocamente, si $\{A_i\}_{i \in I}$ es una partición de $A$, podemos definir una relación de equivalencia:  
+**Teorema:**  
+Sea $A \neq \emptyset$ y sea $R \subseteq A^2$ una relación de equivalencia, entonces $A/\mathbb{R}$ es una partición de $A$. Recíprocamente, si $\{A_i\}_{i \in I}$ es una partición de $A$, podemos definir una relación de equivalencia a saber,
 $$
 x \mathbin{R} y \Leftrightarrow (\exists i \in I)(x \in A_i \land y \in A_i).
 $$  
