@@ -363,7 +363,17 @@ Construimos el diagrama de Hasse de la siguiete forma:
      \             \ /
       a              a
 ```  
-3. No se dibujan bucles i,e, no se dibuja una linea que conecte con cada elemento  
+3. No se dibujan bucles i,e, no se dibuja una linea que conecte cada elemento consigo mismo, pero se **sobreentiende la reflexiviodad**  
+
+```  
+\ /             /    /
+    b            b    /
+     \             \ /
+      a              a
+```  
+
+
+	No se dibuja los bucles para evitar sobrecargar el diagrama
 
 **Ejemplo:** Sea $D(12)$ el conjunto de divisores de $12$: $\{1, 2, 3, 4, 6, 12\}$. Ordenamos por divisibilidad:  
 $$
