@@ -83,9 +83,9 @@ En $\mathbb{R}$ definimos $$x \mathbin{\Delta} y \Longleftrightarrow (\exists z 
 En esta relacion tenemos que
 $$
 \begin{align}
-1.1 \; \triangle \; 0.1 && \text{pues } 0.1 = 1.1 + (-1) \\
-3.73 \; \triangle \;  -5.73 && pues -5.73 = 3.73 + (-8) \\
-1,1 \; \triangle \; 0,1 && pues 0,1 = 1,1 + (-1) \\
+1.1 \; \triangle \; 0.1 && \text{pues } && 0.1 = 1.1 + (-1) \\
+3.73 \; \triangle \;  -5.73 && \text{pues } && -5.73 = 3.73 + (-8) \\
+\neg (1.1 \; \triangle \; 1) && \text{pues } && 1 - 1.1 = 0.1 \notin \mathbb{Z} \\
 \end{align}
 $$
 
