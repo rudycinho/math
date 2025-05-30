@@ -67,8 +67,10 @@ Es $\sim$ una relacion de equivalencia?
 
 i. **Reflexividad:** $(\forall x \in \mathbb{R})(x \sim x)$
 Para todo $x \in \mathbb{R}$, es obvio que $x=x$ ; de aqui se sigue que $x^2 = x^2$, i.e., $x \sim x$.
-ii. **Simetria:** $(\forall x \in \mathbb{R})(x \sim x)$
-Para todo $x \in \mathbb{R}$, es obvio que $x=x$ ; de aqui se sigue que $x^2 = x^2$, i.e., $x \sim x$.
+ii. **Simetria:** $(\forall x,y \in \mathbb{R})(x \sim y \Rightarrow y \sim x)$
+Sean $x,y \in \mathbb{R}$ t.q. $x \sim y$, i.e., $x^2 = y^2$.
+Por la simetria de la igualdad, se sigue que $y^2-$
+
 
 **B. Relaciones de equivalencia**  
 En $\mathbb{R}$ definimos $x \sim y \Leftrightarrow x^2 = y^2$. ¿Es $\sim$ una relación de equivalencia?  
