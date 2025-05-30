@@ -112,6 +112,9 @@ Por ultimo es evidente que $$\bigcup_{a \in A} [a] = A$$.
 
 Entonces podemos coleccionar todoas las clases de equvialentecia que forma la relacion de equivalencia $\mathbin{R} \subseteq A^2$ y obtenemos el conjunto $$A/\mathbin{R} = \{[a] : a \in A\}$$ que se llama el **conjunto cociente** de A por R.
 
+Si $\mathbin{R} \subseteq A^2$ es una relacion de equivalencia y $[a] = \{x \in A : x \mathbin{R} a\}$ es una clase de equivalencia en $A/\mathbin{R}$, el elemento $a$ se llama el **representante** de la clase.
+
+***
 $$
 \begin{align}
 [a] &= \{x \in \mathbb{R} : x \sim a\}\\
