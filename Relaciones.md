@@ -184,7 +184,12 @@ El conjunto cociente es:
 $\blacksquare$
 
 **Ejemplo:** En teoria de numeros la siguiente relacion es, quizad la mas importante.
-En $\mathbb{Z}$ sea $n \in \mathbb{Z}$ con $n>1$ y definimos $$a \sim b \Longleftright $$
+En $\mathbb{Z}$ sea $n \in \mathbb{Z}$ con $n>1$ y definimos $$a \sim b \Longleftrightarrow(\exists \; c \in \mathbb{Z})(a-b = c \cdot n)$$
+Es una relacion de equivalencia:
+
+i. Reflexividad : Sea $a \in \mathbb{Z}$. Como $$a-a = 0 = 0 \cdot n$$, se tiene que $a \sim a$.
+
+
 
 **Congruencia módulo $n$:**  
 En $\mathbb{Z}$ definimos para $n \in \mathbb{N}$:  
