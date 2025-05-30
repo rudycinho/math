@@ -141,8 +141,7 @@ Por tanto,
 $$R/\sim = [0,+ \inf) = (-\inf,+ 0]$$ $\blacksquare$
 
 **Ejemplo:**
-En $\mathbb{R}^2$  
-Sea $L$ el conjunto de todas las rectas en $\mathbb{R}^2$. En $L$ definimos:  
+En $\mathbb{R}^2$ sea $\ell$ el conjunto de todas las rectas en $\mathbb{R}^2$. En $L$ definimos:  
 $$
 \ell_1 \parallel \ell_2 \Leftrightarrow \text{$\ell_1$ y $\ell_2$ son paralelas}.
 $$  
