@@ -179,16 +179,23 @@ Para $z = -2$, segun lo anterior $$x = \frac{2 - (-3)^2}{3} = -\frac{7}{3}$$.
 Veamos:
 $$h(-\frac{7}{3}) = \sqrt{2 - 3(-\frac{7}{3})} + 1 = \sqrt{9} + 1 = 4 \neq -2$$. 
 
-El error se debe a que en $(*)$
-La restricción $z - 1 \geq 0$ (i.e., $z \geq 1$) limita el rango. Para $z < 1$, no hay solución. 
-Por tanto, $h$ no es sobreyectiva.  $\blacksquare$
+El error se debe a que en $(*)$ hay una restriccion implicita
+$$
+\begin{align}
+z - 1 \geq 0\\
+z \geq 1\\
+\end{align}
+$$ 
+Por tanto, $h$ no es suryectiva.  $\blacksquare$
 
 (iii) **Biyectividad.**  
-Sea $f: A \to B$ una función; se dice que es **biyectiva** si es, al mismo tiempo, inyectiva y sobreyectiva.  
+Sea $f: A \to B$ una función; se dice que es **biyectiva** si es, al mismo tiempo, inyectiva y suryectiva.  
+
 **Ejemplos:**  
-- $f: \mathbb{R} \to \mathbb{R}$, $x \mapsto x^2 + 1$ no es biyectiva (no inyectiva ni sobreyectiva).  
-- $g: \mathbb{Q} \to \mathbb{Q}$, $g(q) = \frac{2 - 3q}{1 + 2q}$ es inyectiva pero no sobreyectiva (pues $y = -\frac{3}{2}$ no está en el rango), luego no es biyectiva.  
-- $h: (-\infty, \frac{2}{3}] \to \mathbb{R}$, $h(x) = \sqrt{2 - 3x} + 1$ es inyectiva pero no sobreyectiva (rango $[1, \infty)$), luego no es biyectiva.  
+$f: \mathbb{R} \to \mathbb{R}$, $x \mapsto x^2 + 1$ no es biyectiva, pues no es inyectiva ni suryectiva.  
+
+$g: \mathbb{Q} \to \mathbb{Q}$, $q \mapsto \frac{2 - 3q}{1 + 2q}$ es inyectiva pero no sobreyectiva (pues $y = -\frac{3}{2}$ no está en el rango), luego no es biyectiva.  
+$h: (-\infty, \frac{2}{3}] \to \mathbb{R}$, $h(x) = \sqrt{2 - 3x} + 1$ es inyectiva pero no sobreyectiva (rango $[1, \infty)$), luego no es biyectiva.  
 
 Al igual que con las relaciones, la única operación "natural" entre funciones es la **composición**. Recordemos: Sean $R \subseteq A \times B$ y $S \subseteq B \times C$ dos relaciones, su composición es  
 $$
