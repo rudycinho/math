@@ -58,7 +58,8 @@ $$
 $\blacksquare$
 
 Las funciones se clasifican en tres:  
-(i) **Inyectividad.** Sea $f: A \to B$ una función; se dice que es **inyectiva** si para todo $a, b \in A$, $f(a) = f(b)$ implica $a = b$. Equivalentemente, si $a \neq b$ entonces $f(a) \neq f(b)$.  
+(i) **Inyectividad.** Sea $f: A \to B$ una función; se dice que es **inyectiva** o **uno-a-uno** si 
+$a, b \in A$, $f(a) = f(b)$ implica $a = b$. Equivalentemente, si $a \neq b$ entonces $f(a) \neq f(b)$.  
 **Ej:** Sea $f: \mathbb{R} \to \mathbb{R}$ dada por $f(x) = x^2 + 1$. ¿Es inyectiva?  
 **Solución:** No, no es inyectiva porque $f(1) = 1^2 + 1 = 2$ y $f(-1) = (-1)^2 + 1 = 2$, pese a que $1 \neq -1$. Supongamos que $f(a) = f(b)$, entonces $a^2 + 1 = b^2 + 1 \Rightarrow a^2 = b^2 \Rightarrow (a - b)(a + b) = 0 \Rightarrow a = b$ o $a = -b$. Como existe $a \neq b$ con $f(a) = f(b)$ (e.g., $a = 1, b = -1$), $f$ no es inyectiva.  
 
