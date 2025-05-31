@@ -455,17 +455,18 @@ $$
 pero
 ∴ $f(A \cap B) = g({4}) = {16}$.  
 
----
-
-**Propiedades de la preimagen:**  
-Para $f: X \to Y$ y $W, V \subseteq Y$:  
+La "preimagen" tiene las siguientes propiedades para $f: X \to Y$ y $W,V \subseteq Y$
+ 
 1. $f^{-1}(W \cup V) = f^{-1}(W) \cup f^{-1}(V)$  
 2. $f^{-1}(W \cap V) = f^{-1}(W) \cap f^{-1}(V)$  
 3. $f^{-1}(W^c) = \left[f^{-1}(W)\right]^c$  
-4. $f^{-1}(Y) = X$ y $f^{-1}(\emptyset) = \emptyset$  
 
-*Demostración de (3):*  
-Si $x \in f^{-1}(W^c)$, entonces $f(x) \in W^c$, es decir, $f(x) \notin W$. Así, $x \notin f^{-1}(W)$, luego $x \in \left[f^{-1}(W)\right]^c$.  
+$f^{-1}(Y \setminus W) = X \setminus f^{-1}(W)$  
+
+**Demostración de (3):** 
+
+
+Sea $x \in f^{-1}(W^c)$, entonces $f(x) \in W^c$, es decir, $f(x) \notin W$. Así, $x \notin f^{-1}(W)$, luego $x \in \left[f^{-1}(W)\right]^c$.  
 Recíprocamente, si $z \in \left[f^{-1}(W)\right]^c$, entonces $z \notin f^{-1}(W)$, luego $f(z) \notin W$, es decir, $f(z) \in W^c$. Por tanto, $z \in f^{-1}(W^c)$.  
 
 
