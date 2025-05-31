@@ -2,17 +2,17 @@ Sea $\gamma \in C$. Queremos hallar $b \in B$ tal que $g(b)=\gamma$.
 Por hipotesis, $g \circ f$ is suryectiva. Es decir, existe $a \in A$ tal que
 $$
 \gamma=(g \circ f)(a)
-$$,
-
-pero esto se puede escribir:
+$$, pero esto se puede escribir:
 $$
-γ= (g \circ f) (a) = g(f(a))$$
-, con $f(a) \in B$. Entonces si ponemos b=fla), tenemos que 9(6)=1.
+γ= (g \circ f) (a) = g(f(a))
+$$
+, con $f(a) \in B$. Entonces si ponemos $b=f(a)$, tenemos que $g(b)=\gamma$. $\blacksquare$
 
-Obs-Saf: A→B una función, y giZEA. Si a₁ = 9₂, entrées por la Jefinición de funcidu
-
+**Observacion:** Sea $f : A \to B$ una función, y $a_1,a_2 \in A$. Si $a_1 = a_2$, entonces por la definición de funcion
+$$
 Hay)=f(as)
-
+$$
+''
 Daca sura función f: XY, dos funcimes inducidas
 
 obtenemos
