@@ -230,9 +230,9 @@ $$
 h \circ (g \circ f) = (h \circ g) \circ f.
 $$  
 También es fácil demostrar que para $f: A \to B$ y $g: B \to C$ funciones:  
-- (i) $f$ y $g$ inyectivas \implies $g \circ f$ es inyectiva.  
-- (ii) $f$ y $g$ suryectivas \implies $g \circ f$ es suryectiva.  
-- (iii) $f$ y $g$ biyectivas \implies $g \circ f$ es biyectiva.  
+- (i) $f, g \text{ inyectivas } \implies g \circ f \text{ inyectiva}$.  
+- (ii) $f, g suryectivas \implies g \circ f$ es suryectiva.  
+- (iii) $f, g biyectivas \implies g \circ f$ es biyectiva.  
 
 Dada una función $f: A \to B$, ¿es su relación inversa $f^{-1} \subseteq B \times A$ una función?  
 - Si $f$ es solo inyectiva (no sobreyectiva):  
