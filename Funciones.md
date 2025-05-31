@@ -117,12 +117,20 @@ $$
 $\therefore h$ no es inyectiva. $\blacksquare$
 
 (ii) **Suryectividad** (*sobreyectividad*;*epiyectividad*).  
-Sea $g: Z \to W$ una función; se dice que g es **suryectiva** (o **sobreyectiva** o **epiyectiva**) si $$(\forall b \in B) \, (\exists a \in A) \, (b = g(a))$$.
+Sea $g: Z \to W$ una función; se dice que g es **suryectiva** (o **sobreyectiva** o **epiyectiva**) si $$(\forall b \in W) \, (\exists a \in Z) \, (b = g(a))$$.
 
-Para chequear la sobreyectividad, hay que resolver la ecuación $b = g(a)$ para "$a$" sin introducir restricciones nuevas implícita o explícitamente.  
+Para chequear la suryectividad, hay que resolver la ecuación $b = g(a)$ para "$a$" sin introducir restricciones nuevas implícita o explícitamente. 
+
 Repetimos los ejemplos:  
-**Ej:** $f: \mathbb{R} \to \mathbb{R}$, $x \mapsto x^2 + 1$. ¿Es sobreyectiva?  
-**Solución:** Sea $y = 0$, resolvemos $0 = x^2 + 1 \Rightarrow x^2 = -1$, no tiene solución en $\mathbb{R}$. Alternativamente, sea $y \in \mathbb{R}$:  
+
+**Ejemplo:** $f: \mathbb{R} \to \mathbb{R}$, $x \mapsto x^2 + 1$. ¿Es sobreyectiva?  
+
+**Solución:** 
+Sea $y = 0$, resolvemos $$0 =f(x) = x^2 + 1 \Rightarrow x^2 = -1$$; esta ecuacion no tiene solución en $\mathbb{R}$.
+
+$\therefore f$ no es inyectiva. $\blacksquare$
+
+Alternativamente, sea $y \in \mathbb{R}$ y resolvemos:  
 $$
 y = x^2 + 1 \Rightarrow x = \pm \sqrt{y - 1}, \text{ válido solo si } y - 1 \geq 0.
 $$  
