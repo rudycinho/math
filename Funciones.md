@@ -140,23 +140,20 @@ y = x^2 + 1 & \implies x^2 = y - 1 & \\
 $$
 $\therefore f$ no es suryectiva. $\blacksquare$
 
-**Ejemplo:** $g(q) = \frac{2 - 3q}{1 + 2q}$. ¿Es sobreyectiva? (asumiendo $g: \mathbb{Q} \to \mathbb{Q}$)  
-**Solución:** Resolvamos $y = g(q)$:  
+**Ejemplo:** $g : \mathbb{Q} \setminus \left\{-\frac{1}{2}\right\} \to \mathbb{Q} \setminus \left\{-\frac{3}{2}\right\}$ , $g(q) = \frac{2 - 3q}{1 + 2q}$. ¿Es suryectiva? 
+
+**Solución:** Sea $y \in \mathbb{Q} \setminus \left\{-\frac{3}{2}\right\}$ , resolvamos 
 $$
+\begin{align}
+y = g(q)
 y(1 + 2q) = 2 - 3q
-$$  
-$$
 y + 2qy = 2 - 3q
-$$  
-$$
 2qy + 3q = 2 - y
-$$  
-$$
 q(2y + 3) = 2 - y
-$$  
-$$
 q = \frac{2 - y}{2y + 3}, \quad \text{si } 2y + 3 \neq 0.
-$$  
+\end{align}
+$$
+
 Si $2y + 3 = 0$ (i.e., $y = -\frac{3}{2}$), la ecuación es $0 \cdot q = 2 - (-\frac{3}{2}) = \frac{7}{2} \neq 0$, imposible. Luego, $y = -\frac{3}{2}$ no tiene preimagen. Por tanto, $g$ no es sobreyectiva.  
 
 **Ej:** $h: (-\infty, \frac{2}{3}] \to \mathbb{R}$, $h(x) = \sqrt{2 - 3x} + 1$. ¿Es sobreyectiva?  
