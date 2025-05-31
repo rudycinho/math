@@ -1,8 +1,13 @@
-Sea $\gamma \in C$. Queremos hallar $b \in B$ t.g. (6)=४ Por hipóters, go f is surjectiva. Is Jecir,
+Sea $\gamma \in C$. Queremos hallar $b \in B$ tal que $g(b)=\gamma$. 
+Por hipotesis, $g \circ f$ is suryectiva. Es decir, existe $a \in A$ tal que
+$$
+\gamma=(g \circ f)(a)
+$$,
 
-r=(gof)(a), P(x)
-
-sruste aEA 19. pero esto se puede escribir: γ= (gof) (a) = g(f(a)), Com fla)EB. Entonces si ponemos b=fla), tenemos que 9(6)=1.
+pero esto se puede escribir:
+$$
+γ= (g \circ f) (a) = g(f(a))$$
+, con $f(a) \in B$. Entonces si ponemos b=fla), tenemos que 9(6)=1.
 
 Obs-Saf: A→B una función, y giZEA. Si a₁ = 9₂, entrées por la Jefinición de funcidu
 
