@@ -238,7 +238,7 @@ FALTA
 
 Dada una función $f: A \to B$, ¿es su relación inversa $f^{-1} \subseteq B \times A$ una función?  
 
-Si $f$ es solo inyectiva  
+- Si $f$ es solo inyectiva  
   ![[Pasted image 20250531021718.png]]
 $$
   A = \{a, b, c\}, \quad B = \{1, 2, 3, 4\}, \quad f(a) = 1, \, f(b) = 2, \, f(c) = 4.
@@ -248,19 +248,24 @@ Relación inversa:
 
 no es una funcion.
 
-Si $f$ es solo suryectiva:  
+- Si $f$ es solo suryectiva:  
 ![[Pasted image 20250531022230.png]]
   $$
   A = \{a,b,c,d\}, \quad B = \{1,2,3\}, \quad f(a) = 2, \, f(b) = 1, \, f(c) = 2, \, f(d) = 3.
   $$  Su relación inversa
   ![[Pasted image 20250531022653.png]]
 
-  **o es función.**  
+  no es una función.  
+  
 - Si $f$ es biyectiva:  
-  $$
-  A = \{a, b, c\}, \quad B = \{2, 3, 5\}, \quad f(a) = 2, \, f(b) = 3, \, f(c) = 5.
+
+![[Pasted image 20250531023043.png]]  $$
+  A = \{a, b, c\}, \quad B = \{1, 2, 3\}, \quad f(a) = 3, \, f(b) = 2, \, f(c) = 1.
   $$  
-  Relación inversa: $2 \mapsto a$, $3 \mapsto b$, $5 \mapsto c$. Es una función biyectiva.  
+
+ Su relación inversa: 
+ ![[Pasted image 20250531023212.png]]
+ es una función que es biyectiva.  
 
 Entonces, sea $f: A \to B$ una función; decimos que $f$ es **invertible** si existe $g: B \to A$ tal que $g \circ f = \text{id}_A$ y $f \circ g = \text{id}_B$. Cuando $g$ existe, es única y se llama la **inversa** de $f$, denotada por $f^{-1}$. Para calcular $f^{-1}$, resolvemos en $x$ la ecuación $y = f(x)$.  
 
