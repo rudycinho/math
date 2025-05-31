@@ -43,7 +43,7 @@ El símbolo $\mapsto$ se lee "se aplica a". $\blacksquare$
 **Ejemplo:** Sea $f: A \to B$, donde $A = \{a,i,u,e,o\}$ y $B = \{2, 3, 5, 7, 11\}$, la función dada por:  
 $$
 \begin{flalign}
-a \mapsto 2; & i \mapsto  3; & u \mapsto  5; & e \mapsto  7; & o \mapsto 11.\\
+a \mapsto 2;& i \mapsto  3;& u \mapsto  5;& e \mapsto  7;& o \mapsto 11.\\
 f(a) = 2, & f(i) = 3, & f(u) = 5, & f(e) = 7, & f(o) = 11.
 \end{flalign}
 $$
