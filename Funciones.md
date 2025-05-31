@@ -114,10 +114,11 @@ h(a) &= h(b) \\
 a &= b.
 \end{align}
 $$
-Por tanto, $h$ es inyectiva.  
+$\therefore h$ no es inyectiva. $\blacksquare$
 
-(ii) **Sobreyectividad** (también llamada *suryectividad* o *epiyectividad*).  
-Sea $g: A \to B$ una función, se dice que es **sobreyectiva** si $(\forall b \in B) \, (\exists a \in A) \, (b = g(a))$.  
+(ii) **Suryectividad** (*sobreyectividad*;*epiyectividad*).  
+Sea $g: Z \to W$ una función; se dice que g es **suryectiva** (o **sobreyectiva** o **epiyectiva**) si $$(\forall b \in B) \, (\exists a \in A) \, (b = g(a))$$.
+
 Para chequear la sobreyectividad, hay que resolver la ecuación $b = g(a)$ para "$a$" sin introducir restricciones nuevas implícita o explícitamente.  
 Repetimos los ejemplos:  
 **Ej:** $f: \mathbb{R} \to \mathbb{R}$, $x \mapsto x^2 + 1$. ¿Es sobreyectiva?  
