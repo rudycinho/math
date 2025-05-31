@@ -20,9 +20,9 @@ f_* : 2^X \to 2^Y \qquad f^* : 2^Y \to 2^X
 $$
 dadas por
 
-$$f_*(A) = f(A)=\{f(a) : a \in Α \}$$
+$$f_*(A) = \underbrace{f(A)=\{f(a) : a \in Α \}}_{imagen de A}$$
 
-imagen de A
+
 
 donde $A \in 2^X$, i.e. , $A \subseteq X$; y
 
