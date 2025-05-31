@@ -169,11 +169,18 @@ z &= h(x)  \\
 z &= \sqrt{2 - 3x} + 1 \\  
 z - 1 &= \sqrt{2 - 3x} \quad (\text{implica } z - 1 \geq 0) \\
 (z - 1)^2 &= 2 - 3x \\
+(z - 1)^2 -2 &= - 3x \\
 x &= \frac{2 - (z - 1)^2}{3}\\
 \end{align}
 $$
 
-Para $z = -2$, $x = \frac{2 - (-3)^2}{3} = -\frac{7}{3}$, pero $h(-\frac{7}{3}) = \sqrt{2 - 3(-\frac{7}{3})} + 1 = \sqrt{9} + 1 = 4 \neq -2$. La restricción $z - 1 \geq 0$ (i.e., $z \geq 1$) limita el rango. Para $z < 1$, no hay solución. Por tanto, $h$ no es sobreyectiva.  
+Para $z = -2$, segun lo anterior $$x = \frac{2 - (-3)^2}{3} = -\frac{7}{3}$$.
+
+Veamos:
+$$h(-\frac{7}{3}) = \sqrt{2 - 3(-\frac{7}{3})} + 1 = \sqrt{9} + 1 = 4 \neq -2$$. 
+
+La restricción $z - 1 \geq 0$ (i.e., $z \geq 1$) limita el rango. Para $z < 1$, no hay solución. 
+Por tanto, $h$ no es sobreyectiva.  $\blacksquare$
 
 (iii) **Biyectividad.**  
 Sea $f: A \to B$ una función; se dice que es **biyectiva** si es, al mismo tiempo, inyectiva y sobreyectiva.  
