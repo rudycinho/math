@@ -202,9 +202,9 @@ Al igual que con las relaciones, la única operación "natural" entre funciones 
 $$
 S \circ R = \{(a, c) : (\exists b \in B) \, (a \, R \, b \land b \, S \, c)\},
 $$  
-y vimos que para que $S \circ R \neq \emptyset$, debe darse que el rango de $R$ esté contenido en el dominio de $S$: $I_R \cap D_S \neq \emptyset$.  
+y vimos que para que $S \circ R \neq \emptyset$, debe darse que $I_R \cap D_S \neq \emptyset$.  
  
-Ahora, sean $f: A \to B$ y $g: B \to C$. Como el rango de $f$ está contenido en $B =$ dominio de $g$, la composición siempre existe, y obtenemos una función:  
+Ahora, sean $f: A \to B$ y $g: B \to C$, entonces como $R_f \subseteq B = D_g$ , la composición siempre existe (el codominio de f, por lo menos debe estar incluido en el dominio de g) asi obtenemos una función:  
 $$
 g \circ f: A \to C, \quad (g \circ f)(x) = g(f(x)).
 $$  
