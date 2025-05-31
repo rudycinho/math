@@ -20,11 +20,11 @@ f_* : 2^X \to 2^Y \qquad f^* : 2^Y \to 2^X
 $$
 dadas por
 
-fx (A) = f(A)={fla) : αε Αξ
+$$f_*(A) = f(A)=\{f(a) : a \in Α \}$$
 
-imagen Je A
+imagen de A
 
-Joude A€2*, ;, A= X; γ a -1
+donde $A€2*$, ;, A= X; γ a -1
 
 preimagen de B
 
