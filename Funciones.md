@@ -249,10 +249,13 @@ Relación inversa:
 no es una funcion.
 
 Si $f$ es solo suryectiva:  
+![[Pasted image 20250531022230.png]]
   $$
-  A = \{5, -2, 3\}, \quad B = \{2, 3\}, \quad f(5) = 2, \, f(-2) = 3, \, f(3) = 2.
-  $$  
-  Relación inversa: $2 \mapsto 5$ o $3$, $3 \mapsto -2$; no única. **No es función.**  
+  A = \{a,b,c,d\}, \quad B = \{1,2,3\}, \quad f(a) = 2, \, f(b) = 1, \, f(c) = 2, \, f(d) = 3.
+  $$  Su relación inversa
+  ![[Pasted image 20250531022653.png]]
+
+  **o es función.**  
 - Si $f$ es biyectiva:  
   $$
   A = \{a, b, c\}, \quad B = \{2, 3, 5\}, \quad f(a) = 2, \, f(b) = 3, \, f(c) = 5.
