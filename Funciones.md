@@ -35,11 +35,12 @@ $$
 g: \mathbb{R} & \to [-1, 1] \\ t &\mapsto \sin t
 \end{align}
 $$  
-como conjuntos son identicos, pero como funciones son distintas.
+como conjuntos son idénticas, pero como funciones son distintas.
 
-**Obs:** Cuando se define una función, escribimos $f: w \mapsto y(w)$ para indicar la regla de correspondencia. El símbolo $\mapsto$ se lee "se aplica a" o "mapea a".
+**Observacion:** Cuando $g : W \to Z$ es una función escribimos $w \mapsto g(w)$ para indicar la regla de correspondencia. 
+El símbolo $\mapsto$ se lee "se aplica a". $\blacksquare$
 
-Sea $f: A \to B$, donde $A = \{\alpha, \beta, \gamma, \delta, \epsilon\}$ y $B = \{2, 3, 5, 7, 15\}$, la función dada por:  
+**Ejemplo:** Sea $f: A \to B$, donde $A = \{a,i,u,e,o}$ y $B = \{2, 3, 5, 7, 15\}$, la función dada por:  
 $$
 f(\alpha) = 2, \, f(\beta) = 3, \, f(\gamma) = 5, \, f(\delta) = 7, \, f(\epsilon) = 15.
 $$
