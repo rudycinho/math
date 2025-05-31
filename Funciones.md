@@ -194,8 +194,9 @@ Sea $f: A \to B$ una función; se dice que es **biyectiva** si es, al mismo tiem
 **Ejemplos:**  
 $f: \mathbb{R} \to \mathbb{R}$, $x \mapsto x^2 + 1$ no es biyectiva, pues no es inyectiva ni suryectiva.  
 
-$g: \mathbb{Q} \to \mathbb{Q}$, $q \mapsto \frac{2 - 3q}{1 + 2q}$ es inyectiva pero no sobreyectiva (pues $y = -\frac{3}{2}$ no está en el rango), luego no es biyectiva.  
-$h: (-\infty, \frac{2}{3}] \to \mathbb{R}$, $h(x) = \sqrt{2 - 3x} + 1$ es inyectiva pero no sobreyectiva (rango $[1, \infty)$), luego no es biyectiva.  
+$g : \mathbb{Q} \setminus \left\{-\frac{1}{2}\right\} \to \mathbb{Q} \setminus \left\{-\frac{3}{2}\right\}$, $q \mapsto \frac{2 - 3q}{1 + 2q}$ es biyectiva.
+
+$h: (-\infty, \frac{2}{3}] \to \mathbb{R}$, $x \mapsto \sqrt{2 - 3x} + 1$ no es biyectiva, pues no es suryectiva.
 
 Al igual que con las relaciones, la única operación "natural" entre funciones es la **composición**. Recordemos: Sean $R \subseteq A \times B$ y $S \subseteq B \times C$ dos relaciones, su composición es  
 $$
