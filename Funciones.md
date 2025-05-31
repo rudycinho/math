@@ -307,7 +307,10 @@ $$
 $\blacksquare$
 
 Vimos que la composicion de funciones inyectivas, suryectivas o biyectivas es, de nuevo inyectiva, suryectiva  o biyectiva. Que hay del reciproco?
-Lastimosamente, no
+Lastimosamente, no son ciertos, pero tenemos reciprocos parciales.
+
+i) $g \circ f \; \text{ inyectiva} \implies f \text{ inyectiva}$
+
 ### Propiedades de imagen y preimagen
 Dada una función $f: X \to Y$, obtenemos dos funciones inducidas:  
 $$
