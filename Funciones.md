@@ -32,10 +32,10 @@ $$
 y  
 $$
 \begin{align}
-g: \mathbb{R} & \to [-1, 1], \\ t &\mapsto \sin t
+g: \mathbb{R} & \to [-1, 1] \\ t &\mapsto \sin t
 \end{align}
 $$  
-tienen el mismo conjunto de pares, pero no son idénticas, puesto que tienen distintos codominios. Son distintas funciones.
+como conjuntos son identicos, pero como funciones son distintas.
 
 **Obs:** Cuando se define una función, escribimos $f: w \mapsto y(w)$ para indicar la regla de correspondencia. El símbolo $\mapsto$ se lee "se aplica a" o "mapea a".
 
