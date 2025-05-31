@@ -36,13 +36,13 @@ $f_*(A)=f(A)=\emptyset$. Pero si $B\subseteq Y$ y $B \cap R_f=\emptyset$, entonc
 ![[Pasted image 20250531115332.png]]
 
 
-Si tomamos ye B, sutrices f^ * (\{y\}) = f ^ (p - 1) * (\{y\}) Se escribe
+Si tomamos $y \in B$, entonces $f^* (\{y\}) = f^{-1}(\{y\})$ se escribe
 
-f ^ - 1 * (y) = \{x \in X / f * (x) = y\}
+$$f^{-1}(y) = \{x \in X : f(x) = y\}$$
 
-I se llama et erantasiento de y.
+y se llama el **levantamiento** de y.
 
-Ej. Escah dada por g(n) = n ^ 2
+**Ejemplo:** Sea $g: \mat$ dada por $g(n) = n^2$
 
 Sea A = \{1, - 3, 0, 11\} entonces
 
