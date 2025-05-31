@@ -21,7 +21,7 @@ En álgebra, para determinar una función, debemos dar simultáneamente tres "da
 
 - (i) el dominio;  
 - (ii) el codominio;  
-- (iii) la regla de **correspondencia** que indica cómo se asigna a cada elemento del dominio un elemento del codominio. Esto se hace mediante fórmulas algebraicas, diagramas de Venn o asignaciones explícitas.
+- (iii) la regla de **correspondencia** que indica cómo se asigna un elemento del codominio a cada elemento del codominio. Esto se hace mediante fórmulas algebraicas, diagramas de Venn o asignaciones explícitas.
 
 Las funciones  
 $$
