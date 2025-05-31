@@ -445,12 +445,15 @@ En general, no se cumple que:
 $$f(A \cap B) = f(A) \cap f(B)$$  
 Por ejemplo, sea $g:\mathbb{Z} \to \mathbb{N}$ dada por $g(x) = x^2$. Sean $$A = \{-2, -3, 4\} \qquad \text{y}\qquad B = \{2, 3, 4\}$$.  
 en este caso,
-f(A)
+$$
+\begin{align}
+f(A) = \{4, 9, 16\} &, f(B) = \{4, 9, 16, 25\}\\
+f(A) \cap f(B) &= \{4, 9, 16\}
+\end{align}
+$$
 
-- $g(A) = \{4, 9, 16\}$, $g(B) = \{4, 9, 16\}$  
-- $g(A) \cap g(B) = \{4, 9, 16\}$  
-- $A \cap B = \{4\}$, $g(A \cap B) = \{16\}$  
-∴ $g(A \cap B) \neq g(A) \cap g(B)$.  
+pero
+∴ $f(A \cap B) = g({4}) = {16}$.  
 
 ---
 
