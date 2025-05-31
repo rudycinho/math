@@ -426,10 +426,11 @@ $$(\exists a \in A)(f(a) = \alpha) \qquad \text{o} \qquad (\exists b \in B)(f(b)
 Luego, $a,b \in A \cup B$ y
 $$f(a) = \alpha = f(b)$$
 
-I.e. $\alph$
-*Demostración de (3):*  
-Sea $y \in f(A \cap B)$. Entonces $\exists a \in A \cap B$ con $f(a) = y$. Como $a \in A$ y $a \in B$, $y \in f(A)$ y $y \in f(B)$, luego $y \in f(A) \cap f(B)$.  
+I.e. $\alpha \in f(A \cup B) \qquad \therefore f(A)\cup f(B) \subset f(A\cup B)$
 
+**Demostración de (3):**  
+Sea $y \in f(A \cap B)$. Entonces $(\exists a \in A \cap B)(f(a) = y)$. existe $a \in A \cap B$, entonces
+$$$$
 **Contraejemplo para igualdad en (3):**  
 Sea $g: \mathbb{Z} \to \mathbb{Z}$ con $g(x) = x^2$. Sean $A = \{-2, -3, 4\}$, $B = \{2, 3, 4\}$.  
 - $g(A) = \{4, 9, 16\}$, $g(B) = \{4, 9, 16\}$  
