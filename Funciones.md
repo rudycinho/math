@@ -210,10 +210,13 @@ g \circ f: A \to C, \quad \text{dada por} \quad (g \circ f)(x) = g(f(x)).
 $$
 
 **Observacion:** 
-Si escribimos $(x)f$ en lugar de $f(x)$, entonces la composición de $f$ y $g$ se escribe $(x)(g \circ f) = ((x)f)g$. El símbolo $g \circ f$ se lee "$g$ compuesta con $f$".  
+Si escribimos $(x)f$ en lugar de $f(x)$, entonces la composición de $f$ y $g$ se escribe $$(x)(f \circ g) = ((x)f)g$$. $\blacksquare$
+
+El símbolo $g \circ f$ se lee "$g$ compuesta con $f$".  
 
 Supongamos que $g \circ f$ y $f \circ g$ existen ambas; no siempre son iguales.  
-**Ej:** Sean $f, g: \mathbb{R} \to \mathbb{R}$ dadas por $f(x) = x^2$, $g(x) = \sqrt{x}$ (con dominio $x \geq 0$ para $g$). Entonces:  
+
+**Ejemplo:** Sean $f, g: \mathbb{R} \to \mathbb{R}$ dadas por $f(x) = x^2$, $g(x) = \sqrt{x}$ (con dominio $x \geq 0$ para $g$). Entonces:  
 $$
 (g \circ f)(x) = g(f(x)) = g(x^2) = \sqrt{x^2} = |x|,
 $$  
