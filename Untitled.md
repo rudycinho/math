@@ -20,14 +20,12 @@ $$
 ![[Pasted image 20250531124620.png]]
 
 
-Es fácil demostrar que 
-
-$$(g \circ f)_* = g_* \circ f_*$$
+Es fácil demostrar que $$(g \circ f)_* = g_* \circ f_*$$
 
 Por otro lado,
 
+![[Pasted image 20250531125442.png]]
 
-
-Es fácil demostrar que 
-(jo p)=f-8"
+Es fácil demostrar que $$(g \circ f)^* = g^* \circ f^*$$
+$\blacksquare$
 
