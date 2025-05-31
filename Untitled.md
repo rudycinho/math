@@ -20,17 +20,14 @@ f_* : 2^X \to 2^Y \qquad f^* : 2^Y \to 2^X
 $$
 dadas por
 
-$$f_*(A) = \underbrace{f(A)=\{f(a) : a \in Α \}}_{imagen de A}$$
-
-
+$$f_*(A) = \underbrace{f(A)=\{f(a) : a \in Α \}}_{\text{imagen de A}}$$
 
 donde $A \in 2^X$, i.e. , $A \subseteq X$; y
 
-preimagen de B
+$$f^*(B) = \underbrace{f^{-1}(B)=\{a \in X : f(a) \in B  \}}_{\text{preimagen de A}}$$
+donde $B \in 2^Y$, i.e. , $B \subseteq Y$.
 
-Y dante BEZ, ie, BSY
-
-Obs-Pese a la motación, ft(B) no tiene nada que ver com que no exista. La inmessa de f, pues quote
+**Observacion:** Pese a la notación, $f^{-1}(B)$ no tiene nada que ver con la inversa de f, pues puede que no exista. $\blacksquare$
 
 Conmo fos una función, porn to do A=AEX. for(A)=f(A)=$. Prosi BCY, BOR₁=$, entres 1(B)=1/(B)=$, pus
 
