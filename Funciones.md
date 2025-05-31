@@ -167,7 +167,7 @@ $$
 \begin{align}
 z &= h(x)  \\
 z &= \sqrt{2 - 3x} + 1 \\  
-z - 1 &= \sqrt{2 - 3x} \\
+z - 1 &= \sqrt{2 - 3x} \qquad(*) \\
 (z - 1)^2 &= 2 - 3x \\
 (z - 1)^2 -2 &= - 3x \\
 x &= \frac{2 - (z - 1)^2}{3}\\
@@ -179,6 +179,7 @@ Para $z = -2$, segun lo anterior $$x = \frac{2 - (-3)^2}{3} = -\frac{7}{3}$$.
 Veamos:
 $$h(-\frac{7}{3}) = \sqrt{2 - 3(-\frac{7}{3})} + 1 = \sqrt{9} + 1 = 4 \neq -2$$. 
 
+El error se debe a que en $(*)$
 La restricción $z - 1 \geq 0$ (i.e., $z \geq 1$) limita el rango. Para $z < 1$, no hay solución. 
 Por tanto, $h$ no es sobreyectiva.  $\blacksquare$
 
