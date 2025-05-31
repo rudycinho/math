@@ -272,9 +272,8 @@ Para calcular $f^{-1}$, resolvemos en $x$ la ecuación $$y = f(x)$$.
 
 Se debe demostrar que $f$ es invertible si y solo si es biyectiva.  
 
-De los tres ejemplos anteriores, solo $g: \mathbb{Q} \setminus \{-\frac{1}{2}\} \to \mathbb{Q} \setminus \{-\frac{3}{2}\}$ dada por $g(q) = \frac{2 - 3q}{1 + 2q}$ es biyectiva (al restringir dominio y codominio). 
-Al chequear la suryectividad, hemos resuelto la ecuacion $w = g(q)$:  
-$$
+**Ejemplo:** De los tres ejemplos anteriores, solo $g: \mathbb{Q} \setminus \{-\frac{1}{2}\} \to \mathbb{Q} \setminus \{-\frac{3}{2}\}$ dada por $g(q) = \frac{2 - 3q}{1 + 2q}$ es biyectiva (al restringir dominio y codominio). 
+Al chequear la suryectividad, hemos resuelto la ecuacion $w = g(q)$:
 w = \frac{2 - 3q}{1 + 2q} \Rightarrow q = \frac{2 - w}{2w + 3}.
 $$  
 Esta igualdad da la fórmula de la inversa:  
