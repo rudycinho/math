@@ -10,17 +10,14 @@ $$
 
 **Observacion:** Sea $f : A \to B$ una función, y $a_1,a_2 \in A$. Si $a_1 = a_2$, entonces por la definición de funcion
 $$
-Hay)=f(as)
+f(a_1)=f(a_2)
 $$
-''
-Daca sura función f: XY, dos funcimes inducidas
+$\blacksquare$
 
-obtenemos
-
-→ Y
-
-*
-
+Dada una función $f: X \to Y$, obtenemos dos funciones inducidas
+$$
+f_* : 2^X \to 2^Y \qquad f^* : 2^Y \to 2^X 
+$$
 dadas por
 
 fx (A) = f(A)={fla) : αε Αξ
