@@ -223,16 +223,16 @@ $$
 &(f \circ g)(x) = f(g(x)) = f(\sqrt{x}) = (\sqrt{x})^2 = x \quad \text{si} \quad(x \geq 0).\\
 \end{align}
 $$  
-Así, $g \circ f \neq f \circ g$.  
+Así, $g \circ f \neq f \circ g$.  $\blacksquare$
 
 Sin embargo, es fácil demostrar que la composición de funciones es asociativa:  
 $$
 h \circ (g \circ f) = (h \circ g) \circ f.
 $$  
-También es fácil demostrar que para $f: A \to B$ y $g: B \to C$:  
-(i) Si $f$ y $g$ son inyectivas, entonces $g \circ f$ es inyectiva.  
-(ii) Si $f$ y $g$ son sobreyectivas, entonces $g \circ f$ es sobreyectiva.  
-(iii) Si $f$ y $g$ son biyectivas, entonces $g \circ f$ es biyectiva.  
+También es fácil demostrar que para $f: A \to B$ y $g: B \to C$ funciones:  
+- (i) $f$ y $g$ son inyectivas \implies $g \circ f$ es inyectiva.  
+- (ii) $f$ y $g$ son suryectivas, \implies $g \circ f$ es sobreyectiva.  
+- (iii) $f$ y $g$ son biyectivas, entonces $g \circ f$ es biyectiva.  
 
 Dada una función $f: A \to B$, ¿es su relación inversa $f^{-1} \subseteq B \times A$ una función?  
 - Si $f$ es solo inyectiva (no sobreyectiva):  
