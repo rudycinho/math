@@ -415,12 +415,15 @@ Sea $y \in f(A)$. Es decir,
 $$
 \begin{align}
 &(\exists a \in A)(f(a) = y)\\
-\Rightarrow &(\exists a \in B)(f(a) = y)\\
+\Rightarrow & (\exists a \in B)(f(a) = y)\\
 \Rightarrow & y \in f(B)\\
 \end{align}
 $$
-**Demostración de (2):**  
-Sea $y \in f(A) \cup f(B)$. Entonces $y \in f(A)$ o $y \in f(B)$.  
+**Demostración de (2):** $f(A) \cup f(B) \subseteq f(A \cup B)$  
+Sea $\alpha \in f(A) \cup f(B)$, entonces $\alpha \in f(A)$ o $\alpha \in f(B)$. Por definición de imagen:
+
+$$(\exists a \in A)(f(a) = y)$$
+
 - Si $y \in f(A)$, $\exists a \in A$ con $f(a) = y$. Como $a \in A \cup B$, $y \in f(A \cup B)$.  
 - Si $y \in f(B)$, $\exists b \in B$ con $f(b) = y$. Como $b \in A \cup B$, $y \in f(A \cup B)$.  
 Recíprocamente, si $y \in f(A \cup B)$, $\exists x \in A \cup B$ con $f(x) = y$. Si $x \in A$, $y \in f(A)$; si $x \in B$, $y \in f(B)$. En ambos casos, $y \in f(A) \cup f(B)$.  
