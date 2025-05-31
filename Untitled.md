@@ -29,11 +29,14 @@ donde $B \in 2^Y$, i.e. , $B \subseteq Y$.
 
 **Observacion:** Pese a la notación, $f^{-1}(B)$ no tiene nada que ver con la inversa de f, pues puede que no exista. $\blacksquare$
 
-Conmo fos una función, porn to do A=AEX. for(A)=f(A)=$. Prosi BCY, BOR₁=$, entres 1(B)=1/(B)=$, pus
+Como $f$ es una función, para todo $\emptyset \neq A \subseteq X$. 
+$f_*(A)=f(A)=\emptyset$. Pero si $B\subseteq Y$ y $B \cap R_f=\emptyset$, entonces $f^*(B)=f^{-1}(B)=\emptyset$, pues
 
-x
 
-Se tomamos ye B, sutrices f^ * (\{y\}) = f ^ (p - 1) * (\{y\}) Se escribe
+![[Pasted image 20250531115332.png]]
+
+
+Si tomamos ye B, sutrices f^ * (\{y\}) = f ^ (p - 1) * (\{y\}) Se escribe
 
 f ^ - 1 * (y) = \{x \in X / f * (x) = y\}
 
