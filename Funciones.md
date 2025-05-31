@@ -277,15 +277,27 @@ Al chequear la suryectividad, hemos resuelto la ecuacion $$
 \begin{align}
 w &= g(q) \\
 w &= \frac{2 - 3q}{1 + 2q} \\
-(1 + 2q) &= 2 - 3q \\
+(1 + 2q)\cdot w &= 2 - 3q \\
+w + 2qw &= 2 - 3q \\
+2qw + 3q &= 2 - w \\
+q \cdot (2w + 3) &= 2 - w \\
 q &= \frac{2 - w}{2w + 3}  \\
 \end{align}
 $$
+Esta igualdad nos da la formula de la inverda:
 
+$$g^{-1}(w) = \frac{2 - w}{2w + 3}$$
 
-g^{-1}(w) = \frac{2 - w}{2w + 3}, \quad \text{o} \quad g^{-1}(q) = \frac{2 - q}{2q + 3}.
+o alternativamente
+$$\quad g^{-1}(q) = \frac{2 - q}{2q + 3}$$
 
-(g \circ g^{-1})(q) = g\left(g^{-1}(q)\right) = g\left(\frac{2 - q}{2q + 3}\right) = \frac{2 - 3 \cdot \frac{2 - q}{2q + 3}}{1 + 2 \cdot \frac{2 - q}{2q + 3}} = \frac{\frac{2(2q + 3) - 3(2 - q)}{2q + 3}}{\frac{(2q + 3) + 2(2 - q)}{2q + 3}} = \frac{4q + 6 - 6 + 3q}{2q + 3 + 4 - 2q} = \frac{7q}{7} = q.
+Verificamos la composicion:
+
+$$
+\begin{align}
+(g \circ g^{-1})(q) &= g\left(g^{-1}(q)\right) \\ = g\left(\frac{2 - q}{2q + 3}\right) = \frac{2 - 3 \cdot \frac{2 - q}{2q + 3}}{1 + 2 \cdot \frac{2 - q}{2q + 3}} = \frac{\frac{2(2q + 3) - 3(2 - q)}{2q + 3}}{\frac{(2q + 3) + 2(2 - q)}{2q + 3}} = \frac{4q + 6 - 6 + 3q}{2q + 3 + 4 - 2q} = \frac{7q}{7} = q
+\end{align}
+$$
 
 ### Propiedades de imagen y preimagen
 Dada una función $f: X \to Y$, obtenemos dos funciones inducidas:  
