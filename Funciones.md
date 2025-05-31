@@ -206,9 +206,11 @@ y vimos que para que $S \circ R \neq \emptyset$, debe darse que $I_R \cap D_S \n
  
 Ahora, sean $f: A \to B$ y $g: B \to C$, entonces como $R_f \subseteq B = D_g$ , la composición siempre existe (el codominio de f, por lo menos debe estar incluido en el dominio de g) asi obtenemos una función:  
 $$
-g \circ f: A \to C, \quad (g \circ f)(x) = g(f(x)).
-$$  
-Además, si escribimos $(x)f$ en lugar de $f(x)$, entonces la composición se escribe $(x)(g \circ f) = ((x)f)g$. El símbolo $g \circ f$ se lee "$g$ compuesta con $f$".  
+g \circ f: A \to C, \quad \text{dada por} \quad (g \circ f)(x) = g(f(x)).
+$$
+
+**Observacion:** 
+Si escribimos $(x)f$ en lugar de $f(x)$, entonces la composición de $f$ y $g$ se escribe $(x)(g \circ f) = ((x)f)g$. El símbolo $g \circ f$ se lee "$g$ compuesta con $f$".  
 
 Supongamos que $g \circ f$ y $f \circ g$ existen ambas; no siempre son iguales.  
 **Ej:** Sean $f, g: \mathbb{R} \to \mathbb{R}$ dadas por $f(x) = x^2$, $g(x) = \sqrt{x}$ (con dominio $x \geq 0$ para $g$). Entonces:  
