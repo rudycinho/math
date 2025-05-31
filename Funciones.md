@@ -8,26 +8,20 @@ Cuando $(a,b) \in f$, escribimos $$b = f(a)$$, donde $f(a)$ se lee "f de a".
 
 Según esta definición, las siguientes relaciones no son funciones:
 
+![[Pasted image 20250530222604.png]]
 
-
+![[Pasted image 20250530222629.png]]
 En cambio, las siguientes sí son funciones:
+![[Pasted image 20250530222723.png]]
+![[Pasted image 20250530222739.png]]
 
-- **Diagrama 3:**  
-  $A = \{1, 2, 3\}$,  
-  $B = \{2\}$  
-  con $f(a) = 2$ para todo $a \in A$.
-
-- **Diagrama 4:**  
-  $A = \{2, 3\}$,  
-  $B = \{2, 3\}$  
-  con $f(2) = 2$ y $f(3) = 3$.
-
-Si $f: A \to B$ es una función, el conjunto $A$ se llama el **dominio** de $f$, y al conjunto $B$ se llama el **codominio** de $f$. El subconjunto de $B$ dado por $R_f = \{b \in B : (\exists a \in A) \, (b = f(a))\}$ se llama el **recorrido** o **rango** de $f$.
+Si $f: A \to B$ es una función, el conjunto $A$ se llama el **dominio** de $f$, y el conjunto $B$ se llama el **codominio** de $f$. El subconjunto de $B$ dado por $R_f = \{b \in B : (\exists a \in A) \, (b = f(a))\}$ se llama el **recorrido** o **rango** de $f$.
 
 En álgebra, para determinar una función, debemos dar simultáneamente tres "datos":  
-(i) el dominio;  
-(ii) el codominio;  
-(iii) la regla de correspondencia que indica cómo se asigna a cada elemento del dominio un elemento del codominio. Esto se hace mediante fórmulas algebraicas, diagramas de Venn o asignaciones explícitas.
+
+- (i) el dominio;  
+- (ii) el codominio;  
+- (iii) la regla de **correspondencia** que indica cómo se asigna a cada elemento del dominio un elemento del codominio. Esto se hace mediante fórmulas algebraicas, diagramas de Venn o asignaciones explícitas.
 
 Las funciones  
 $$
