@@ -24,7 +24,7 @@ $$f_*(A) = f(A)=\{f(a) : a \in Α \}$$
 
 imagen de A
 
-donde $A€2*$, ;, A= X; γ a -1
+donde $A \in 2^X$, i.e. , $A \subseteq X$; y
 
 preimagen de B
 
