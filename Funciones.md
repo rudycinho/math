@@ -85,25 +85,21 @@ a=b &\lor a=-b \\
 $$
 $\therefore f$ no es inyectiva 
 
+**Ej:** Sea $g : \mathbb{Q} \setminus \left\{-\frac{1}{2}\right\} \to \mathbb{Q} \setminus \left\{-\frac{3}{2}\right\}$ dada por $g(q) = \frac{2 - 3q}{1 + 2q}$. ¿Es inyectiva?  
+**Solución:** Supongamos que
+$$
+\begin{align}
+g(w) &= g(v)\\
+\frac{2 - 3w}{1 + 2w} &= \frac{2 - 3v}{1 + 2v}\\
+(2 - 3w)(1 + 2v) &= (2 - 3v)(1 + 2w)\\
+2 + 4v - 3w - 6vw &= 2 + 4w - 3v - 6vw\\
+4v - 3w &= 4w - 3v\\
+7v &= 7w\\
+v &= w.
+\end{align}
+$$
 
-**Ej:** Sea $g: \mathbb{Q} \to \mathbb{Q}$ dada por $g(q) = \frac{2 - 3q}{1 + 2q}$. ¿Es inyectiva?  
-**Solución:** Supongamos que $g(w) = g(v)$, entonces:  
-$$
-\frac{2 - 3w}{1 + 2w} = \frac{2 - 3v}{1 + 2v}
-$$  
-$$
-(2 - 3w)(1 + 2v) = (2 - 3v)(1 + 2w)
-$$  
-$$
-2 + 4v - 3w - 6vw = 2 + 4w - 3v - 6vw
-$$  
-$$
-4v - 3w = 4w - 3v
-$$  
-$$
-7v = 7w \Rightarrow v = w.
-$$  
-Por tanto, $g$ es inyectiva.  
+$\therefore f$ no es inyectiva. $\blacksquare$
 
 **Ej:** Sea $h: (-\infty, \frac{2}{3}] \to \mathbb{R}$ dada por $h(x) = \sqrt{2 - 3x} + 1$. ¿Es inyectiva?  
 **Solución:** Supongamos $h(a) = h(b)$, entonces:  
