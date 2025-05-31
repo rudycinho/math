@@ -273,17 +273,19 @@ Para calcular $f^{-1}$, resolvemos en $x$ la ecuación $$y = f(x)$$.
 Se debe demostrar que $f$ es invertible si y solo si es biyectiva.  
 
 **Ejemplo:** De los tres ejemplos anteriores, solo $g: \mathbb{Q} \setminus \{-\frac{1}{2}\} \to \mathbb{Q} \setminus \{-\frac{3}{2}\}$ dada por $g(q) = \frac{2 - 3q}{1 + 2q}$ es biyectiva (al restringir dominio y codominio). 
-Al chequear la suryectividad, hemos resuelto la ecuacion $w = g(q)$:
-w = \frac{2 - 3q}{1 + 2q} \Rightarrow q = \frac{2 - w}{2w + 3}.
-$$  
-Esta igualdad da la fórmula de la inversa:  
+Al chequear la suryectividad, hemos resuelto la ecuacion $$
+\begin{align}
+w &= g(q) \\
+w &= \frac{2 - 3q}{1 + 2q} \\
+(1 + 2q) &= 2 - 3q \\
+q &= \frac{2 - w}{2w + 3}  \\
+\end{align}
 $$
+
+
 g^{-1}(w) = \frac{2 - w}{2w + 3}, \quad \text{o} \quad g^{-1}(q) = \frac{2 - q}{2q + 3}.
-$$  
-Verifique la composición:  
-$$
+
 (g \circ g^{-1})(q) = g\left(g^{-1}(q)\right) = g\left(\frac{2 - q}{2q + 3}\right) = \frac{2 - 3 \cdot \frac{2 - q}{2q + 3}}{1 + 2 \cdot \frac{2 - q}{2q + 3}} = \frac{\frac{2(2q + 3) - 3(2 - q)}{2q + 3}}{\frac{(2q + 3) + 2(2 - q)}{2q + 3}} = \frac{4q + 6 - 6 + 3q}{2q + 3 + 4 - 2q} = \frac{7q}{7} = q.
-$$  
 
 ### Propiedades de imagen y preimagen
 Dada una función $f: X \to Y$, obtenemos dos funciones inducidas:  
