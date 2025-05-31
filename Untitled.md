@@ -20,21 +20,14 @@ $$
 ![[Pasted image 20250531124620.png]]
 
 
-```
-A ---- B
- \     |
-  \    |
-   \   |
-     \ |
-   
-```
-AB Jof 223 ১ (১৭), C ১. 2
+Es fácil demostrar que 
 
-Es fácil Jemostrar que (21)=Jit
+$$(g \circ f)_* = g_* \circ f_*$$
 
 Por otro lado,
 
-A-B 8 2 tos (31) -28 S*
 
-Es fácil encasta que (jo p)=f-8"
+
+Es fácil demostrar que 
+(jo p)=f-8"
 
