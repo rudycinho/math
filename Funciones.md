@@ -161,16 +161,14 @@ $\therefore g$ si es suryectiva. $\blacksquare$
 
 
 **Ej:** $h: (-\infty, \frac{2}{3}] \to \mathbb{R}$, $x \mapsto \sqrt{2 - 3x} + 1$. ¿Es suryectiva?  
-**Solución:** Sea $z \in \mathbb{R}$, resolvemos $z = h(x) =\sqrt{2 - 3x} + 1$:  
-$$
+**Solución:** Sea $z \in \mathbb{R}$, resolvemos:
+
+z = h(x) =\sqrt{2 - 3x} + 1  
 z - 1 = \sqrt{2 - 3x} \quad (\text{implica } z - 1 \geq 0)
-$$  
-$$
 (z - 1)^2 = 2 - 3x
-$$  
-$$
 x = \frac{2 - (z - 1)^2}{3}.
-$$  
+
+
 Para $z = -2$, $x = \frac{2 - (-3)^2}{3} = -\frac{7}{3}$, pero $h(-\frac{7}{3}) = \sqrt{2 - 3(-\frac{7}{3})} + 1 = \sqrt{9} + 1 = 4 \neq -2$. La restricción $z - 1 \geq 0$ (i.e., $z \geq 1$) limita el rango. Para $z < 1$, no hay solución. Por tanto, $h$ no es sobreyectiva.  
 
 (iii) **Biyectividad.**  
