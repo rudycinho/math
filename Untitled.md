@@ -16,6 +16,18 @@ $$
 
 **Observacion:** Sean $f: A \to B$ y $f: B \to C$ funciones.
 
+
+![[Pasted image 20250531124620.png]]
+
+
+```
+A ---- B
+ \     |
+  \    |
+   \   |
+     \ |
+   
+```
 AB Jof 223 ১ (১৭), C ১. 2
 
 Es fácil Jemostrar que (21)=Jit
