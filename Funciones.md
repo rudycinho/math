@@ -405,6 +405,46 @@ Por otro lado,
 Es fácil demostrar que $$(g \circ f)^* = g^* \circ f^*$$
 $\blacksquare$
 
+La "imagen" tiene las siguiente propiedades
+i. $A \subset B \Rightarrow f(A) \subset f(B)$, $A, B \subset X$.  
+ii. $f(A \cup B) = f(A) \cup f(B)$.  
+iii. $f(A \cap B) \subset f(A) \cap f(B)$.  
 
+**Demostración de (i):**
+Sea $y \in f(A)$. Es decir, 
+$$
+\begin{align}
+(\exists a \in A)(f(a) = y)
+\end{align}
+$$. Como $A \subseteq B$, $a \in B$, luego $y \in f(B)$.  
+
+*Demostración de (2):*  
+Sea $y \in f(A) \cup f(B)$. Entonces $y \in f(A)$ o $y \in f(B)$.  
+- Si $y \in f(A)$, $\exists a \in A$ con $f(a) = y$. Como $a \in A \cup B$, $y \in f(A \cup B)$.  
+- Si $y \in f(B)$, $\exists b \in B$ con $f(b) = y$. Como $b \in A \cup B$, $y \in f(A \cup B)$.  
+Recíprocamente, si $y \in f(A \cup B)$, $\exists x \in A \cup B$ con $f(x) = y$. Si $x \in A$, $y \in f(A)$; si $x \in B$, $y \in f(B)$. En ambos casos, $y \in f(A) \cup f(B)$.  
+
+*Demostración de (3):*  
+Sea $y \in f(A \cap B)$. Entonces $\exists a \in A \cap B$ con $f(a) = y$. Como $a \in A$ y $a \in B$, $y \in f(A)$ y $y \in f(B)$, luego $y \in f(A) \cap f(B)$.  
+
+**Contraejemplo para igualdad en (3):**  
+Sea $g: \mathbb{Z} \to \mathbb{Z}$ con $g(x) = x^2$. Sean $A = \{-2, -3, 4\}$, $B = \{2, 3, 4\}$.  
+- $g(A) = \{4, 9, 16\}$, $g(B) = \{4, 9, 16\}$  
+- $g(A) \cap g(B) = \{4, 9, 16\}$  
+- $A \cap B = \{4\}$, $g(A \cap B) = \{16\}$  
+∴ $g(A \cap B) \neq g(A) \cap g(B)$.  
+
+---
+
+**Propiedades de la preimagen:**  
+Para $f: X \to Y$ y $W, V \subseteq Y$:  
+1. $f^{-1}(W \cup V) = f^{-1}(W) \cup f^{-1}(V)$  
+2. $f^{-1}(W \cap V) = f^{-1}(W) \cap f^{-1}(V)$  
+3. $f^{-1}(W^c) = \left[f^{-1}(W)\right]^c$  
+4. $f^{-1}(Y) = X$ y $f^{-1}(\emptyset) = \emptyset$  
+
+*Demostración de (3):*  
+Si $x \in f^{-1}(W^c)$, entonces $f(x) \in W^c$, es decir, $f(x) \notin W$. Así, $x \notin f^{-1}(W)$, luego $x \in \left[f^{-1}(W)\right]^c$.  
+Recíprocamente, si $z \in \left[f^{-1}(W)\right]^c$, entonces $z \notin f^{-1}(W)$, luego $f(z) \notin W$, es decir, $f(z) \in W^c$. Por tanto, $z \in f^{-1}(W^c)$.  
 
 
