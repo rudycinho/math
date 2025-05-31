@@ -167,7 +167,7 @@ $$
 \begin{align}
 z &= h(x)  \\
 z &= \sqrt{2 - 3x} + 1 \\  
-z - 1 &= \sqrt{2 - 3x} \quad (\text{implica } z - 1 \geq 0) \\
+z - 1 &= \sqrt{2 - 3x} \\
 (z - 1)^2 &= 2 - 3x \\
 (z - 1)^2 -2 &= - 3x \\
 x &= \frac{2 - (z - 1)^2}{3}\\
