@@ -200,10 +200,10 @@ $h: (-\infty, \frac{2}{3}] \to \mathbb{R}$, $x \mapsto \sqrt{2 - 3x} + 1$ no es 
 
 Al igual que con las relaciones, la única operación "natural" entre funciones es la **composición**. Recordemos: Sean $R \subseteq A \times B$ y $S \subseteq B \times C$ dos relaciones, su composición es  
 $$
-S \circ R = \{(a, c) : (\exists b \in B) \, (a \, R \, b \land b \, S \, c)\}.
+S \circ R = \{(a, c) : (\exists b \in B) \, (a \, R \, b \land b \, S \, c)\},
 $$  
-Para que $S \circ R \neq \varnothing$, debe darse que el rango de $R$ esté contenido en el dominio de $S$.  
-
+y vimos que para que $S \circ R \neq \emptyset$, debe darse que el rango de $R$ esté contenido en el dominio de $S$: $I_R \cap D_S \neq \emptyset$.  
+ 
 Ahora, sean $f: A \to B$ y $g: B \to C$. Como el rango de $f$ está contenido en $B =$ dominio de $g$, la composición siempre existe, y obtenemos una función:  
 $$
 g \circ f: A \to C, \quad (g \circ f)(x) = g(f(x)).
