@@ -2,21 +2,13 @@
 
 Ahora estudiamos un tipo especial de relación: las funciones.
 
-Cuando $(a,b) \in f$, escribimos $b = f(a)$, y a $f(a)$ se le llama "f de a".
+Cuando $(a,b) \in f$, escribimos $$b = f(a)$$, donde $f(a)$ se lee "f de a".
 
-**Obs:** Es casi universal escribir $f(a)$; sin embargo, hay algunos autores que escriben $f a$. Es el caso de I.N. Herstein en su libro *Abstract Algebra*.
+**Observacion:** Es casi universal escribir $f(a)$; sin embargo, hay algunos autores que escriben $(a) f$. Es el caso de I.N. Herstein en su libro *Abstract Algebra*. $\blacksquare$
 
-Según esta definición, las siguientes relaciones no son funciones (debido a que algún elemento del dominio no tiene imagen única o no tiene imagen):
+Según esta definición, las siguientes relaciones no son funciones:
 
-- **Diagrama 1:**  
-  $A = \{e, 2, 3\}$,  
-  $B = \{2, 3, 20, 4\}$  
-  (ejemplo: si $e$ se relaciona con múltiples elementos en $B$).
 
-- **Diagrama 2:**  
-  $A = \{2, 3, 4\}$,  
-  $B = \{8\}$  
-  (ejemplo: si algún elemento de $A$ no tiene imagen).
 
 En cambio, las siguientes sí son funciones:
 
