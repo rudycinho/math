@@ -267,9 +267,11 @@ no es una funcion.
  ![[Pasted image 20250531023212.png]]
  es una función que es biyectiva.  
 
-Entonces, sea $f: A \to B$ una función; decimos que $f$ es **invertible** si existe $g: B \to A$ tal que $g \circ f = \text{id}_A$ y $f \circ g = \text{id}_B$. Cuando $g$ existe, es única y se llama la **inversa** de $f$, denotada por $f^{-1}$. Para calcular $f^{-1}$, resolvemos en $x$ la ecuación $y = f(x)$.  
+Entonces, sea $f: A \to B$ una función; decimos que $f$ es **invertible** si existe $g: B \to A$ tal que $$g \circ f = \text{1}_A \qquad \text{y} \qquad f \circ g = \text{1}_B$$. Cuando $g$ existe, es única y se llama la **inversa** de $f$, denotada por $f^{-1}$. 
+Para calcular $f^{-1}$, resolvemos en $x$ la ecuación $y = f(x)$$.  
 
 Se debe demostrar que $f$ es invertible si y solo si es biyectiva.  
+
 **Ej:** Si $f$ no es sobreyectiva (e.g., dominio $A = \{0, -1\}$, codominio $B = \{1, 2, 3\}$, $f(0) = 1$, $f(-1) = 2$), entonces no es biyectiva y no es invertible.  
 
 De los tres ejemplos anteriores, solo $g: \mathbb{Q} \setminus \{-\frac{1}{2}\} \to \mathbb{Q} \setminus \{-\frac{3}{2}\}$ dada por $g(q) = \frac{2 - 3q}{1 + 2q}$ es biyectiva (al restringir dominio y codominio). Al chequear la sobreyectividad, hemos resuelto $w = g(q)$:  
