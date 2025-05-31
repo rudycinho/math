@@ -134,15 +134,13 @@ Alternativamente, sea $y \in \mathbb{R}$ y resolvemos:
 $$
 \begin{align}
 y = x^2 + 1 & \implies x^2 = y - 1 & \\ 
-& \implies x = \pm \sqrt{y - 1}, & \text{ si } y - 1 \geq 0\\
+& \implies x = \pm \sqrt{y - 1}, & \text{ si } \quad y - 1 \geq 0\\
 & & y \geq 1\\ 
 \end{align}
-$$  
-Para $y < 1$, no hay solución. Por tanto, $f$ no es sobreyectiva.  
-
+$$
 $\therefore f$ no es suryectiva. $\blacksquare$
 
-**Ej:** $g(q) = \frac{2 - 3q}{1 + 2q}$. ¿Es sobreyectiva? (asumiendo $g: \mathbb{Q} \to \mathbb{Q}$)  
+**Ejemplo:** $g(q) = \frac{2 - 3q}{1 + 2q}$. ¿Es sobreyectiva? (asumiendo $g: \mathbb{Q} \to \mathbb{Q}$)  
 **Solución:** Resolvamos $y = g(q)$:  
 $$
 y(1 + 2q) = 2 - 3q
