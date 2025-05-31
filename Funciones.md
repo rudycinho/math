@@ -443,11 +443,10 @@ $$
 
 En general, no se cumple que:
 $$f(A \cap B) = f(A) \cap f(B)$$  
-Por ejemplo
+Por ejemplo, sea $g:\mathbb{Z} \to \mathbb{N}$ dada por $g(x) = x^2$. Sean $$A = \{-2, -3, 4\} \qquad \text{y}\qquad B = \{2, 3, 4\}$$.  
+en este caso,
+f(A)
 
-
-**Contraejemplo para igualdad en (3):**  
-Sea $g: \mathbb{Z} \to \mathbb{Z}$ con $g(x) = x^2$. Sean $A = \{-2, -3, 4\}$, $B = \{2, 3, 4\}$.  
 - $g(A) = \{4, 9, 16\}$, $g(B) = \{4, 9, 16\}$  
 - $g(A) \cap g(B) = \{4, 9, 16\}$  
 - $A \cap B = \{4\}$, $g(A \cap B) = \{16\}$  
