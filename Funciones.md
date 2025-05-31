@@ -145,14 +145,18 @@ $\therefore f$ no es suryectiva. $\blacksquare$
 **Solución:** Sea $y \in \mathbb{Q} \setminus \left\{-\frac{3}{2}\right\}$ , resolvamos 
 $$
 \begin{align}
-y = g(q)
-y(1 + 2q) = 2 - 3q
-y + 2qy = 2 - 3q
-2qy + 3q = 2 - y
-q(2y + 3) = 2 - y
-q = \frac{2 - y}{2y + 3}, \quad \text{si } 2y + 3 \neq 0.
+y &= g(q)\\
+y &= \frac{2 - 3q}{1 + 2q}\\
+y\cdot(1 + 2q) &= 2 - 3q\\
+y + 2qy &= 2 - 3q\\
+2qy + 3q &= 2 + y\\
+q\cdot(2y + 3) &= 2 + y\\
+q &= \frac{2 - y}{2y + 3}, \quad \text{si } 2y + 3 \neq 0.
 \end{align}
 $$
+
+$\therefore g$ si es suryectiva. $\blacksquare$
+
 
 Si $2y + 3 = 0$ (i.e., $y = -\frac{3}{2}$), la ecuación es $0 \cdot q = 2 - (-\frac{3}{2}) = \frac{7}{2} \neq 0$, imposible. Luego, $y = -\frac{3}{2}$ no tiene preimagen. Por tanto, $g$ no es sobreyectiva.  
 
