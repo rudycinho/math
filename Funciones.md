@@ -406,7 +406,7 @@ Es fácil demostrar que $$(g \circ f)^* = g^* \circ f^*$$
 $\blacksquare$
 
 La "imagen" tiene las siguiente propiedades
-i. $A \subset B \Rightarrow f(A) \subset f(B)$, $A, B \subset X$.  
+i. $A \subset B \Longrightarrow f(A) \subset f(B)$, $A, B \subset X$.  
 ii. $f(A \cup B) = f(A) \cup f(B)$.  
 iii. $f(A \cap B) \subset f(A) \cap f(B)$.  
 
@@ -414,11 +414,12 @@ iii. $f(A \cap B) \subset f(A) \cap f(B)$.
 Sea $y \in f(A)$. Es decir, 
 $$
 \begin{align}
-(\exists a \in A)(f(a) = y)
+&(\exists a \in A)(f(a) = y)\\
+\Rightarrow &(\exists a \in B)(f(a) = y)\\
+\Rightarrow & y \in f(B)\\
 \end{align}
-$$. Como $A \subseteq B$, $a \in B$, luego $y \in f(B)$.  
-
-*Demostración de (2):*  
+$$
+**Demostración de (2):**  
 Sea $y \in f(A) \cup f(B)$. Entonces $y \in f(A)$ o $y \in f(B)$.  
 - Si $y \in f(A)$, $\exists a \in A$ con $f(a) = y$. Como $a \in A \cup B$, $y \in f(A \cup B)$.  
 - Si $y \in f(B)$, $\exists b \in B$ con $f(b) = y$. Como $b \in A \cup B$, $y \in f(A \cup B)$.  
