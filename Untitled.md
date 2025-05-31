@@ -42,14 +42,13 @@ $$f^{-1}(y) = \{x \in X : f(x) = y\}$$
 
 y se llama el **levantamiento** de y.
 
-**Ejemplo:** Sea $g: \mat$ dada por $g(n) = n^2$
+**Ejemplo:** Sea $g: \mathbb{Z} \to \mathbb{Z^+_\circ}$ dada por $g(n) = n^2$
 
-Sea A = \{1, - 3, 0, 11\} entonces
+Sea $A = \{1, - 3, 0, 11\}$ entonces
+$$g(A)=g(A)=\{1,9,0,121\}$$
 
-(A)=(A)={1,9,0, 121}
 
-3
-
-Sea B={0,9,3}≤720, entrances j^ * (8) = delta ^ - 1 * (B) = \{0, plus/minus 3\} Sea B_{1} = \{3, 5, 7\} untruces S'(B)=0.
+Sea $B=\{0,9,3\}\subseteq \mathbb{Z^+_\circ}$, entonces $$g^*(B) = g^{-1} * (B) = \{0, plus/minus 3\}$$ 
+Sea B_1 = \{3, 5, 7\} entonces S'(B)=0.
 
 - Seah:RR dada por h(x) = |x + 1| )/S*e_{a}*A = (- 2, 3) , entonces h(A) = [0, 4]
