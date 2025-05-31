@@ -234,9 +234,12 @@ También es fácil demostrar que para $f: A \to B$ y $g: B \to C$ funciones:
 - (ii) $f, g \text{ suryectivas } \implies g \circ f \text{ suryectiva}$.  
 - (iii) $f, g \text{ biyectivas } \implies g \circ f \text{ biyectiva}$.  
 
+FALTA
+
 Dada una función $f: A \to B$, ¿es su relación inversa $f^{-1} \subseteq B \times A$ una función?  
-- Si $f$ es solo inyectiva (no sobreyectiva):  
-  $$
+- Si $f$ es solo inyectiva  
+  
+$$
   A = \{a_1, a_2, a_3\}, \quad B = \{1, 2, 3, 4\}, \quad f(a_1) = 1, \, f(a_2) = 2, \, f(a_3) = 3.
   $$  
   Relación inversa: $1 \mapsto a_1$, $2 \mapsto a_2$, $3 \mapsto a_3$, pero $4$ no tiene preimagen. **No es función.**  
