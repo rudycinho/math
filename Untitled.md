@@ -47,8 +47,8 @@ y se llama el **levantamiento** de y.
 Sea $A = \{1, - 3, 0, 11\}$ entonces
 $$g(A)=g(A)=\{1,9,0,121\}$$
 
+Sea $B=\{0,9,3\}\subseteq \mathbb{Z^+_\circ}$, entonces $$g^*(B) = g^{-1}(B) = \{0, \pm 3\}$$ 
+Sea $B_1 = \{3, 5, 7\}$, entonces $$g^{-1}(B)=\emptyset$$. $\blacksquare$
 
-Sea $B=\{0,9,3\}\subseteq \mathbb{Z^+_\circ}$, entonces $$g^*(B) = g^{-1} * (B) = \{0, plus/minus 3\}$$ 
-Sea B_1 = \{3, 5, 7\} entonces S'(B)=0.
-
-- Seah:RR dada por h(x) = |x + 1| )/S*e_{a}*A = (- 2, 3) , entonces h(A) = [0, 4]
+**Ejemplo:** Sea $h: \mathbb{R} \to \mathbb{R}$ dada por $h(x) = |x + 1|$
+Sea $A = (-2, 3]$, entonces $h(A) = [0, 4]$
