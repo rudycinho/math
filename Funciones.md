@@ -132,7 +132,11 @@ $\therefore f$ no es suryectiva.
 
 Alternativamente, sea $y \in \mathbb{R}$ y resolvemos:  
 $$
-y = x^2 + 1 \Rightarrow x^2 = y - 1 \Rightarrow x = \pm \sqrt{y - 1}, \text{ válido solo si } y - 1 \geq 0.
+\begin{align}
+y = x^2 + 1 & \implies x^2 = y - 1 & \\ 
+& \implies x = \pm \sqrt{y - 1}, & \text{ si } y - 1 \geq 0\\
+& & y \geq 1\\ 
+\end{align}
 $$  
 Para $y < 1$, no hay solución. Por tanto, $f$ no es sobreyectiva.  
 
