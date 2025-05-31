@@ -297,10 +297,17 @@ $$
 \begin{align}
 (g \circ g^{-1})(q) &= g\left(g^{-1}(q)\right) \\  
 &= g\left(\frac{2 - q}{2q + 3}\right) \\
-&= \frac{2 - 3 \cdot \frac{2 - q}{2q + 3}}{1 + 2 \cdot \frac{2 - q}{2q + 3}} \\ *= \frac{\frac{2(2q + 3) - 3(2 - q)}{2q + 3}}{\frac{(2q + 3) + 2(2 - q)}{2q + 3}} = \frac{4q + 6 - 6 + 3q}{2q + 3 + 4 - 2q} = \frac{7q}{7} = q
+&= \frac{2 - 3 \cdot \frac{2 - q}{2q + 3}}{1 + 2 \cdot \frac{2 - q}{2q + 3}} \\ 
+&= \frac{\frac{2(2q + 3) - 3(2 - q)}{2q + 3}}{\frac{(2q + 3) + 2(2 - q)}{2q + 3}} \\ 
+&= \frac{4q + 6 - 6 + 3q}{2q + 3 + 4 - 2q} \\
+&= \frac{7q}{7} \\
+&= q  
 \end{align}
 $$
+$\blacksquare$
 
+Vimos que la composicion de funciones inyectivas, suryectivas o biyectivas es, de nuevo inyectiva, suryectiva  o biyectiva. Que hay del reciproco?
+Lastimosamente, no
 ### Propiedades de imagen y preimagen
 Dada una función $f: X \to Y$, obtenemos dos funciones inducidas:  
 $$
