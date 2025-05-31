@@ -218,10 +218,10 @@ Supongamos que $g \circ f$ y $f \circ g$ existen ambas; no siempre son iguales.
 
 **Ejemplo:** Sean $f, g: \mathbb{R} \to \mathbb{R}$ dadas por $f(x) = x^2$, $g(x) = \sqrt{x}$ (con dominio $x \geq 0$ para $g$). Entonces:  
 $$
-(g \circ f)(x) = g(f(x)) = g(x^2) = \sqrt{x^2} = |x|,
-$$  
-$$
-(f \circ g)(x) = f(g(x)) = f(\sqrt{x}) = (\sqrt{x})^2 = x \quad (x \geq 0).
+\begin{align}
+&(g \circ f)(x) = g(f(x)) = g(x^2) = \sqrt{x^2} = |x|,\\
+&(f \circ g)(x) = f(g(x)) = f(\sqrt{x}) = (\sqrt{x})^2 = x \quad \text{si} \quad(x \geq 0).\\
+\end{align}
 $$  
 Así, $g \circ f \neq f \circ g$.  
 
