@@ -25,11 +25,15 @@ En álgebra, para determinar una función, debemos dar simultáneamente tres "da
 
 Las funciones  
 $$
-f: \mathbb{R} \to \mathbb{R}, \, x \mapsto x^2 + 1
+\begin{align}
+f: \mathbb{R} & \to \mathbb{R} \\ x & \mapsto \sin x 
+\end{align}
 $$  
 y  
 $$
-g: \mathbb{R} \to [-1, 1], \, x \mapsto \sin x
+\begin{align}
+g: \mathbb{R} & \to [-1, 1], \\ t &\mapsto \sin t
+\end{align}
 $$  
 tienen el mismo conjunto de pares, pero no son idénticas, puesto que tienen distintos codominios. Son distintas funciones.
 
