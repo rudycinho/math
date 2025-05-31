@@ -123,18 +123,20 @@ Para chequear la suryectividad, hay que resolver la ecuación $b = g(a)$ para "$
 
 Repetimos los ejemplos:  
 
-**Ejemplo:** $f: \mathbb{R} \to \mathbb{R}$, $x \mapsto x^2 + 1$. ¿Es sobreyectiva?  
+**Ejemplo:** $f: \mathbb{R} \to \mathbb{R}$, $x \mapsto x^2 + 1$. ¿Es suryectiva?  
 
 **Solución:** 
-Sea $y = 0$, resolvemos $$0 =f(x) = x^2 + 1 \Rightarrow x^2 = -1$$; esta ecuacion no tiene solución en $\mathbb{R}$.
+Sea $y = 0$, entonces resolvemos $$0 =f(x) = x^2 + 1 \Rightarrow x^2 = -1$$; esta ecuacion no tiene solución en $\mathbb{R}$.
 
-$\therefore f$ no es inyectiva. $\blacksquare$
+$\therefore f$ no es suryectiva. 
 
 Alternativamente, sea $y \in \mathbb{R}$ y resolvemos:  
 $$
-y = x^2 + 1 \Rightarrow x = \pm \sqrt{y - 1}, \text{ válido solo si } y - 1 \geq 0.
+y = x^2 + 1 \Rightarrow x^2 = y - 1 \Rightarrow x = \pm \sqrt{y - 1}, \text{ válido solo si } y - 1 \geq 0.
 $$  
 Para $y < 1$, no hay solución. Por tanto, $f$ no es sobreyectiva.  
+
+$\therefore f$ no es suryectiva. $\blacksquare$
 
 **Ej:** $g(q) = \frac{2 - 3q}{1 + 2q}$. ¿Es sobreyectiva? (asumiendo $g: \mathbb{Q} \to \mathbb{Q}$)  
 **Solución:** Resolvamos $y = g(q)$:  
