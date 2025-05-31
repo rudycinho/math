@@ -102,13 +102,18 @@ $$
 $\therefore f$ no es inyectiva. $\blacksquare$
 
 **Ej:** Sea $h: (-\infty, \frac{2}{3}] \to \mathbb{R}$ dada por $h(x) = \sqrt{2 - 3x} + 1$. ¿Es inyectiva?  
-**Solución:** Supongamos $h(a) = h(b)$, entonces:  
+**Solución:** Supongamos que
+
 $$
-\sqrt{2 - 3a} + 1 = \sqrt{2 - 3b} + 1 \Rightarrow \sqrt{2 - 3a} = \sqrt{2 - 3b}
-$$  
+\begin{align}
+h(a) &= h(b) \\
+\sqrt{2 - 3a} + 1 &= \sqrt{2 - 3b} + 1\\
+\sqrt{2 - 3a} &= \sqrt{2 - 3b} \\
+2 - 3a &= 2 - 3b \\
+-3a &= -3b \\
+a &= b.
+\end{align}
 $$
-\Rightarrow 2 - 3a = 2 - 3b \Rightarrow -3a = -3b \Rightarrow a = b.
-$$  
 Por tanto, $h$ es inyectiva.  
 
 (ii) **Sobreyectividad** (también llamada *suryectividad* o *epiyectividad*).  
