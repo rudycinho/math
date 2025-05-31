@@ -374,54 +374,37 @@ Sea $B_1 = \{3, 5, 7\}$, entonces $$g^{-1}(B)=\emptyset$$. $\blacksquare$
 **Ejemplo:** Sea $h: \mathbb{R} \to \mathbb{R}$ dada por $h(x) = |x + 1|$
 Sea $A = (-2, 3]$, entonces $h(A) = [0, 4]$
 
+Sea $B = (-2, -1)$ , entonces $$h^{-1}(B) = \emptyset$$. 
+Sea $B_o = (1, 3)$ , entonces $$h^{-1}(Bo) = (-4,2) \cup (0,2)$$
+$\blacksquare$
 
-
-
-
-
-### Propiedades de imagen y preimagen
-Dada una función $f: X \to Y$, obtenemos dos funciones inducidas:  
 $$
-f_*: \mathcal{P}(X) \to \mathcal{P}(Y), \quad f_*(A) = f(A) = \{f(a) : a \in A\} \quad (\text{imagen de } A),
-$$  
+\begin{align}
+1 &< h(x) < 3 \\
+1 &< |x + 1| < 3 \\
+1< |x + 1| \quad & \land \quad |x + 1| < 3 \\
+x+1>1 \; \lor \; x+1<-1 \quad & \land \quad -3 < x + 1 < 3 \\
+x>0 \; \lor \; x<-2 \quad & \land \quad -4 < x < 2 \\
+\end{align}
 $$
-f^*: \mathcal{P}(Y) \to \mathcal{P}(X), \quad f^*(B) = f^{-1}(B) = \{x \in X : f(x) \in B\} \quad (\text{preimagen de } B).
-$$  
-**Obs:** Aunque se usa $f^{-1}$, no implica que $f$ sea invertible. Para $B = \{y\}$, escribimos $f^{-1}(y) = \{x \in X : f(x) = y\}$ (fibra de $y$).  
 
-**Ej:** Sea $g: \mathbb{Z} \to \mathbb{Z}$ dada por $g(n) = n^2$.  
-- Si $A = \{1, -3, 0, 11\}$, entonces $g(A) = \{1, 9, 0, 121\}$.  
-- Si $B = \{0, 9, 3\}$, entonces $g^{-1}(B) = \{0, 3, -3\}$.  
-- Si $B_1 = \{3, 5, 7\}$, entonces $g^{-1}(B_1) = \varnothing$.  
+![[Pasted image 20250531122935.png]]
 
-**Ej:** Sea $h: \mathbb{R} \to \mathbb{R}$ dada por $h(x) = |x + 1|$.  
-- Si $A = [-2, 3]$, entonces $h(A) = [0, 4]$.  
-- Si $B = (-2, -1)$, entonces $h^{-1}(B) = \varnothing$.  
-- Si $B_0 = (1, 3)$, entonces $h^{-1}(B_0) = (-4, -2) \cup (0, 2)$.  
+**Observacion:** Sean $f: A \to B$ y $f: B \to C$ funciones.
 
-**Obs:** Sean $f: A \to B$ y $g: B \to C$ funciones. Es fácil demostrar que:  
-$$
-(g \circ f)_* = g_* \circ f_*, \quad \text{pero} \quad (g \circ f)^* = f^* \circ g^*.
-$$  
 
-#### Propiedades de la imagen:
-(i) $A \subseteq B \subseteq X \Rightarrow f(A) \subseteq f(B)$.  
-(ii) $f(A \cup B) = f(A) \cup f(B)$.  
-(iii) $f(A \cap B) \subseteq f(A) \cap f(B)$ (en general, no igual).  
-**Contraejemplo:** Sea $g: \mathbb{Z} \to \mathbb{Z}$, $g(x) = x^2$; $A = \{-2, -3, 4\}$, $B = \{2, 3, 4, 5\}$:  
-$$
-g(A) = \{4, 9, 16\}, \quad g(B) = \{4, 9, 16, 25\}, \quad g(A) \cap g(B) = \{4, 9, 16\},
-$$  
-$$
-g(A \cap B) = g(\{4\}) = \{16\} \neq g(A) \cap g(B).
-$$  
+![[Pasted image 20250531124620.png]]
 
-#### Propiedades de la preimagen:
-Para $W, V \subseteq Y$:  
-(i) $f^{-1}(W \cup V) = f^{-1}(W) \cup f^{-1}(V)$.  
-(ii) $f^{-1}(W \cap V) = f^{-1}(W) \cap f^{-1}(V)$.  
-(iii) $f^{-1}(W^c) = \left[f^{-1}(W)\right]^c$.  
-**Demostración (iii):**  
-$$
-x \in f^{-1}(W^c) \Leftrightarrow f(x) \in W^c \Leftrightarrow f(x) \notin W \Leftrightarrow x \notin f^{-1}(W) \Leftrightarrow x \in \left[f^{-1}(W)\right]^c.
-$$
+
+Es fácil demostrar que $$(g \circ f)_* = g_* \circ f_*$$
+
+Por otro lado,
+
+![[Pasted image 20250531125442.png]]
+
+Es fácil demostrar que $$(g \circ f)^* = g^* \circ f^*$$
+$\blacksquare$
+
+
+
+
