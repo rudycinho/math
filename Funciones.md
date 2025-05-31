@@ -65,7 +65,26 @@ con $a, b \in A$. O equivalentemente $f(a) = f(b)$
 
 **Ejemplo:** Sea $f: \mathbb{R} \to \mathbb{R}$ dada por $f(x) = x^2 + 1$. ¿Es inyectiva?  
 
-**Solución:** No, no es inyectiva pues $$f(1) = 1^2 + 1 = 2$$ y $f(-1) = (-1)^2 + 1 = 2$, pese a que $1 \neq -1$. Supongamos que $f(a) = f(b)$, entonces $a^2 + 1 = b^2 + 1 \Rightarrow a^2 = b^2 \Rightarrow (a - b)(a + b) = 0 \Rightarrow a = b$ o $a = -b$. Como existe $a \neq b$ con $f(a) = f(b)$ (e.g., $a = 1, b = -1$), $f$ no es inyectiva.  
+**Solución:** No, no es inyectiva pues 
+$$
+\begin{align}
+f(1) &= 1^2 + 1 = 2 \\
+f(-1) &= (-1)^2 + 1 = 2
+\end{align}
+$$
+, pese a que $1 \neq -1$. Por tanto, $f$ no es inyectiva.
+Por otro lado supongamos que 
+$$
+\begin{align}
+f(a) &= f(b)  \\
+a^2+1 &= b^2+1  \\
+a^2-b^2 &= 0  \\
+(a-b) &= 0  \\
+\end{align}
+$$
+
+
+$f(a) = f(b)$, entonces $a^2 + 1 = b^2 + 1 \Rightarrow a^2 = b^2 \Rightarrow (a - b)(a + b) = 0 \Rightarrow a = b$ o $a = -b$. Como existe $a \neq b$ con $f(a) = f(b)$ (e.g., $a = 1, b = -1$), $f$ no es inyectiva.  
 
 **Ej:** Sea $g: \mathbb{Q} \to \mathbb{Q}$ dada por $g(q) = \frac{2 - 3q}{1 + 2q}$. ¿Es inyectiva?  
 **Solución:** Supongamos que $g(w) = g(v)$, entonces:  
