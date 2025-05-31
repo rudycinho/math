@@ -500,4 +500,3 @@ $E^+ = \{h\} \Longrightarrow \sup E = h$,
 $E^- = \{a\} \Longrightarrow \sup E = h$. $\blacksquare$ 
 
 
-falta 13-mayo
