@@ -1,4 +1,4 @@
-Sea DEC. Queremos hallar be B t.g. (6)=४ Por hipóters, go f is surjectiva. Is Jecir,
+Sea $\gamma \in C$. Queremos hallar $b \in B$ t.g. (6)=४ Por hipóters, go f is surjectiva. Is Jecir,
 
 r=(gof)(a), P(x)
 
