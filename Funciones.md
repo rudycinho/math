@@ -422,12 +422,11 @@ $$
 **Demostración de (2):** $f(A) \cup f(B) \subseteq f(A \cup B)$  
 Sea $\alpha \in f(A) \cup f(B)$, entonces $\alpha \in f(A)$ o $\alpha \in f(B)$. Por definición de imagen:
 
-$$(\exists a \in A)(f(a) = y)$$
+$$(\exists a \in A)(f(a) = \alpha) \qquad \text{o} \qquad (\exists b \in B)(f(b) = \alpha)$$
+Luego, $a,b \in A \cup B$ y
+$$f(a) = \alpha = f(b)$$
 
-- Si $y \in f(A)$, $\exists a \in A$ con $f(a) = y$. Como $a \in A \cup B$, $y \in f(A \cup B)$.  
-- Si $y \in f(B)$, $\exists b \in B$ con $f(b) = y$. Como $b \in A \cup B$, $y \in f(A \cup B)$.  
-Recíprocamente, si $y \in f(A \cup B)$, $\exists x \in A \cup B$ con $f(x) = y$. Si $x \in A$, $y \in f(A)$; si $x \in B$, $y \in f(B)$. En ambos casos, $y \in f(A) \cup f(B)$.  
-
+I.e. $\alph$
 *Demostración de (3):*  
 Sea $y \in f(A \cap B)$. Entonces $\exists a \in A \cap B$ con $f(a) = y$. Como $a \in A$ y $a \in B$, $y \in f(A)$ y $y \in f(B)$, luego $y \in f(A) \cap f(B)$.  
 
