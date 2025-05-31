@@ -430,7 +430,22 @@ I.e. $\alpha \in f(A \cup B) \qquad \therefore f(A)\cup f(B) \subset f(A\cup B)$
 
 **Demostración de (3):**  
 Sea $y \in f(A \cap B)$. Entonces $(\exists a \in A \cap B)(f(a) = y)$. existe $a \in A \cap B$, entonces
-$$$$
+$$
+\begin{align}
+a\in A \quad &\text{y} \quad a \in B\\
+f(a)\in f(A) \quad &\text{y} \quad f(a) \in f(B)\\
+\end{align}
+$$
+Asi:
+$$
+y = f(a) \in f(A) \cap f(B)\\
+$$
+
+En general, no se cumple que:
+$$f(A \cap B) = f(A) \cap f(B)$$  
+Por ejemplo
+
+
 **Contraejemplo para igualdad en (3):**  
 Sea $g: \mathbb{Z} \to \mathbb{Z}$ con $g(x) = x^2$. Sean $A = \{-2, -3, 4\}$, $B = \{2, 3, 4\}$.  
 - $g(A) = \{4, 9, 16\}$, $g(B) = \{4, 9, 16\}$  
