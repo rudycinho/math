@@ -2,7 +2,9 @@
 
 **Definición:**  
 Sea $S$ un conjunto y $\mathcal{R}$ una relación binaria definida en $S$ por:  
-$$x  \mathcal{R}  y \iff \text{[condición específica]}$$  
+$$
+x  \mathcal{R}  y \iff [\text{condición específica}]
+$$  
 para $x, y \in S$.  
 
 **Objetivo:**  
@@ -17,21 +19,21 @@ Demostrar si $\mathcal{R}$ es una relación de equivalencia verificando:
 1. **Reflexividad** ($\forall x \in S$, $x  \mathcal{R}  x$)  
    - *Desarrollo*:  
      Sea $x \in S$.  
-    Demostrar que se cumple la condición específica para $x$ y $x$].  
+     \[Demostrar que se cumple la condición específica para $x$ y $x$\].  
      Por tanto, $x  \mathcal{R}  x$.  
 
 2. **Simetría** ($\forall x, y \in S$, $x  \mathcal{R}  y \implies y  \mathcal{R}  x$)  
    - *Desarrollo*:  
      Sean $x, y \in S$ tales que $x  \mathcal{R}  y$.  
-     Entonces, [usar la definición de $x  \mathcal{R}  y$].  
-     [Demostrar que la condición implica $y  \mathcal{R}  x$].  
+     Entonces, \[usar la definición de $x  \mathcal{R}  y$\].  
+     \[Demostrar que la condición implica $y  \mathcal{R}  x$\].  
      Por tanto, $y  \mathcal{R}  x$.  
 
 3. **Transitividad** ($\forall x, y, z \in S$, $x  \mathcal{R}  y \land y  \mathcal{R}  z \implies x  \mathcal{R}  z$)  
    - *Desarrollo*:  
      Sean $x, y, z \in S$ tales que $x  \mathcal{R}  y$ y $y  \mathcal{R}  z$.  
-     Entonces, [usar la definición en ambas premisas].  
-     [Combinar las premisas para deducir $x  \mathcal{R}  z$].  
+     Entonces, \[usar la definición en ambas premisas\].  
+     \[Combinar las premisas para deducir $x  \mathcal{R}  z$\].  
      Por tanto, $x  \mathcal{R}  z$.  
 
 **Conclusión:**  
@@ -54,19 +56,4 @@ Como se cumplen las tres propiedades, $\mathcal{R}$ es una relación de equivale
 - **Símbolos**: Reemplazar $\mathcal{R}$ por el símbolo de la relación (e.g., $\sim$, $\triangle$, $\star$).  
 - **Precisión**: En la condición específica, definir claramente los elementos involucrados (e.g., $z \in \mathbb{Z}$, $k \in \mathbb{N}$).  
 - **Contraejemplos**: Si una propiedad falla, mostrar un contraejemplo específico.  
-- **Conjunto**: Especificar $S$ (e.g., $\mathbb{R}$, $\mathbb{Z}$, matrices).  
-
----
-
-### Ejemplo de uso con $\Delta$ (ilustrativo):
-**Definición:**  
-En $\mathbb{R}$ definimos $$x  \Delta  y \iff y - x \in \mathbb{Z}.$$  
-
-#### **Demostración:**
-1. **Reflexividad**:  
-   Sea $x \in \mathbb{R}$. Como $x - x = 0 \in \mathbb{Z}$, entonces $x  \Delta  x$.  
-2. **Simetría**:  
-   Sean $x, y \in \mathbb{R}$ con $x  \Delta  y$. Entonces $y - x = k \in \mathbb{Z}$. Luego $x - y = -k \in \mathbb{Z}$, por lo que $y  \Delta  x$.  
-3. **Transitividad**:  
-   Sean $x, y, z \in \mathbb{R}$ con $x  \Delta  y$ y $y  \Delta  z$. Entonces $y - x = k \in \mathbb{Z}$ y $z - y = m \in \mathbb{Z}$. Sumando: $z - x = (z - y) + (y - x) = m + k \in \mathbb{Z}$, así que $x  \Delta  z$.  
-**Conclusión:** $\Delta$ es relación de equivalencia. $\blacksquare$
+- **Conjunto**: Especificar $S$ (e.g., $\mathbb{R}$, $\mathbb{Z}$, matrices).
