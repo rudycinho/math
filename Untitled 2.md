@@ -9,5 +9,13 @@ En el proyecto de una cafetería se calcula que si hay lugares para 40 a 80 pers
 	  excedente de lugares : x-80
 	  restriccion impuesta : 0.004 (x-80)
 	  ganancia por lguar : 80 - 0.004 (x-80)
-	  ganancia diaria bruta : g(x) = x()
-2. 
+	  ganancia diaria bruta : g(x) = x(8 - 0.004 (x-80))
+	  
+	desarrollamos :
+	g(x) = x(8 - 0.004 (x-80)) = x(8 - 0.004x + 3.2) = x(11.2 - 0.004x) = 11.2x - 0.004x2
+	Obtenemos:
+		g(x) = 8x11.2x−0.04x2​si 40≤x≤80,si x>80.​
+	  
+2. Concebir un plan
+	Analizamos la
+3. 
