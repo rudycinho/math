@@ -15,7 +15,7 @@ g(x)=x(8-0.04x+3.2)=x(11.2-0.04x)=11.2x-0.04x2
 asi:
 g(x)=11.2x-0.04x2
 ahora debemos hallar el mayor maximo de la funcion g(x) 
-debido a g(x) es creciente
+debido a g(x) es creciente por lo q
 para x>80
 Para estos calculamos la derivadad de g
 g'(x)=11.2-0.08x
@@ -26,4 +26,14 @@ x=140
 por tanto 140 es el maximo
 calculamos g(140)=11.2(140)-0.04(140)\^2 = ?
 por tanto la maxima ganancia diaria sera 784
+
+Verificamos
+
+
+g(130) = 780.0
+g(131) = 780.76
+g(140) = 784.0
+g(141) = 783.96
+g(150) = 780.0
+
 
