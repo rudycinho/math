@@ -254,6 +254,7 @@ no es una funcion.
 
 
   
+  $$A = \{a,b,c,d\}, \quad B = \{1,2,3\}, \quad f(a) = 2, \, f(b) = 1, \, f(c) = 2, \, f(d) = 3$$.
   
 
   Su relación inversa
