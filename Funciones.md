@@ -420,7 +420,7 @@ $$
 \end{align}
 $$
 **Demostración de (2):** $f(A) \cup f(B) \subseteq f(A \cup B)$  
-Sea $\alpha \in f(A) \cup f(B)$, entonces $\alpha \in f(A)$ o $\alpha \in f(B)$. Por definición de imagen:
+Sea $\alpha \in f(A) \cup f(B)$, entonces $\alpha \in f(A)$ o $\alpha \in f(B)$. Por definición de imagen:6
 
 $$(\exists a \in A)(f(a) = \alpha) \qquad \text{o} \qquad (\exists b \in B)(f(b) = \alpha)$$
 Luego, $a,b \in A \cup B$ y
