@@ -25,4 +25,15 @@ En el proyecto de una cafetería se calcula que si hay lugares para 40 a 80 pers
 		g(x) = 11.2x - 0.04x2 es una parabalo que se abre hacia abajo (debido que el cofeociente x2 es negativo), por tanto tiene un maximo.
 	entonces:
 	1. debemos hallar el maximo de g(x)
-3. 
+	2. debemos igualar g'(x) a cero
+	3. debemos encontrar x , el punto critico
+	4. debemos reemplazarlo en g(x)
+3. Ejecutar el plan
+		1. Calculamos la derivada de g
+		g'(x)=11.2-0.08x
+		2. igualoamos a cero para
+		g'(x)=11.2-0.08x=0
+		3. buscamos el punto critico
+		11.2-0.08x=0 => 11.2=0.08x => x=140
+		obtibimos el maximo numero de lugares
+		4. Remplazamos en 
