@@ -6,5 +6,10 @@ El objetivo del problema es calcular la ganacia diaria maxima.
 Definimos x como el numero de lugares y calculares una funcion g(x) 
 Para los valores $x \leq 80$ la funcion sera lineal g(x)=8x
 Pero para valores $x > 80$ tendremos:
-Como $x>80$ entonces el excedente de lugres es x-80, entonces tendremos 
-8-0.04(x-80)
+Como $x>80$ entonces el excedente de lugres es x-80, entonces la cantidad restante que se reducira sera 0.04(x-80) por lo que la ganacia para un solo lugar sera:
+80-0.04(x-80)
+La ganancia totoal sera el numero numero de lugares por la ganancia individual
+g(x)=x(8-0.04(x-80))
+calcummos
+g(x)=x(8-0.04x-80)
+
