@@ -1,6 +1,8 @@
 
 En el proyecto de una cafetería se calcula que si hay lugares para 40 a 80 personas, la ganancia diaria bruta será de $8 por lugar. Sin embargo, si la capacidad de asientos sobrepasa los 80 lugares, la ganancia diaria bruta en cada lugar disminuirá en 4 centavos ($0.04) por el número de lugares excedentes. ¿Cuál deberá ser la capacidad de asientos para obtener la mayor ganancia diaria bruta?
 
+---
+
 ## Comprender el problema:
 - **Variables:**
   - $x$: Número de lugares (capacidad de asientos).
@@ -36,6 +38,8 @@ En el proyecto de una cafetería se calcula que si hay lugares para 40 a 80 pers
 ![[Figure_1.png]]
   **Método:** Derivar e igualar a cero para encontrar el punto crítico.
 
+---
+
 ## Ejecutar el plan:
 - **Derivada de $g(x)$ para $x > 80$:**  
   $$
@@ -52,7 +56,9 @@ En el proyecto de una cafetería se calcula que si hay lugares para 40 a 80 pers
 - **Comparar con el máximo tramo anterior:**  
   $g(80) = 640 < 784 = g(140)$ $\Rightarrow$ El máximo no está en $x = 80$.
 
-## 4. **Verificación:
+---
+
+## Verificación:
 
 | $x$   | $g(x)$ (para $x > 80$)                                  | Resultado |
 | ----- | ------------------------------------------------------- | --------- |
