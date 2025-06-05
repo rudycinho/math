@@ -17,5 +17,12 @@ En el proyecto de una cafetería se calcula que si hay lugares para 40 a 80 pers
 		g(x) = 8x11.2x−0.04x2​si 40≤x≤80,si x>80.​
 	  
 2. Concebir un plan
-	Analizamos la
+	Analizamos la funcionparable 
+		g(x) = 8x11.2x−0.04x2​si 40≤x≤80,si x>80.​
+	para 40<=x<=80:
+		debido a que g(x)=8x es lineal entonces g(80)=640 valor maximo del tramo
+	para x>80
+		g(x) = 11.2x - 0.04x2 es una parabalo que se abre hacia abajo (debido que el cofeociente x2 es negativo), por tanto tiene un maximo.
+	entonces:
+	1. debemos hallar el maximo de g(x)
 3. 
