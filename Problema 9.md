@@ -11,5 +11,13 @@ Como $x>80$ entonces el excedente de lugres es x-80, entonces la cantidad restan
 La ganancia totoal sera el numero numero de lugares por la ganancia individual
 g(x)=x(8-0.04(x-80))
 calcummos
-g(x)=x(8-0.04x-80)
+g(x)=x(8-0.04x+3.2)=x(11.2-0.04x)=11.2x-0.04x2
+asi:
+g(x)=11.2x-0.04x2
+ahora debemos hallar 
+g'(x)=11.2-0.08x
+igulamos g'(x)=0
+11.2-0.08x=0
+0.08x=11.2
+x=140
 
