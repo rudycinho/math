@@ -36,4 +36,21 @@ En el proyecto de una cafetería se calcula que si hay lugares para 40 a 80 pers
 		3. buscamos el punto critico
 		11.2-0.08x=0 => 11.2=0.08x => x=140
 		obtibimos el maximo numero de lugares
-		4. Remplazamos en 
+		4. Remplazamos en g(x)
+		g(140)= 11.2(140)−0.04(140)2=1568−0.04×19600=1568−784=784.
+		5. comprabamos con g(x)
+		   como g(140)>g(80) => 784>640.
+		Hemos hallado el maximo
+4. Verificamos
+Para saber si es maximo verificamos con valores cercanos:
+- x=130:
+    g(130)=11.2(130)−0.04(130)2=1456−0.04×16900=1456−676=780.
+- x=131:
+    g(131)=11.2(131)−0.04(131)2=1467.2−0.04×17161=1467.2−686.44=780.76.
+- x=140: 784
+- x=141
+- g(141)=11.2(141)−0.04(141)2=1579.2−0.04×19881=1579.2−795.24=783.96.
+- x=150
+- g(150)=11.2(150)−0.04(150)2=1680−0.04×22500=1680−900=780.
+
+Por tanto la maxima ganancia bruta diaria es 784
