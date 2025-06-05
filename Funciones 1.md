@@ -249,10 +249,14 @@ Relación inversa:
 no es una funcion.
 
 - Si $f$ es solo suryectiva:  
+ 
 ![[Pasted image 20250531022230.png]]
-  $$
-  A = \{a,b,c,d\}, \quad B = \{1,2,3\}, \quad f(a) = 2, \, f(b) = 1, \, f(c) = 2, \, f(d) = 3.
-  $$  Su relación inversa
+
+
+  
+  
+
+  Su relación inversa
   ![[Pasted image 20250531022653.png]]
 
   no es una función.  
