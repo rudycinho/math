@@ -15,7 +15,7 @@ g(x)=x(8-0.04x+3.2)=x(11.2-0.04x)=11.2x-0.04x2
 asi:
 g(x)=11.2x-0.04x2
 ahora debemos hallar el mayor maximo de la funcion g(x) 
-debido a g(x) es creciente por lo q
+debido a g(x) es creciente por lo que tendra un maximo
 para x>80
 Para estos calculamos la derivadad de g
 g'(x)=11.2-0.08x
