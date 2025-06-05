@@ -335,7 +335,8 @@ Sea $\gamma \in C$. Queremos hallar $b \in B$ tal que $g(b)=\gamma$.
 Por hipotesis, $g \circ f$ is suryectiva. Es decir, existe $a \in A$ tal que
 $$
 \gamma=(g \circ f)(a)
-$$, pero esto se puede escribir:
+$$
+, pero esto se puede escribir:
 $$
 γ= (g \circ f) (a) = g(f(a))
 $$
