@@ -3,5 +3,8 @@ En el proyecto de una cafetería se calcula que si hay lugares para 40 a 80 pers
 Solución
 
 El objetivo del problema es calcular la ganacia diaria maxima.
-Definimos x como el numero de lugares.
-Para los valores $x \leq 80$ 
+Definimos x como el numero de lugares y calculares una funcion g(x) 
+Para los valores $x \leq 80$ la funcion sera lineal g(x)=8x
+Pero para valores $x > 80$ tendremos:
+Como $x>80$ entonces el excedente de lugres es x-80, entonces tendremos 
+8-0.04(x-80)
