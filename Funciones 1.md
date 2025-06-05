@@ -238,12 +238,14 @@ FALTA
 
 Dada una función $f: A \to B$, ¿es su relación inversa $f^{-1} \subseteq B \times A$ una función?  
 
+
 - Si $f$ es solo inyectiva  
+
   ![[Pasted image 20250531021718.png]]
-$$
-  A = \{a, b, c\}, \quad B = \{1, 2, 3, 4\}, \quad f(a) = 1, \, f(b) = 2, \, f(c) = 4.
-  $$  
-Relación inversa:
+
+$$A = \{a, b, c\}, \quad B = \{1, 2, 3, 4\}, \quad f(a) = 1, \, f(b) = 2, \, f(c) = 4$$.
+
+- Relación inversa:
 ![[Pasted image 20250531022020.png]]
 
 no es una funcion.
@@ -254,7 +256,7 @@ no es una funcion.
 
 
   
-  $$A = \{a,b,c,d\}, \quad B = \{1,2,3\}, \quad f(a) = 2, \, f(b) = 1, \, f(c) = 2, \, f(d) = 3$$.
+$$A = \{a,b,c,d\}, \quad B = \{1,2,3\}, \quad f(a) = 2, \, f(b) = 1, \, f(c) = 2, \, f(d) = 3$$.
   
 
   Su relación inversa
