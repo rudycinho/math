@@ -191,21 +191,6 @@
 
 ---
 
-#### **Ejemplos aplicados** (basados en 11.4 a 11.6)  
-- **Ecuaciones con conjugados y módulos**:  
-  - $z = -\overline{z}$ → $z$ es imaginario puro.  
-  - $|z| = 1$ → circunferencia unidad.  
-  - $|z - 1 + 2i| = 2$ → circunferencia centro (1,-2) y radio 2.  
-  - $|z - \operatorname{Re}(z)| = [\operatorname{Im}(z)]^2$ → rectas $y=0$ y $y=1$.  
-  - $z = -\overline{z} + 2$ → recta $x=1$.  
-- **Tips**:  
-  - Traducir ecuaciones complejas a geometría en el plano: 
-    - $|z - z_0| = r$ → circunferencia.  
-    - $\operatorname{Re}(z) = c$ → recta vertical.  
-    - $\operatorname{Im}(z) = k$ → recta horizontal.  
-
----  
-
 ## RAIZ CUADRADA EN C  
 - **Fórmulas clave**:  
   - Dado $z = a + bi$, las raíces cuadradas $w = x + yi$ satisfacen:  
@@ -239,20 +224,6 @@
     - Si $a < 0$: soluciones imaginarias puras $\pm \sqrt{|a|} \, i$.  
   - **Verificación**: Usa $w^2 = z$ para comprobar resultados.  
   - **Eficiencia**: La fórmula evita resolver el sistema no lineal directamente.  
-
----  
-**Ejemplos**:  
-1. $\sqrt{-4 - 3i}$:  
-   - $|z| = 5$, $a = -4$, $b = -3 < 0$,  
-   - $x = \pm \sqrt{\frac{5-4}{2}} = \pm \frac{\sqrt{2}}{2}$, $y = \pm \sqrt{\frac{5+4}{2}} = \pm \frac{3\sqrt{2}}{2}$,  
-   - **Signos opuestos**: $\pm \left( \frac{\sqrt{2}}{2} - \frac{3\sqrt{2}}{2} i \right)$.  
-2. $\sqrt{-2i}$:  
-   - $|z| = 2$, $a = 0$, $b = -2 < 0$,  
-   - $x = \pm 1$, $y = \pm 1$,  
-   - **Signos opuestos**: $\pm (1 - i)$.  
-3. $\sqrt{-9}$:  
-   - $|z| = 9$, $a = -9$, $b = 0$,  
-   - $x = 0$, $y = \pm 3$: $\pm 3i$.  
 
 ---  
 
@@ -296,19 +267,6 @@
     z_1 \cdot z_2 = \rho_1 \rho_2 \left( \cos(\varphi_1 + \varphi_2) + i \sin(\varphi_1 + \varphi_2) \right)
     $$  
 
----  
-**Ejemplos**:  
-1. $z = -2 + 2i$:  
-   - $\rho = \sqrt{(-2)^2 + 2^2} = \sqrt{8} = 2\sqrt{2}$.  
-   - $a = -2 < 0$, $b = 2 > 0$ → **Cuadrante II**.  
-   - $\tan \varphi = \frac{2}{-2} = -1 \implies \varphi = \arctan(-1) + \pi = \frac{3\pi}{4}$ (135°).  
-   - **Forma polar**: $z = 2\sqrt{2} \left( \cos \frac{3\pi}{4} + i \sin \frac{3\pi}{4} \right)$.  
-
-2. $z = -3i$ (corrección):  
-   - $\rho = \sqrt{0^2 + (-3)^2} = 3$.  
-   - $a = 0$, $b = -3 < 0$ → **Eje imaginario negativo** → $\varphi = \frac{3\pi}{2}$ (270°).  
-   - **Forma polar**: $z = 3 \left( \cos \frac{3\pi}{2} + i \sin \frac{3\pi}{2} \right)$.  
-   - *Nota*: En el ejemplo original se menciona $\varphi = \pi$, pero eso corresponde a $-3$ (no a $-3i$).  
 
 ---  
 **Errores comunes**:  
