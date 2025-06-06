@@ -163,7 +163,7 @@
 
 ---
 
-## 11.6 MÓDULO DE UN COMPLEJO
+## MÓDULO DE UN COMPLEJO
 
 ### Definición
 - **Fórmulas clave**:  
