@@ -210,7 +210,7 @@
 
 ---  
 
-## RAIZ CUADRADA EN C**  
+## RAIZ CUADRADA EN C  
 - **Fórmulas clave**:  
   - Dado $z = a + bi$, las raíces cuadradas $w = x + yi$ satisfacen:  
     $$
@@ -260,7 +260,7 @@
 
 ---  
 
-### **11.8 FORMA POLAR O TRIGONOMÉTRICA**  
+## FORMA POLAR O TRIGONOMÉTRICA
 - **Fórmulas clave**:  
   - Dado $z = a + bi \neq 0$:  
     $$
@@ -323,8 +323,8 @@
 
 ---  
 
-### **11.9 OPERACIONES EN FORMA POLAR**  
-#### **11.9.1 Multiplicación**  
+## OPERACIONES EN FORMA POLAR
+### Multiplicación
 - **Fórmula clave**:  
   $$
   z \cdot z' = \rho \rho' \left[ \cos(\varphi + \varphi') + i \sin(\varphi + \varphi') \right]
@@ -334,7 +334,7 @@
   - **Módulo**: Producto de los módulos ($\rho \cdot \rho'$).  
   - **Argumento**: Suma de los argumentos ($\varphi + \varphi'$).  
 
-#### **11.9.2 Cociente**  
+### Cociente
 - **Fórmula clave** ($z' \neq 0$):  
   $$
   \frac{z}{z'} = \frac{\rho}{\rho'} \left[ \cos(\varphi - \varphi') + i \sin(\varphi - \varphi') \right]
@@ -344,7 +344,7 @@
   - **Módulo**: Cociente de los módulos ($\rho / \rho'$).  
   - **Argumento**: Diferencia de los argumentos ($\varphi - \varphi'$).  
 
-#### **11.9.3 Potenciación (Fórmula de De Moivre)**  
+### Potenciación (Fórmula de De Moivre)
 - **Fórmula clave** ($n \in \mathbb{N}$):  
   $$
   z^n = \rho^n \left[ \cos(n\varphi) + i \sin(n\varphi) \right]
@@ -354,7 +354,7 @@
   - **Módulo**: Potencia $n$-ésima del módulo ($\rho^n$).  
   - **Argumento**: Argumento multiplicado por $n$ ($n\varphi$).  
 
-#### **11.9.4 Interpretación geométrica**  
+### Interpretación geométrica
 - **Producto**:  
   - Rotación del vector $z$ por el ángulo $\varphi'$.  
   - Escalamiento del módulo por $\rho'$.  
@@ -420,7 +420,7 @@ Dados $z = -1 + i\sqrt{3}$ y $z' = \frac{3}{2} + i \frac{3\sqrt{3}}{2}$:
 
 ---
 
-### **11.10 RADICACIÓN EN $\mathbb{C}$**  
+## RADICACIÓN EN $\mathbb{C}$
 #### **Fórmulas clave**  
 - Dado $z = \rho (\cos \varphi + i \sin \varphi) \neq 0$, sus $n$ raíces $n$-ésimas son:  
 $$
@@ -490,7 +490,7 @@ $$
 
 ---  
 
-### **11.12 LOGARITMACIÓN EN $\mathbb{C}$**  
+## LOGARITMACIÓN EN $\mathbb{C}$  
 - **Definición**: $w = \log z$ si y solo si $e^w = z$ ($z \neq 0$).  
 - **Fórmula general** (multivaluada):  
   $$
@@ -531,7 +531,7 @@ $$
    - **Multivaluado**: $\log z = 1 + i\left(-\frac{3\pi}{4} + 2k\pi\right)$.  
 
 ---  
-### **11.13 EXPONENCIAL COMPLEJA GENERAL**  
+## EXPONENCIAL COMPLEJA GENERAL
 - **Definición**: Para $z_1 \neq 0$ y $z_2 \in \mathbb{C}$:  
   $$
   z_1^{z_2} = e^{z_2 \log z_1}.
@@ -570,7 +570,7 @@ $$
    **Explicación**: $i \cdot (-i \pi/2) = -i^2 \pi/2 = -(-1)\pi/2 = \pi/2$.  
 
 ---  
-### **11.13 EXPONENCIAL COMPLEJA GENERAL**  
+## EXPONENCIAL COMPLEJA GENERAL
 #### **Fórmulas clave**  
 - **Definición**: Para $z_1 \neq 0$ y $z_2 \in \mathbb{C}$:  
   $$
@@ -617,7 +617,7 @@ $$
 
 ---
 
-### **11.14 RAÍCES PRIMITIVAS DE LA UNIDAD**  
+## RAÍCES PRIMITIVAS DE LA UNIDAD
 #### **Definición**  
 - Las **raíces $n$-ésimas de la unidad** son:  
   $$
@@ -664,4 +664,3 @@ $$
 - **Aplicación**: Criptografía y polinomios ciclotómicos.  
 
 ---  
-**Próximo apartado**: Indica el tema o continúa con la secuencia.
