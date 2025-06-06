@@ -375,7 +375,7 @@ Dados $z = -1 + i\sqrt{3}$ y $z' = \frac{3}{2} + i \frac{3\sqrt{3}}{2}$:
 ---
 
 ## RADICACIÓN EN $\mathbb{C}$
-#### **Fórmulas clave**  
+### **Fórmulas clave**  
 - Dado $z = \rho (\cos \varphi + i \sin \varphi) \neq 0$, sus $n$ raíces $n$-ésimas son:  
 $$
 w_k = \sqrt[n]{\rho} \left( \cos \frac{\varphi + 2k\pi}{n} + i \sin \frac{\varphi + 2k\pi}{n} \right), \quad k = 0, 1, \dots, n-1.
@@ -401,23 +401,8 @@ $$
 
 ---
 
-### **Ejemplos resueltos**  
-#### **1. $\sqrt[4]{-4 + 4i\sqrt{3}}$**  
-- **Paso a polar**:  
-  $$
-  \rho = \sqrt{(-4)^2 + (4\sqrt{3})^2} = 8, \quad \varphi = \frac{2\pi}{3} \quad (\text{II cuadrante}).
-  $$  
-- **Raíces cuartas** ($n = 4$):  
-  $$
-  w_k = \sqrt[4]{8} \left( \cos \left( \frac{\pi}{6} + \frac{k\pi}{2} \right) + i \sin \left( \frac{\pi}{6} + \frac{k\pi}{2} \right) \right).
-  $$  
-  - $k=0$: $w_0 = \sqrt[4]{8} \left( \cos 30^\circ + i \sin 30^\circ \right) = \sqrt[4]{8} \left( \frac{\sqrt{3}}{2} + i \frac{1}{2} \right)$.  
-  - $k=1$: $w_1 = \sqrt[4]{8} \left( \cos 120^\circ + i \sin 120^\circ \right) = \sqrt[4]{8} \left( -\frac{1}{2} + i \frac{\sqrt{3}}{2} \right)$.  
-  - $k=2$: $w_2 = \sqrt[4]{8} \left( \cos 210^\circ + i \sin 210^\circ \right) = \sqrt[4]{8} \left( -\frac{\sqrt{3}}{2} - i \frac{1}{2} \right)$.  
-  - $k=3$: $w_3 = \sqrt[4]{8} \left( \cos 300^\circ + i \sin 300^\circ \right) = \sqrt[4]{8} \left( \frac{1}{2} - i \frac{\sqrt{3}}{2} \right)$.  
-- **Representación**: Cuadrado inscrito en circunferencia de radio $\sqrt[4]{8}$.  
 
-#### **2. $\sqrt[3]{1}$ (Raíces cúbicas de la unidad)**  
+### $\sqrt[3]{1}$ (Raíces cúbicas de la unidad)
 - **Paso a polar**: $\rho = 1$, $\varphi = 0$.  
 - **Raíces cúbicas** ($n = 3$):  
   $$
