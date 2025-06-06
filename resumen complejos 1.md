@@ -629,30 +629,6 @@ $$
 2. **Estructura de grupo**: Las raíces $n$-ésimas forman un grupo cíclico multiplicativo bajo la multiplicación.  
 3. **Generadores**: Las raíces primitivas generan todas las raíces $n$-ésimas mediante potencias.  
 
-#### **Ejemplo resuelto (11.15)**  
-**Raíces primitivas de orden 6**:  
-- Raíces 6-ésimas: $w_k = \cos \frac{2k\pi}{6} + i \sin \frac{2k\pi}{6}, \quad k = 0, 1, 2, 3, 4, 5$.  
-- Valores de $k$ con $\gcd(k, 6) = 1$: $k = 1, 5$.  
-- **Cálculo**:  
-  - $w_1 = \cos \frac{\pi}{3} + i \sin \frac{\pi}{3} = \frac{1}{2} + i \frac{\sqrt{3}}{2}$,  
-  - $w_5 = \cos \frac{5\pi}{3} + i \sin \frac{5\pi}{3} = \frac{1}{2} - i \frac{\sqrt{3}}{2}$.  
-
-**Representación geométrica**:  
-- Las 6 raíces forman un hexágono regular en la circunferencia unitaria.  
-- Raíces primitivas: $w_1$ (60°) y $w_5$ (300°).  
-
-```  
-        w₁ (60°)      
-          ●        
-         / \       
-        /   \      
-       /     \     
-  w₂ ●       ● w₀ (0°)  
-      \     /      
-       \   /       
-        \ /        
-         ● w₅ (300°)  
-```  
 
 #### **Tips**  
 - **Identificación rápida**: $k$ y $n$ coprimos $\implies$ raíz primitiva.  
@@ -662,4 +638,3 @@ $$
 - **Aplicación**: Criptografía y polinomios ciclotómicos.  
 
 ---  
-**Próximo apartado**: Indica el tema o continúa con la secuencia.
