@@ -53,7 +53,7 @@
 
 ---  
 
-### **11.3 ISOMORFISMO DE LOS COMPLEJOS REALES EN LOS REALES**  
+## ISOMORFISMO DE LOS COMPLEJOS REALES EN LOS REALES  
 - **Fórmulas clave**:  
   - Conjunto complejos reales: $\mathbb{C}_{\mathbb{R}} = \{(a, b) \in \mathbb{C} \mid b = 0\}$.  
   - Isomorfismo: $f: \mathbb{C}_{\mathbb{R}} \to \mathbb{R}$ definida por $f(a, 0) = a$.  
@@ -68,9 +68,9 @@
 
 ---  
 
-### **11.4 FORMA BINÓMICA DE UN COMPLEJO**  
+## FORMA BINÓMICA DE UN COMPLEJO 
 
-#### **11.4.1. Unidad imaginaria**  
+### Unidad imaginaria
 - **Fórmulas clave**:  
   - Unidad imaginaria: $i = (0, 1)$.  
   - Producto con real: $(b, 0) \cdot i = (0, b)$ → $b \cdot i = bi$.  
@@ -95,7 +95,7 @@
 
 ---  
 
-#### **11.4.2. Forma binómica de los complejos**  
+### Forma binómica de los complejos
 - **Fórmulas clave**:  
   - Conversión: $(a, b) = a + b \cdot i$.  
   - Suma: $(a + bi) + (c + di) = (a + c) + (b + d)i$.  
@@ -118,9 +118,9 @@
 
 ---  
 
-### **11.5 LA CONJUGACIÓN EN C**  
+## LA CONJUGACIÓN EN C
 
-#### **11.5.1. Complejos conjugados**  
+### Complejos conjugados
 - **Fórmulas clave**:  
   - Conjugado: Si $z = a + bi$, entonces $\overline{z} = a - bi$.  
   - Propiedad: $\overline{\overline{z}} = z$.  
@@ -129,10 +129,10 @@
 - **Tips**:  
   - Identificación rápida: cambiar el signo de la parte imaginaria.  
   - Representación gráfica: simetría axial respecto al eje real.  
-
+ 
 ---
 
-#### **11.5.2. Propiedades de la conjugación**  
+### Propiedades de la conjugación
 - **Fórmulas clave**:  
   - Suma: $z + \overline{z} = 2 \operatorname{Re}(z)$.  
   - Producto: $z \cdot \overline{z} = a^2 + b^2 = |z|^2$ (real no negativo).  
@@ -143,7 +143,7 @@
 
 ---
 
-#### **11.5.3. Caracterización de complejos reales**  
+### Caracterización de complejos reales
 - **Fórmulas clave**:  
   - $z$ es real $\Leftrightarrow z = \overline{z}$.  
 - **Explicación breve**:  
@@ -153,7 +153,7 @@
 
 ---
 
-#### **11.5.4. Automorfismo en C**  
+### Automorfismo en C
 - **Fórmulas clave**:  
   - Función conjugación: $f(z) = \overline{z}$ es automorfismo (isomorfismo de C en sí mismo).  
   - Propiedades:  
@@ -167,9 +167,9 @@
 
 ---
 
-### **11.6 MÓDULO DE UN COMPLEJO**  
+## 11.6 MÓDULO DE UN COMPLEJO
 
-#### **11.6.1. Definición**  
+### Definición
 - **Fórmulas clave**:  
   - Módulo: $|z| = \sqrt{a^2 + b^2}$ para $z = a + bi$.  
 - **Explicación breve**:  
@@ -179,7 +179,7 @@
 
 ---
 
-#### **11.6.2. Propiedades del módulo**  
+### Propiedades del módulo  
 - **Fórmulas clave**:  
   - I: $|\operatorname{Re}(z)| \leq |z|$ y $|\operatorname{Im}(z)| \leq |z|$.  
   - II: $z \cdot \overline{z} = |z|^2$.  
@@ -210,7 +210,7 @@
 
 ---  
 
-### **11.7 RAIZ CUADRADA EN C**  
+## RAIZ CUADRADA EN C**  
 - **Fórmulas clave**:  
   - Dado $z = a + bi$, las raíces cuadradas $w = x + yi$ satisfacen:  
     $$
