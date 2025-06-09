@@ -37,3 +37,14 @@ teorema 9.2 cualquiea que sea el angulo alpha se tiene:
 sen 2 alpha + cos 2 alhpa = 1
 
 ---
+
+teorema 9.3
+Formila de reduccion. Si alpha es un angulo agudo entonces:
+a. sen (90 - alpha) = cos alpha
+b. cos (90 - alpha) = sen alpha
+a. tg (90 - alpha) = 1/ tg alpha
+
+---
+
+teorama 9.4 
+Cualquier que sea 
