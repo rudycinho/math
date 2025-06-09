@@ -52,3 +52,10 @@ a. sen (180 - alpha) = sen alpha
 a. cos (180 - alpha) = - cos alpha
 
 
+---
+
+proposicion 9.5
+En un triangulo ABC, de angulo recto \hat C, se tiene:
+\over{BC} = \over{AB} sen \hat A,
+\over{AC} = \over{AB} cos \hat A,
+\over{B} = \over{AB} cos \hat A,
