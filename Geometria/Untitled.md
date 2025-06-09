@@ -58,4 +58,17 @@ proposicion 9.5
 En un triangulo ABC, de angulo recto \hat C, se tiene:
 \over{BC} = \over{AB} sen \hat A,
 \over{AC} = \over{AB} cos \hat A,
-\over{B} = \over{AB} cos \hat A,
+\over{BC} = \over{AC} tg \hat A,
+
+---
+
+proposcion 9.6
+a. sen 45 = 1/ sqrt{2}, cos 45 = 1/ sqrt{2} y tan 45 = 1
+b. sen 30 = 1/2 , cos 30 = sqrt{3}/2 y tan 30 = 1/sqrt{3}
+
+---
+
+Teorema 9.7
+Ley de los cosenos 
+en un triangulo ABC se tiene que:
+\over{AB}^2 = \over{AB}^2 + \over{AB}^2 - \over{AB}^2\over{AB}^2 cos \hat 
