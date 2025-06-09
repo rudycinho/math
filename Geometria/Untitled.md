@@ -85,4 +85,11 @@ sen \hat A / over{BC} = sen \hat B / over{AC} = sen \hat C / over{AB}
 teorema 9.9
 Sean alpha y beta dos angulos agudos. entonces se tiene que:
 a. cos(alpha+beta) = cos alpha cos beta - sen alpha sen beta
-a. sen(alpha+beta) = sen alpha cos beta - cos alpha sen beta
+a. sen(alpha+beta) = sen alpha cos beta + cos alpha sen beta
+
+---
+colorario 9.10
+Si alpha es un angulo mayor que beta se tiene
+
+a. cos(alpha-beta) = cos alpha cos beta + sen alpha sen beta
+a. sen(alpha-beta) = sen alpha cos beta - cos alpha sen beta
