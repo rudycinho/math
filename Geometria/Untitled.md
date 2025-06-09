@@ -71,4 +71,18 @@ b. sen 30 = 1/2 , cos 30 = sqrt{3}/2 y tan 30 = 1/sqrt{3}
 Teorema 9.7
 Ley de los cosenos 
 en un triangulo ABC se tiene que:
-\over{AB}^2 = \over{AB}^2 + \over{AB}^2 - \over{AB}^2\over{AB}^2 cos \hat 
+\over{AB}^2 = \over{AC}^2 + \over{BC}^2 - 2 \over{AC} \over{BC} cos \hat C
+
+---
+
+teorema 9.8
+ley de los senos
+Cualquier que sea el triangulo ABC se tiene:
+sen \hat A / over{BC} = sen \hat B / over{AC} = sen \hat C / over{AB}  
+
+---
+
+teorema 9.9
+Sean alpha y beta dos angulos agudos. entonces se tiene que:
+a. cos(alpha+beta) = cos alpha cos beta - sen alpha sen beta
+a. sen(alpha+beta) = sen alpha cos beta - cos alpha sen beta
