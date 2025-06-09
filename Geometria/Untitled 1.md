@@ -59,7 +59,14 @@ $$
 **Fórmulas de Reducción para $\alpha$ agudo**  
 Relaciones angulares complementarias:  
 $$  
-\operatorname{sen} (90^\circ - \alpha) = \cos \alpha, \quad \cos (90^\circ - \alpha) = \operatorname{sen} \alpha, \quad \tan (90^\circ - \alpha) = \frac{1}{\tan \alpha}  
+\operatorname{sen} (90^\circ - \alpha) = \cos \alpha, 
+$$
+
+$$
+\quad \cos (90^\circ - \alpha) = \operatorname{sen} \alpha, 
+$$
+$$
+\quad \tan (90^\circ - \alpha) = \frac{1}{\tan \alpha}  
 $$  
 
 ---
