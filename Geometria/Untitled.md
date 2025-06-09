@@ -2,5 +2,22 @@ funciones trignometricas
 
 consideamos un circilo de centor y un diametro AB. Tomamos el semicruclo formado por el segmento AB. Tomamos un punto C que pertenece al semicirculo e indicamos el angolo C\hatOB. Entonces trazamos de C una perpendicular a la recta que cnotiene AB. Sea D el pie de esta perpendicular.
 
-Seno de angulo alpha . es el cociente CD/OC. el del angulo alpha es representado por sen alpha.
-notamos
+---
+
+Seno de angulo alpha . es el cociente CD/OC. 
+el seno del angulo alpha es representado por sen alpha.
+notamos que
+sen 0 = 0 , sen 90 = 1 y sen 180 = 0
+
+---
+
+Coseno de angulo alpha. es el cociente OD/OC cuando el angulo alpha es agudo. Si el angulo alpha es obtuso es definido como valor negativo de este codciente esto es -OD/OC
+el coseno del angulo alpha es representado por cosen alpha.
+
+
+Notamos que 
+cos 0 = 1 , cos 90 = 0 y cos 180 = -1
+
+---
+
+tangente del angulo aphla . es el cociente 
