@@ -11,8 +11,10 @@ sen 0 = 0 , sen 90 = 1 y sen 180 = 0
 
 ---
 
-Coseno de angulo alpha. es el cociente OD/OC cuando el angulo alpha es agudo. Si el angulo alpha es obtuso es definido como valor negativo de este codciente esto es -OD/OC
-el coseno del angulo alpha es representado por cosen alpha.
+Coseno de angulo alpha. 
+- es el cociente OD/OC cuando el angulo alpha es agudo.
+- si el angulo alpha es obtuso es definido como valor negativo de este codciente esto es -OD/OC
+el coseno del angulo alpha es representado por cos alpha.
 
 
 Notamos que 
@@ -20,4 +22,14 @@ cos 0 = 1 , cos 90 = 0 y cos 180 = -1
 
 ---
 
-tangente del angulo aphla . es el cociente 
+tangente del angulo aphla . es el cociente :
+tan alpha = sen alpha / cos alpha
+
+esta funcion no esta definida en alpha = 90
+
+---
+
+proposicopn 9.1 . Los  valores del seno y del codeno de un angulo son independientes del semicirculo utilozada para definirlos.
+
+---
+
