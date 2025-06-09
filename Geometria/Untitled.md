@@ -47,4 +47,8 @@ a. tg (90 - alpha) = 1/ tg alpha
 ---
 
 teorama 9.4 
-Cualquier que sea 
+Cualquier que sea alpha se tiene:
+a. sen (180 - alpha) = sen alpha
+a. cos (180 - alpha) = - cos alpha
+
+
