@@ -33,3 +33,7 @@ proposicopn 9.1 . Los  valores del seno y del codeno de un angulo son independie
 
 ---
 
+teorema 9.2 cualquiea que sea el angulo alpha se tiene:
+sen 2 alpha + cos 2 alhpa = 1
+
+---
