@@ -7,6 +7,7 @@ En el proyecto de una cafetería se calcula que si hay lugares para 40 a 80 pers
 - **Variables:**
   - $x$: Número de lugares (capacidad de asientos).
   - $g(x)$: Ganancia diaria bruta total.
+---
 - **Condiciones:**
   - Si $40 \leq x \leq 80$:  
     Ganancia por lugar = $8$ $\Rightarrow$ $g(x) = 8x$.
@@ -15,9 +16,11 @@ En el proyecto de una cafetería se calcula que si hay lugares para 40 a 80 pers
     Ganancia por lugar = $8 - 0.04(x - 80)$.  
     Ganancia total:  
     $$
+	\begin{align}
     g(x) = x \left[ 8 - 0.04(x - 80) \right] = x \left( 8 - 0.04x + 3.2 \right) = x(11.2 - 0.04x) = 11.2x - 0.04x^2.
+	end{align}
     $$
-
+---
 - **Función por partes:**
   $$
   g(x) = 
@@ -35,6 +38,9 @@ En el proyecto de una cafetería se calcula que si hay lugares para 40 a 80 pers
 - **Tramo $x > 80$:**  
   $g(x) = 11.2x - 0.04x^2$ es una parábola cóncava hacia abajo (coeficiente de $x^2$ es negativo, $-0.04$).  
   Tiene un máximo en su vértice.  
+
+---
+
 ![[Figure_1.png]]
   **Método:** Derivar e igualar a cero para encontrar el punto crítico.
 
@@ -49,6 +55,7 @@ En el proyecto de una cafetería se calcula que si hay lugares para 40 a 80 pers
   $$
   11.2 - 0.08x = 0 \implies 0.08x = 11.2 \implies x = \frac{11.2}{0.08} = 140.
   $$
+---
 - **Evaluar $g(140)$:**  
   $$
   g(140) = 11.2(140) - 0.04(140)^2 = 1568 - 0.04 \times 19600 = 1568 - 784 = 784.
