@@ -1,3 +1,4 @@
+Rudy Walter Martinez Melgarejo
 
 ---
 
@@ -9,7 +10,7 @@ En el proyecto de una cafetería se calcula que si hay lugares para 40 a 80 pers
 - **Variables:**
   - $x$: Número de lugares (capacidad de asientos).
   - $g(x)$: Ganancia diaria bruta total.
----
+
 - **Condiciones:**
   - Si $40 \leq x \leq 80$:  
     Ganancia por lugar = $8$ $\Rightarrow$ $g(x) = 8x$.
@@ -22,7 +23,6 @@ En el proyecto de una cafetería se calcula que si hay lugares para 40 a 80 pers
     g(x) &= x \left[ 8 - 0.04(x - 80) \right] \\ &= x \left( 8 - 0.04x + 3.2 \right) \\ &= x(11.2 - 0.04x) \\ &= 11.2x - 0.04x^2.
 	\end{align}
     $$
----
 - **Función por partes:**
   $$
   g(x) = 
@@ -41,7 +41,7 @@ En el proyecto de una cafetería se calcula que si hay lugares para 40 a 80 pers
   $g(x) = 11.2x - 0.04x^2$ es una parábola cóncava hacia abajo (coeficiente de $x^2$ es negativo, $-0.04$).  
   Tiene un máximo en su vértice.  
 
----
+
 
 ![[Figure_1.png]]
   **Método:** Derivar e igualar a cero para encontrar 
@@ -62,7 +62,7 @@ En el proyecto de una cafetería se calcula que si hay lugares para 40 a 80 pers
   11.2 - 0.08x = 0 &\implies 0.08x = 11.2 \\ &\implies x = \frac{11.2}{0.08} = 140.
  \end{align}
   $$
----
+
 - **Evaluar $g(140)$:**  
   $$
  \begin{align}
@@ -85,3 +85,8 @@ En el proyecto de una cafetería se calcula que si hay lugares para 40 a 80 pers
 | $150$ | $11.2 \times 150 - 0.04 \times 150^2 = 1680 - 900$      | $780$     |
 
 - **Conclusión:** La ganancia máxima es **\$784** en $x = 140$, y valores cercanos son menores.
+
+
+## Enlace al video
+
+https://www.youtube.com/watch?v=-haG2XB9JHs
