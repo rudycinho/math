@@ -8,6 +8,11 @@
 1. Sean m y n son enteros positivos tales que $n + n^3 + n^5 = m + m^2$. Probar que $n$ es par.
 
 	Por contradicion decimos que n es impar.
+	primero demostracion las potencias:
+	
+	n = 2k+1
+	n2 = n\*n =(2k+1)(2k+1) = 4k2 + 4k + 1 = 2(2k2+2k)+1 = 2l + 1, l in math bb Z  por tanto n2 es impar
+	n3 = n2\*n =(2l+1)(2k+1) = 4k2 + 4k + 1 = 2(2k2+2k)+1 = 2l + 1, l in math bb Z  por tanto n2 es impar
 	lado izquierdo
 	
 	n + n3 + n5 = impar + impar  + impar = impar
@@ -20,6 +25,10 @@
 		dado que m es impar entonces tenemos que 
 		n + n2 = impar + impar = par
 		por lo que no puede ser
+	igualando los lados notamos
+	impar = par
+	esto es imposible, por lo tanto n es par.
+	
 2. Probar que todo entero positivo $n$ se puede expresar como la suma de una o más potencias de 2, distintas entre sí.
 
 3. Consideremos los números enteros del 1 al 2025.
