@@ -9,10 +9,13 @@
 
 	Por contradicion decimos que n es impar.
 	primero demostracion las potencias:
+
+	s
+	x = 2k+1
+	x2 = x\*x =(2k+1)(2k+1) = 4k2 + 4k + 1 = 2(2k2+2k)+1 = 2l + 1, l in math bb Z  por tanto x2 es impar
+	x3 = x2\*x =(2l+1)(2k+1) = 4kl + 2k + 2l + 1 = 2(2kl + k + l)+1 = 2s + 1, s in math bb Z  por tanto x3 es impar
+	x5 = x3\*x2 = (2s + 1)(2l + 1) = 4sl + 2s + 2l + 1 = 2(2sl + s + l)+1 = 2t + 1, t in math bb Z  por tanto x5 es impar
 	
-	n = 2k+1
-	n2 = n\*n =(2k+1)(2k+1) = 4k2 + 4k + 1 = 2(2k2+2k)+1 = 2l + 1, l in math bb Z  por tanto n2 es impar
-	n3 = n2\*n =(2l+1)(2k+1) = 4k2 + 4k + 1 = 2(2k2+2k)+1 = 2l + 1, l in math bb Z  por tanto n2 es impar
 	lado izquierdo
 	
 	n + n3 + n5 = impar + impar  + impar = impar
