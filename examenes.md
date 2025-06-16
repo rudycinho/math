@@ -62,7 +62,26 @@ en el rango de 10 al 99 tenemos:
 			10 ---- 2
 			90 ---- x
 		10 x = 90 \* 2 => x = 18
- en 	
+ en 	el rango de 100 al 999
+		999-100+1= 900.
+		tememos por regla de 3: 
+			10  ---- 2
+			900 ---- x
+		10 x = 900 \* 2 => x = 180
+ en 	el rango de 1000 al 1999
+		1999-1000+1= 1000.
+		tememos por regla de 3: 
+			10  ---- 2
+			1000 ---- x
+		10 x = 1000 \* 2 => x = 200
+ en el rango de 2000 al 2019
+		2019-2000+1 = 20.
+		tememos por regla de 3: 
+			10  ---- 2
+			20 ---- x
+		10 x = 20 \* 2 => x = 4
+		 
+	
 5. ¿Cómo se puede cortar un rectángulo de dimensiones $13\times7$ en 13 rectángulos de áreas y dimensiones diferentes?
 
 basta con dibular un rectangulo 13x7
