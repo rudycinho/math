@@ -187,8 +187,8 @@ par = impar, por lo que no existen enters que satisfagan la ecuacion
 **C.I.:** \_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_
 
 1. ¿Para qué valores naturales $n$ es posible cubrir completamente un rectángulo de tamaño $3\times n$ con las piezas mostradas en la siguiente figura, sin superposiciones ni dejar espacios vacíos?
- 
-z tetromino
+[dibuja esto ] l tromino
+[dibuja esto ]  z tetromino
     
 2. En cada casilla de un tablero de $8\times 8$ se escribe un número entero. Se sabe que, para cada casilla, la suma de los números en sus casillas vecinas es igual a 1. Determina la suma de todos los números del tablero.
     
@@ -274,5 +274,7 @@ d. a \neq 0 y f=0
 	como f=0 entonces f(a-b+c-d+e)= 0(a-b+c-d+e) = 0 > 0, lo cual es imporsible
 	
 4. En una bolsa hay 32 bolillos numerados del 1 al 32. ¿Cuál es el mínimo número de bolillos que hay que extraer de la bolsa, para tener la certeza de haber obtenido dos bolillos cuya suma es mayor o igual que 20 y menor o igual que 45?
+resuelve por palomar
     
 5. Un grafo simple tiene 8 vértices de grados $3,3,3,3,3,3,3,x$. Hallar todos los posibles valores de $x$.
+
