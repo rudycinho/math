@@ -39,7 +39,7 @@
 	
 2. Probar que todo entero positivo $n$ se puede expresar como la suma de una o más potencias de 2, distintas entre sí.
 
-decimos que el numero n se encuentra entre 2 potencias.
+decimos que el numero n se encuentra acotado entre dos potenciss de base 2.
 2^x <= n < 2^(x+1) , donde x in Z
 
 Caso base:
@@ -60,7 +60,8 @@ Tesis de inducuin:
 	n -2^x < 2^x 
 	esta expresion es la suma de potencias de base 2, menores que 2^x.
 	notamos que 2^x <= n, se puede expresar como:
-	n = 2^x +  ()
+	n = 2^x + (n -2^x), donde (n -2^x) ya esta demostrado
+	por tanto todo n puede ser represrntaod
 	
 
 3. Consideremos los números enteros del 1 al 2025.
