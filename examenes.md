@@ -201,7 +201,8 @@ par = impar, por lo que no existen enters que satisfagan la ecuacion
     \fill[red!30] (\x,\y) rectangle ++(1,1);
   }
 \end{tikzpicture}
-    
+
+
 2. En cada casilla de un tablero de $8\times 8$ se escribe un número entero. Se sabe que, para cada casilla, la suma de los números en sus casillas vecinas es igual a 1. Determina la suma de todos los números del tablero.
     
     > **Nota.** Se considera que dos casillas son vecinas si comparten un lado.
@@ -293,7 +294,8 @@ eviatamos los pares que cuya suma se encuentre entre 20 y 45.
 tenmos los subconjundos 
 S1={1,2,...,10}, la suma mayor de estos numeros es 9+10=19<20
 S2={23,24,...,32}, la suma menor de estos numeros es 23+24=47>45
-
+tanto s1 cmo s2, tienen tamanio 10.
+concluimos con 10 estracciones se puede evitar un par que sume 20 a 45, pero no con 11, por tanto siempre existira el par con 11 extracciones
     
 5. Un grafo simple tiene 8 vértices de grados $3,3,3,3,3,3,3,x$. Hallar todos los posibles valores de $x$.
 
