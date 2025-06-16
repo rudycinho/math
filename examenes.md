@@ -50,13 +50,19 @@ en el rango de 10 al 99 tenemos:
 		11 -> no,
 		12 -> no,
 		13 -> no,
-		14 -> si,
+		14 -> si, 1+4 mod 5 = 0
 		15 -> no,
 		16 -> no,
 		17 -> no,
-		13 -> no,
-		14 -> no,
-
+		18 -> no,
+		19 -> si, 1+9 mod 5 = 0
+	entonces:
+		99-10+1= 90.
+		tememos por regla de 3: 
+			10 ---- 2
+			90 ---- x
+		10 x = 90 \* 2 => x = 18
+ en 	
 5. ¿Cómo se puede cortar un rectángulo de dimensiones $13\times7$ en 13 rectángulos de áreas y dimensiones diferentes?
 
 basta con dibular un rectangulo 13x7
