@@ -202,6 +202,11 @@ par = impar, por lo que no existen enters que satisfagan la ecuacion
   }
 \end{tikzpicture}
 
+caso 1. 
+el area 3n es divisible por 3. para evitar los huevos n de ser par y mayor que 2.
+
+caso 2.
+no es posible, debido a que nunca llenara los huecos
 
 2. En cada casilla de un tablero de $8\times 8$ se escribe un número entero. Se sabe que, para cada casilla, la suma de los números en sus casillas vecinas es igual a 1. Determina la suma de todos los números del tablero.
     
@@ -301,4 +306,5 @@ concluimos con 10 estracciones se puede evitar un par que sume 20 a 45, pero no 
 
 
 sumando los grados tenemos
-21+x=
+21+x= par, por tanto x debe ser impar.
+
