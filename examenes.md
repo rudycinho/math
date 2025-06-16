@@ -44,15 +44,30 @@
 
 4. ¿Cómo se puede cortar un rectángulo de dimensiones $13\times7$ en 13 rectángulos de áreas y dimensiones diferentes?
 
+basta con dibular un rectangulo 13x7
+en la filas colocamos:
+1 cuadrado , 2
+
 5. ¿Existe una solución entera para la ecuación $a \cdot b \cdot (a - b) = 45045\;$?
 
-notamos que el nume
-supongamos 
+lado derecho
+45045 es impar
+
+lado izquierdo:
+
 a es par y b es par
 tenemos a\*b\*(a-b) = P\*P\*(P-P) = P 
 a es par y b es impar
+tenemos a\*b\*(a-b) = P\*I\*(P-I) = P 
 a es impar y b es par
+tenemos a\*b\*(a-b) = I\*P\*(I-P) = P 
 a es impar y b es impar
+tenemos a\*b\*(a-b) = I\*I\*(I-I) = I\*I\*P = P 
+
+en tondos los caso es par
+
+tenemos:
+par = impar, por lo que no existen enters que satisfagan la ecuacion
 
 
 # Examen 2
