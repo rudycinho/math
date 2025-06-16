@@ -21,11 +21,7 @@
 
 4. ¿Cómo se puede cortar un rectángulo de dimensiones $13\times7$ en 13 rectángulos de áreas y dimensiones diferentes?
 
-5. ¿Existe una solución entera para la ecuación
-
-   $$
-     a \cdot b \cdot (a - b) = 45045\;?
-   $$
+5. ¿Existe una solución entera para la ecuación $a \cdot b \cdot (a - b) = 45045\;$?
 
 # Examen 2
 
