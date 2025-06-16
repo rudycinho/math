@@ -187,9 +187,8 @@ par = impar, por lo que no existen enters que satisfagan la ecuacion
 **C.I.:** \_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_
 
 1. ¿Para qué valores naturales $n$ es posible cubrir completamente un rectángulo de tamaño $3\times n$ con las piezas mostradas en la siguiente figura, sin superposiciones ni dejar espacios vacíos?
-
- '\' 
-
+ 
+z tetromino
     
 2. En cada casilla de un tablero de $8\times 8$ se escribe un número entero. Se sabe que, para cada casilla, la suma de los números en sus casillas vecinas es igual a 1. Determina la suma de todos los números del tablero.
     
