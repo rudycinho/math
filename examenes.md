@@ -39,6 +39,8 @@
 	
 2. Probar que todo entero positivo $n$ se puede expresar como la suma de una o más potencias de 2, distintas entre sí.
 
+tenemos 2 n
+
 3. Consideremos los números enteros del 1 al 2025.
    ¿Cuántos de estos números tienen una suma de dígitos que es múltiplo de 5?
 
@@ -89,7 +91,7 @@ en el rango de 10 al 99 tenemos:
  2025 = 2 + 0 + 2 + 2 = 4 => no
 
 por tanto tenemos:
-1 + 18 + 180 + 200 
+1 + 18 + 180 + 200 + 4 + 1 = 
 		 
 	
 5. ¿Cómo se puede cortar un rectángulo de dimensiones $13\times7$ en 13 rectángulos de áreas y dimensiones diferentes?
