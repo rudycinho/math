@@ -7,6 +7,19 @@
 
 1. Sean m y n son enteros positivos tales que $n + n^3 + n^5 = m + m^2$. Probar que $n$ es par.
 
+	Por contradicion decimos que n es impar.
+	lado izquierdo
+	
+	n + n3 + n5 = impar + impar  + impar = impar
+	lado derecho.
+	caso 1. m es par.
+		dado que m es par entonces tenemos que:
+		n + n2 = par + par = par
+		por lo que no puede ser.
+	caso 2. m es impar
+		dado que m es impar entonces tenemos que 
+		n + n2 = impar + impar = par
+		por lo que no puede ser
 2. Probar que todo entero positivo $n$ se puede expresar como la suma de una o más potencias de 2, distintas entre sí.
 
 3. Consideremos los números enteros del 1 al 2025.
