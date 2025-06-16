@@ -43,9 +43,12 @@ decimos que el numero n se encuentra entre 2 potencias.
 2^m <= n < 2^(m+1) , donde m in Z
 
 Caso base:
-	n = 1 => 2^0 <= 1 <= 2^1 m = 0  
-	n = 2 => 2^1 = 2 <= 2, m = 1  
-	n = 3 => 2^2 = 4 <= 3, m = 1  
+	n = 1 -> 2^0 <= 1 < 2^1 -> 1 <= 1 < 2 -> m=0    
+	n = 2 -> 2^1 <= 2 < 2^2 -> 2 <= 2 < 4 -> m=1    
+	n = 3 -> 2^1 <= 3 < 2^2 -> 2 <= 3 < 4 -> m=1 , 3 se puede expresar como como la suma de 2 y 1, ambos demostrados
+Hipotesis de induccion:
+	
+   
 
 3. Consideremos los números enteros del 1 al 2025.
    ¿Cuántos de estos números tienen una suma de dígitos que es múltiplo de 5?
