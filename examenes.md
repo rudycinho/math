@@ -187,10 +187,57 @@ par = impar, por lo que no existen enters que satisfagan la ecuacion
 **C.I.:** \_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_
 
 1. ¿Para qué valores naturales $n$ es posible cubrir completamente un rectángulo de tamaño $3\times n$ con las piezas mostradas en la siguiente figura, sin superposiciones ni dejar espacios vacíos?
+
     
 2. En cada casilla de un tablero de $8\times 8$ se escribe un número entero. Se sabe que, para cada casilla, la suma de los números en sus casillas vecinas es igual a 1. Determina la suma de todos los números del tablero.
     
     > **Nota.** Se considera que dos casillas son vecinas si comparten un lado.
+    
+    \begin{center}
+\begin{tikzpicture}[scale=1]
+\def\rows{8}
+\def\cols{8}
+\draw[line width=1.5pt, black, step=1cm]
+(0,0) grid (\cols,\rows);
+\fill[yellow] (1,0) rectangle (2,1);
+\fill[yellow] (2,0) rectangle (3,1);
+\fill[yellow] (5,0) rectangle (6,1);
+\fill[yellow] (6,0) rectangle (7,1);
+\fill[yellow] (0,2) rectangle (1,3);
+
+\fill[yellow] (3,2) rectangle (4,3);
+
+\fill[yellow] (4,2) rectangle (5,3);
+
+\fill[yellow] (7,2) rectangle (8,3);
+
+\fill[yellow] (0,3) rectangle (1,4);
+
+\fill[yellow] (7,3) rectangle (8,4);
+
+\fill[yellow] (2,4) rectangle (3,5);
+
+\fill[yellow] (5,4) rectangle (6,5);
+
+\fill[yellow] (2,5) rectangle (3,6);
+
+\fill[yellow] (5,5) rectangle (6,6);
+
+\fill[yellow] (0,6) rectangle (1,7);
+
+\fill[yellow] (7,6) rectangle (8,7);
+
+\fill[yellow] (0,7) rectangle (1,8);
+
+\fill[yellow] (7,7) rectangle (8,8);
+
+\fill[yellow] (3,7) rectangle (4,8);
+
+\fill[yellow] (4,7) rectangle (5,8);
+
+\end{tikzpicture}
+
+\end{center}
     
 3. Sean $a,b,c,d,e,f$ números reales con la siguiente propiedad:
 $$
@@ -223,7 +270,7 @@ c. a=0 y f \neq 0
 	como a=0 entonces a(b-c+d-e+f)= 0(b-c+d-e+f) = 0 > 0, lo cual es imporsible
 
 d. a \neq 0 y f=0
-	como f=0 entonces a(b-c+d-e+f)= 0(b-c+d-e+f) = 0 > 0, lo cual es imporsible
+	como f=0 entonces f(a-b+c-d+e)= 0(a-b+c-d+e) = 0 > 0, lo cual es imporsible
 	
 4. En una bolsa hay 32 bolillos numerados del 1 al 32. ¿Cuál es el mínimo número de bolillos que hay que extraer de la bolsa, para tener la certeza de haber obtenido dos bolillos cuya suma es mayor o igual que 20 y menor o igual que 45?
     
