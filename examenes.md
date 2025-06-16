@@ -6,12 +6,13 @@
 
 
 1. Sean $m$ y $n$ enteros positivos tales que
-
    $$
      n + n^{3} + n^{6} = m + m^{3}\,.
    $$
 
    Probar que $n$ es par.
+
+	
 
 2. Probar que todo entero positivo $n$ se puede expresar como la suma de una o más potencias de 2, distintas entre sí.
 
@@ -38,8 +39,16 @@
     > **Nota.** Se considera que dos casillas son vecinas si comparten un lado.
     
 3. Sean $a,b,c,d,e,f$ números reales con la siguiente propiedad:
+$$
+  \begin{align}
+    f\bigl(a - b + c - d + e\bigr) &< 0, \\
+    a\bigl(b - c + d - e + f\bigr) &< 0.
+  \end{align}
+$$
 
+  Demostrar que $af < 0$.
+  
     
 4. En una bolsa hay 32 bolillos numerados del 1 al 32. ¿Cuál es el mínimo número de bolillos que hay que extraer de la bolsa, para tener la certeza de haber obtenido dos bolillos cuya suma es mayor o igual que 20 y menor o igual que 45?
     
-5. **Un grafo simple tiene 8 vértices de grados $3,3,3,3,3,3,3,x$. **Hallar todos los posibles valores de $x$.
+5. Un grafo simple tiene 8 vértices de grados $3,3,3,3,3,3,3,x$. Hallar todos los posibles valores de $x$.
