@@ -1,18 +1,11 @@
 
-# Examen I
+# Examen 1
 
 **Nombre completo:** \_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_
 **C.I.:** \_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_
 
 
-1. Sean $m$ y $n$ enteros positivos tales que
-   $$
-     n + n^{3} + n^{6} = m + m^{3}\,.
-   $$
-
-   Probar que $n$ es par.
-
-	
+1. Sean m y n son enteros positivos tales que $n + n^3 + n^5 = m + m^2$. Probar que $n$ es par.
 
 2. Probar que todo entero positivo $n$ se puede expresar como la suma de una o más potencias de 2, distintas entre sí.
 
