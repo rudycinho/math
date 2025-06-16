@@ -306,7 +306,8 @@ concluimos con 10 estracciones se puede evitar un par que sume 20 a 45, pero no 
 
 
 sumando los grados tenemos
-21+x= par, por tanto x debe ser impar, por teor
+21+x= par, por tanto x debe ser impar, por teorema de lapreton de manos.
 ademas 0<=x <= 7 debido a que el grafo tieene 8 vericies y no es simple
-en el rango [0,7] , tenemos los imprares 
+en el rango [0,7] , tenemos los imprares 1,3,5,7
+por tanto los $x \in {1,3,5,7}$
 
