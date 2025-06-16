@@ -58,6 +58,9 @@ Tesis de inducuin:
 	n < 2\*2^x 
 	n < 2^x+2^x 
 	n -2^x < 2^x 
+	esta expresion es la suma de potencias de base 2, menores que 2^x.
+	notamos que 2^x <= n, se puede expresar como:
+	n = 2^x +  ()
 	
 
 3. Consideremos los números enteros del 1 al 2025.
