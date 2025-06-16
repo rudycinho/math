@@ -204,7 +204,14 @@ $$
 
 por contradiccion demostramos que af>=0
 
-dividimos af
+dividimos en af>0 y af=0
+para af > 0 tanto a como f deben tener el mismo signo
+para af = 0 , a o f deben ser cero
+a. a>0 y f>0
+	como f>0 entonces (a-b+c-d+e)<0
+	como a>0 entonces (b-c+d-e+f)<0
+	sumando ambos tenemos a+f<0.
+	como a>0 y f>0 entonces 
     
 4. En una bolsa hay 32 bolillos numerados del 1 al 32. ¿Cuál es el mínimo número de bolillos que hay que extraer de la bolsa, para tener la certeza de haber obtenido dos bolillos cuya suma es mayor o igual que 20 y menor o igual que 45?
     
