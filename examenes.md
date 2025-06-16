@@ -39,7 +39,7 @@
 	
 2. Probar que todo entero positivo $n$ se puede expresar como la suma de una o más potencias de 2, distintas entre sí.
 
-tenemos 2 n
+tenemos 2^0 + 2^1 + 2^2 + ... + 2^(m-1) + 2^m = n
 
 3. Consideremos los números enteros del 1 al 2025.
    ¿Cuántos de estos números tienen una suma de dígitos que es múltiplo de 5?
