@@ -63,7 +63,36 @@ Tesis de inducuin:
 	notamos que 2^x <= n, se puede expresar como:
 	n = 2^x + (n -2^x), donde (n -2^x) ya esta demostrado
 	por tanto todo n puede ser represrntaod
-	
+
+**Demostración por inducción fuerte:**
+
+- **Base:**
+    
+    - n=1=20n=1=20.
+        
+    - n=2=21n=2=21.
+        
+    - n=3=21+20n=3=21+20.  
+        Se cumple.
+        
+- **Hipótesis inductiva:** Supongamos que todo entero kk con 1≤k<n1≤k<n puede expresarse como suma de potencias de 2 distintas.
+    
+- **Paso inductivo:**  
+    Sea xx el mayor entero tal que 2x≤n2x≤n. Entonces:
+    
+    2x≤n<2x+1.2x≤n<2x+1.
+    - Si n=2xn=2x, entonces nn es una potencia de 2.
+        
+    - Si n>2xn>2x, sea r=n−2xr=n−2x. Como r<2xr<2x (porque n<2x+1=2⋅2xn<2x+1=2⋅2x), y r≥1r≥1, entonces r<nr<n. Por hipótesis inductiva, rr es suma de potencias de 2 distintas, todas menores que 2x2x (ya que r<2xr<2x).
+        
+    - Por tanto, n=2x+rn=2x+r es suma de potencias de 2 distintas.
+        
+
+**Ejemplo:** n=10n=10.
+
+- 23=8≤10<1623=8≤10<16, r=10−8=2=21r=10−8=2=21.
+    
+- 10=8+2=23+2110=8+2=23+21.
 
 3. Consideremos los números enteros del 1 al 2025.
    ¿Cuántos de estos números tienen una suma de dígitos que es múltiplo de 5?
@@ -172,7 +201,10 @@ $$
 $$
 
   Demostrar que $af < 0$.
-  
+
+por contradiccion demostramos que af>=0
+
+dividimos af
     
 4. En una bolsa hay 32 bolillos numerados del 1 al 32. ¿Cuál es el mínimo número de bolillos que hay que extraer de la bolsa, para tener la certeza de haber obtenido dos bolillos cuya suma es mayor o igual que 20 y menor o igual que 45?
     
