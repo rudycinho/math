@@ -17,7 +17,6 @@ Como $n$ es impar, entonces $n$, $n^3$ y $n^5$ son impares.
 
 **Lado izquierdo de la ecuación:**  
 $$n + n^3 + n^5 = \text{impar} + \text{impar} + \text{impar} = \text{impar}.$$  
-(Suma de tres impares: impar + impar = par, y par + impar = impar).  
 
 **Lado derecho de la ecuación:**  
 $$m + m^2.$$  
@@ -38,3 +37,14 @@ El lado izquierdo es impar y el lado derecho es par. Esto es una contradicción,
 
 $\boxed{\text{Por lo tanto, } n \text{ es par.}}$
 
+
+
+1. Sean m y n son enteros positivos tales que $n + n^3 + n^5 = m + m^2$. Probar que $n$ es par.
+	
+2. Probar que todo entero positivo $n$ se puede expresar como la suma de una o más potencias de 2, distintas entre sí.
+
+3. Consideremos los números enteros del 1 al 2025.
+   ¿Cuántos de estos números tienen una suma de dígitos que es múltiplo de 5?
+		 
+4. ¿Cómo se puede cortar un rectángulo de dimensiones $13\times7$ en 13 rectángulos de áreas y dimensiones diferentes?
+5. ¿Existe una solución entera para la ecuación $a \cdot b \cdot (a - b) = 45045\;$?
