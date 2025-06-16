@@ -8,7 +8,8 @@
 1. Sean m y n son enteros positivos tales que $n + n^3 + n^5 = m + m^2$. Probar que $n$ es par.
 
 	Por contradicion decimos que n es impar.
-	primero demostracion las potencias:
+	
+	Primero demostracion las potencias:
 
 	sea x in Z
 	x = 2k+1
