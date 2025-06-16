@@ -288,8 +288,12 @@ d. a \neq 0 y f=0
 4. En una bolsa hay 32 bolillos numerados del 1 al 32. ¿Cuál es el mínimo número de bolillos que hay que extraer de la bolsa, para tener la certeza de haber obtenido dos bolillos cuya suma es mayor o igual que 20 y menor o igual que 45?
 resuelve por palomar
 
-tenemos los numes del 1 al 32.
-eviatamos los
+tenemos el conjunto de numeros S={1,2,...32}
+eviatamos los pares que cuya suma se encuentre entre 20 y 45.
+tenmos los subconjundos 
+S1={1,2,...,10}, la suma mayor de estos numeros es 9+10=19<20
+S2={23,24,...,32}, la suma menor de estos numeros es 23+24=47>45
+
     
 5. Un grafo simple tiene 8 vértices de grados $3,3,3,3,3,3,3,x$. Hallar todos los posibles valores de $x$.
 
