@@ -275,6 +275,13 @@ d. a \neq 0 y f=0
 	
 4. En una bolsa hay 32 bolillos numerados del 1 al 32. ¿Cuál es el mínimo número de bolillos que hay que extraer de la bolsa, para tener la certeza de haber obtenido dos bolillos cuya suma es mayor o igual que 20 y menor o igual que 45?
 resuelve por palomar
+
+aplicamos en principio del palomar.
+buscamos el maximoo de tamano de subconjuntos de S={1,2,...,32}, donde la suma de sus elementos no este en el rango \[20,45\]
+tenemos 
+A = {1,2,...,9} notamos que 8+9=17<20
+B = {10,11,,...22} notamos que 10+11=22,11+1
+C = {23,24,,...32} notamos que 23+24=47>45
     
 5. Un grafo simple tiene 8 vértices de grados $3,3,3,3,3,3,3,x$. Hallar todos los posibles valores de $x$.
 
