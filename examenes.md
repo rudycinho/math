@@ -42,11 +42,32 @@
 3. Consideremos los números enteros del 1 al 2025.
    ¿Cuántos de estos números tienen una suma de dígitos que es múltiplo de 5?
 
-4. ¿Cómo se puede cortar un rectángulo de dimensiones $13\times7$ en 13 rectángulos de áreas y dimensiones diferentes?
+en el rango de 1 al 9 :
+	tenemos solo un numero 5
+en el rango de 10 al 99 tenemos:
+	en un rango de 10 numeros tenemos 2 numeros:
+		10 -> no,
+		11 -> no,
+		12 -> no,
+		13 -> no,
+		14 -> si,
+		15 -> no,
+		16 -> no,
+		17 -> no,
+		13 -> no,
+		14 -> no,
+
+5. ¿Cómo se puede cortar un rectángulo de dimensiones $13\times7$ en 13 rectángulos de áreas y dimensiones diferentes?
 
 basta con dibular un rectangulo 13x7
 en la filas colocamos:
-1 cuadrado , 2
+13 cuadrados
+1 cuadrado , 12 cuadrados
+2 cuadrads , 11 cuadrados
+3 cuadrads , 10 cuadrados
+4 cuadrads , 9 cuadrados
+5 cuadrads , 8 cuadrados
+6 cuadrads , 7 cuadrados
 
 5. ¿Existe una solución entera para la ecuación $a \cdot b \cdot (a - b) = 45045\;$?
 
