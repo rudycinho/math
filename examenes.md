@@ -43,7 +43,7 @@
    ¿Cuántos de estos números tienen una suma de dígitos que es múltiplo de 5?
 
 en el rango de 1 al 9 :
-	tenemos solo un numero 5
+	tenemos solo el numero 5
 en el rango de 10 al 99 tenemos:
 	en un rango de 10 numeros tenemos 2 numeros:
 		10 -> no,
@@ -80,6 +80,16 @@ en el rango de 10 al 99 tenemos:
 			10  ---- 2
 			20 ---- x
 		10 x = 20 \* 2 => x = 4
+ en el rango de 2020 al 2025
+ 2020 = 2 + 0 + 2 + 0 = 4 => no
+ 2021 = 2 + 0 + 2 + 1 = 5 => si
+ 2022 = 2 + 0 + 2 + 2 = 4 => no
+ 2023 = 2 + 0 + 2 + 2 = 4 => no
+ 2024 = 2 + 0 + 2 + 2 = 4 => no
+ 2025 = 2 + 0 + 2 + 2 = 4 => no
+
+por tanto tenemos:
+1 + 18 + 180 + 200 
 		 
 	
 5. ¿Cómo se puede cortar un rectángulo de dimensiones $13\times7$ en 13 rectángulos de áreas y dimensiones diferentes?
