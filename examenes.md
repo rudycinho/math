@@ -280,7 +280,7 @@ aplicamos en principio del palomar.
 buscamos el maximoo de tamano de subconjuntos de S={1,2,...,32}, donde la suma de sus elementos no este en el rango \[20,45\]
 tenemos 
 A = {1,2,...,9} notamos que 8+9=17<20
-B = {10,11,,...22} notamos que 10+11=22,11+1
+B = {10,11,,...22} notamos que 10+11=22,11+12=32,...21+22=43, todos estan contenidos en \[20,45\].
 C = {23,24,,...32} notamos que 23+24=47>45
     
 5. Un grafo simple tiene 8 vértices de grados $3,3,3,3,3,3,3,x$. Hallar todos los posibles valores de $x$.
