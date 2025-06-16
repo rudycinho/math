@@ -10,12 +10,17 @@
 	Por contradicion decimos que n es impar.
 	primero demostracion las potencias:
 
-	s
+	sea x in Z
 	x = 2k+1
 	x2 = x\*x =(2k+1)(2k+1) = 4k2 + 4k + 1 = 2(2k2+2k)+1 = 2l + 1, l in math bb Z  por tanto x2 es impar
 	x3 = x2\*x =(2l+1)(2k+1) = 4kl + 2k + 2l + 1 = 2(2kl + k + l)+1 = 2s + 1, s in math bb Z  por tanto x3 es impar
 	x5 = x3\*x2 = (2s + 1)(2l + 1) = 4sl + 2s + 2l + 1 = 2(2sl + s + l)+1 = 2t + 1, t in math bb Z  por tanto x5 es impar
-	
+
+	sea y in Z
+	y = 2k
+	y2 = y\*y = (2k)(2k) = 4k2 = 2(2k2) , por tanto y2 es par
+
+		
 	lado izquierdo
 	
 	n + n3 + n5 = impar + impar  + impar = impar
@@ -40,6 +45,15 @@
 4. ¿Cómo se puede cortar un rectángulo de dimensiones $13\times7$ en 13 rectángulos de áreas y dimensiones diferentes?
 
 5. ¿Existe una solución entera para la ecuación $a \cdot b \cdot (a - b) = 45045\;$?
+
+notamos que el nume
+supongamos 
+a es par y b es par
+tenemos a\*b\*(a-b) = P\*P\*(P-P) = P 
+a es par y b es impar
+a es impar y b es par
+a es impar y b es impar
+
 
 # Examen 2
 
