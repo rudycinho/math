@@ -187,8 +187,20 @@ par = impar, por lo que no existen enters que satisfagan la ecuacion
 **C.I.:** \_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_
 
 1. ¿Para qué valores naturales $n$ es posible cubrir completamente un rectángulo de tamaño $3\times n$ con las piezas mostradas en la siguiente figura, sin superposiciones ni dejar espacios vacíos?
-[dibuja esto ] l tromino
-[dibuja esto ]  z tetromino
+\begin{tikzpicture}
+  % Cuadro base
+  \foreach \x/\y in {0/0, 1/0, 0/1} {
+    \draw[thick] (\x,\y) rectangle ++(1,1);
+    \fill[blue!30] (\x,\y) rectangle ++(1,1);
+  }
+\end{tikzpicture}
+\begin{tikzpicture}
+  % Cuadro base
+  \foreach \x/\y in {0/1, 1/1, 1/0, 2/0} {
+    \draw[thick] (\x,\y) rectangle ++(1,1);
+    \fill[red!30] (\x,\y) rectangle ++(1,1);
+  }
+\end{tikzpicture}
     
 2. En cada casilla de un tablero de $8\times 8$ se escribe un número entero. Se sabe que, para cada casilla, la suma de los números en sus casillas vecinas es igual a 1. Determina la suma de todos los números del tablero.
     
@@ -276,12 +288,11 @@ d. a \neq 0 y f=0
 4. En una bolsa hay 32 bolillos numerados del 1 al 32. ¿Cuál es el mínimo número de bolillos que hay que extraer de la bolsa, para tener la certeza de haber obtenido dos bolillos cuya suma es mayor o igual que 20 y menor o igual que 45?
 resuelve por palomar
 
-aplicamos en principio del palomar.
-buscamos el maximoo de tamano de subconjuntos de S={1,2,...,32}, donde la suma de sus elementos no este en el rango \[20,45\]
-tenemos 
-A = {1,2,...,9} notamos que 8+9=17<20
-B = {10,11,,...22} notamos que 10+11=22,11+12=32,...21+22=43, todos estan contenidos en \[20,45\].
-C = {23,24,,...32} notamos que 23+24=47>45
+tenemos los numes del 1 al 32.
+eviatamos los
     
 5. Un grafo simple tiene 8 vértices de grados $3,3,3,3,3,3,3,x$. Hallar todos los posibles valores de $x$.
 
+
+sumando los grados tenemos
+21+x=
