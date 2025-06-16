@@ -26,25 +26,20 @@
      a \cdot b \cdot (a - b) = 45045\;?
    $$
 
-Segundo Examen Parcial
+# Examen 2
 
-**Nombre completo:** _______________________  
-**C.I.:** _______________________
+**Nombre completo:** \_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_
+**C.I.:** \_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_
 
----
-
-1. ¿Para qué valores naturales** nn **es posible cubrir completamente un rectángulo de tamaño** 3×n3\times n **con las piezas mostradas en la siguiente figura, sin superposiciones ni dejar espacios vacíos?**
+1. ¿Para qué valores naturales $n$ es posible cubrir completamente un rectángulo de tamaño $3\times n$ con las piezas mostradas en la siguiente figura, sin superposiciones ni dejar espacios vacíos?
     
-2. **En cada casilla de un tablero de** 8×88\times 8 **se escribe un número entero. Se sabe que, para cada casilla, la suma de los números en sus casillas vecinas es igual a 1. Determina la suma de todos los números del tablero.**
+2. En cada casilla de un tablero de $8\times 8$ se escribe un número entero. Se sabe que, para cada casilla, la suma de los números en sus casillas vecinas es igual a 1. Determina la suma de todos los números del tablero.
     
     > **Nota.** Se considera que dos casillas son vecinas si comparten un lado.
     
-3. **Sean** a,b,c,d,e,fa,b,c,d,e,f **números reales con la siguiente propiedad:**
+3. Sean $a,b,c,d,e,f$ números reales con la siguiente propiedad:
+
     
-    f(a−b+c−d+e)<0, f\bigl(a - b + c - d + e\bigr) < 0, a(b−c+d−e+f)<0. a\bigl(b - c + d - e + f\bigr) < 0.
+4. En una bolsa hay 32 bolillos numerados del 1 al 32. ¿Cuál es el mínimo número de bolillos que hay que extraer de la bolsa, para tener la certeza de haber obtenido dos bolillos cuya suma es mayor o igual que 20 y menor o igual que 45?
     
-    Demostrar que af<0af < 0.
-    
-4. **En una bolsa hay 32 bolillos numerados del 1 al 32. ¿Cuál es el mínimo número de bolillos que hay que extraer de la bolsa, para tener la certeza de haber obtenido dos bolillos cuya suma es mayor o igual que 20 y menor o igual que 45?**
-    
-5. **Un grafo simple tiene 8 vértices de grados** 3,3,3,3,3,3,3,x3,3,3,3,3,3,3,x. **Hallar todos los posibles valores de** xx.
+5. **Un grafo simple tiene 8 vértices de grados $3,3,3,3,3,3,3,x$. **Hallar todos los posibles valores de $x$.
