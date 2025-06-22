@@ -1,4 +1,4 @@
-### Clasificación por temas
+### Preguntas de Examen
 
 #### Lógica
 1. Simbolice la siguiente inferencia y demuéstrela: "Si $x=a$ e $y=b$, entonces $z=c$. Si, si $y=b, z=c$, entonces $w=k . x=a$. Por consiguiente, $w=k$."
@@ -35,11 +35,12 @@
 	-  Demuestre que $\sim$ es una relación de equivalencia.
 	- Calcule las clases de equivalencia $[(1,2)],[(2,1)]$ y $[(1,1)]$, y haga un gráfico en el plano $\mathbb{N}^2$.
 	- Si en $\mathbb{N}^2 / \sim$ definimos la adición $[(a, b)]+[(c, d)]=[(a+c, b+d)]$. 
-		- Calcule $[(2,1)]+[(1,1)]$. ¿Qué le dice esto sobre la clase $[(1,1)]$ para esta adición? Calcule $[(2,1)]+[(1,2)]$. ¿Qué le dice esto sobre la clase $[(1,2)]$ respecto de la clase $[(2,1)]$ para esta adición?
+		- Calcule $[(2,1)]+[(1,1)]$. ¿Qué le dice esto sobre la clase $[(1,1)]$ para esta adición? 
+		- Calcule $[(2,1)]+[(1,2)]$. ¿Qué le dice esto sobre la clase $[(1,2)]$ respecto de la clase $[(2,1)]$ para esta adición?
 
 #### Órdenes Parciales
 1. Sea $X=\{a, b, c\}$. En el conjunto $2^X$ definimos la relación de orden $A \preceq B \Leftrightarrow A \subseteq B$. Dibuje el diagrama de Hasse de este orden. Si existen, identifique los siguientes elementos: 
-	- $\max 2^X y \min 2^X$. 
+	- $\max 2^X$ y $\min 2^X$. 
 	- $\operatorname{Para} Z=\{\{a, b\},\{c\}\}, \inf Z$ y sup $Z$.
 2. Sean $R \subset A^2$ y $S \subset B^2$ dos relaciones de orden. Sobre $A \times B$ definimos la relación $\left(a_1, b_1\right) \ll\left(a_2, b_2\right) \Leftrightarrow a_1 R a_2 \wedge b_1 S b_2$. Demuestre que $\ll$ es una relación de orden.
 3. Sea $X=\{x, y, z\}$. En el conjunto $\mathcal{W}=2^X \backslash\{X\}$ definimos la relación de orden $A \preceq B \Leftrightarrow A \supseteq B$. 
