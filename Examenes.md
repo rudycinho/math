@@ -35,8 +35,7 @@
 	-  Demuestre que $\sim$ es una relación de equivalencia.
 	- Calcule las clases de equivalencia $[(1,2)],[(2,1)]$ y $[(1,1)]$, y haga un gráfico en el plano $\mathbb{N}^2$.
 	- Si en $\mathbb{N}^2 / \sim$ definimos la adición $[(a, b)]+[(c, d)]=[(a+c, b+d)]$. 
-		i. Calcule $[(2,1)]+[(1,1)]$. ¿Qué le dice esto sobre la clase $[(1,1)]$ para esta adición? 
-		ii. Calcule $[(2,1)]+[(1,2)]$. ¿Qué le dice esto sobre la clase $[(1,2)]$ respecto de la clase $[(2,1)]$ para esta adición?
+		- Calcule $[(2,1)]+[(1,1)]$. ¿Qué le dice esto sobre la clase $[(1,1)]$ para esta adición? Calcule $[(2,1)]+[(1,2)]$. ¿Qué le dice esto sobre la clase $[(1,2)]$ respecto de la clase $[(2,1)]$ para esta adición?
 
 #### Órdenes Parciales
 1. Sea $X=\{a, b, c\}$. En el conjunto $2^X$ definimos la relación de orden $A \preceq B \Leftrightarrow A \subseteq B$. Dibuje el diagrama de Hasse de este orden. Si existen, identifique los siguientes elementos: 
