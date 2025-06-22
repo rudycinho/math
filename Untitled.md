@@ -15,11 +15,17 @@
 5. Simplifique lo siguiente: $\left\{\left[(A \cup B) \cap(B \backslash C)^c\right] \cup\left[C \backslash\left(A^c \cap B\right)\right]^c\right\} \backslash(C \backslash B)$.
 
 #### Funciones
-1. Sea $f: X \rightarrow Y$ una función. Demuestre que: (a) Si $B \subset Y$, entonces $f\left(f^{-1}(B)\right) \subset B$. (b) Si $f$ es suryectiva, entonces $f\left(f^{-1}(B)\right)=B$ para todo $B \subset Y$.
-2. Sean $X$ e $Y$ conjuntos no vacíos, y sea $f: X \rightarrow Y$ una función. Definimos en $X$ la relación $x \sim y \Leftrightarrow f(x)=f(y)$. (a) Demuestre que esta relación es de equivalencia. ¿A qué es igual $[x]$, la clase de equivalencia de $x$? (b) Definimos la aplicación $\bar{f}: X / \sim \rightarrow Y$ por $\bar{f}([x])=f(x)$. ¿Es $\bar{f}$ inyectiva? (Justifique su respuesta).
+1. Sea $f: X \rightarrow Y$ una función. Demuestre que:
+	(a) Si $B \subset Y$, entonces $f\left(f^{-1}(B)\right) \subset B$. 
+	(b) Si $f$ es suryectiva, entonces $f\left(f^{-1}(B)\right)=B$ para todo $B \subset Y$.
+2. Sean $X$ e $Y$ conjuntos no vacíos, y sea $f: X \rightarrow Y$ una función. Definimos en $X$ la relación $x \sim y \Leftrightarrow f(x)=f(y)$. 
+	(a) Demuestre que esta relación es de equivalencia. ¿A qué es igual $[x]$, la clase de equivalencia de $x$? 
+	(b) Definimos la aplicación $\bar{f}: X / \sim \rightarrow Y$ por $\bar{f}([x])=f(x)$. ¿Es $\bar{f}$ inyectiva? (Justifique su respuesta).
 3. Sea $f: A \rightarrow B$ una función inyectiva. Demuestre que existe $g: B \rightarrow A$ tal que $g \circ f=\operatorname{id}_A$.
 4. Sea $g: X \rightarrow Y$ una función y sea $B \subseteq Y$. Demuestre que $g^*(Y \backslash B)=X \backslash g^*(B)$.
-5. Sea $f: X \rightarrow Y$ una función. Demuestre que: (a) Si $A \subset X$, entonces $A \subset f^{-1}[f(A)]$. (b) Si $f$ es inyectiva, entonces $f^{-1}[f(A)]=A$ para todo $A \subset X$.
+5. Sea $f: X \rightarrow Y$ una función. Demuestre que: 
+	(a) Si $A \subset X$, entonces $A \subset f^{-1}[f(A)]$. 
+	(b) Si $f$ es inyectiva, entonces $f^{-1}[f(A)]=A$ para todo $A \subset X$.
 
 #### Relaciones de Equivalencia
 - **Examen 3.3**: Sean $X$ e $Y$ conjuntos no vacíos, y sea $f: X \rightarrow Y$ una función. Definimos en $X$ la relación $x \sim y \Leftrightarrow f(x)=f(y)$. (a) Demuestre que esta relación es de equivalencia. (b) Definimos la aplicación $\tilde{f}: X / \sim \rightarrow Y$ por $\tilde{f}([x])=f(x)$. Demuestre que $\tilde{f}$ es inyectiva.
@@ -31,19 +37,18 @@
 3. Sea $X=\{x, y, z\}$. En el conjunto $\mathcal{W}=2^X \backslash\{X\}$ definimos la relación de orden $A \preceq B \Leftrightarrow A \supseteq B$. (a) Dibuje el diagrama de Hasse de este orden. (b) ¿Cuáles son los elementos minimales y maximales de $\mathcal{W}$?
 
 #### Números Complejos
-- **Examen 3.4**: Dé una descripción geométrica del siguiente subconjunto de $\mathbb{C}$: $\left\{z: z^2-\bar{z}^2=i\right\}$. Bosqueje un gráfico del conjunto (en $\mathbb{R}^2$).
-- **Examen 3.5**: Exprese en la forma $x+i y$: (a) $\log (1-i \sqrt{3})$. (b) $i^{\log i}$.
-- **Examen 6.3**: Sean $z, w \in \mathbb{C}$. Demuestre la ley del paralelogramo: $|z+w|^2+|z-w|^2=2\left(|z|^2+|w|^2\right)$.
+1. Dé una descripción geométrica del siguiente subconjunto de $\mathbb{C}$: $\left\{z: z^2-\bar{z}^2=i\right\}$. Bosqueje un gráfico del conjunto (en $\mathbb{R}^2$).
+2. Exprese en la forma $x+i y$: (a) $\log (1-i \sqrt{3})$. (b) $i^{\log i}$.
+3. Sean $z, w \in \mathbb{C}$. Demuestre la ley del paralelogramo: $|z+w|^2+|z-w|^2=2\left(|z|^2+|w|^2\right)$.
 
 #### Inducción Matemática
 1. Demostrar la desigualdad de Bernoulli: para todo $c \in \mathbb{R}$ y $n \in \mathbb{N}$, $(1+c)^n \geq 1+n c$.
 2. Demostrar que, para todo $a \in \mathbb{R}$ y todo $n \in \mathbb{N}$, $\frac{1}{a(a+1)}+\frac{1}{(a+1)(a+2)}+\cdots+\frac{1}{(a+n-1)(a+n)}=\frac{n}{a(a+n)}$.
 
-#### Axiomas de Peano
-1. En la axiomátización de Peano de los números naturales, demuestre que, para todo $m, n, p \in \mathbb{N}$, $m \cdot(n+p)=m \cdot n+m \cdot p$.
 
 #### Combinatoria
 1. Calcular el valor de $\binom{n}{0}+2\binom{n}{1}+2^2\binom{n}{2}+\cdots+2^k\binom{n}{k}+\cdots+2^n\binom{n}{n}$.
 
 #### Teoría de Números
 1. Demostrar que si $c \mid a$ y $(a, b)=1$, entonces $(b, c)=1$.
+2. En la axiomátización de Peano de los números naturales, demuestre que, para todo $m, n, p \in \mathbb{N}$, $m \cdot(n+p)=m \cdot n+m \cdot p$.
