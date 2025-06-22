@@ -2,16 +2,16 @@
 
 #### Lógica
 1. Simbolice la siguiente inferencia y demuéstrela: "Si $x=a$ e $y=b$, entonces $z=c$. Si, si $y=b, z=c$, entonces $w=k . x=a$. Por consiguiente, $w=k$."
-2. **Examen 1.3**: Se sabe que $(r \rightarrow q)$ es verdadera, $(n \wedge r)$ es falsa, $(m \vee n)$ es verdadera, y que $(p \vee m)$ es falsa. Determinar (sin hacer la tabla de verdad) el valor de verdad de: $[(m \vee \neg n) \rightarrow(p \wedge \neg r)] \leftrightarrow(m \wedge q)$.
-3. **Examen 2.2**: Simbolice la siguiente inferencia y demuéstrela: "Si $x=a$ e $y=b$, entonces $z=c$. Si, si $y=b, z=c$, entonces $w=k . x=a$. Por consiguiente, $w=k$."
-- **Examen 2.3**: Se sabe que $(r \rightarrow q)$ es verdadera, $(n \wedge r)$ es falsa, $(m \vee n)$ es verdadera, y que $(p \vee m)$ es falsa. Determinar (sin hacer la tabla de verdad) el valor de verdad de: $[(m \vee \neg n) \rightarrow(p \wedge \neg r)] \leftrightarrow(m \wedge q)$.
-- **Examen 2.4**: Definimos el símbolo $\lim _{x \rightarrow a} f(x)=f(a)$ por $(\forall \varepsilon>0)(\exists \delta>0)(\forall x)(0 \leq|x-a|<\delta \Rightarrow|f(x)-f(a)|<\varepsilon)$. Escriba la negación de esta definición.
+2. Se sabe que $(r \rightarrow q)$ es verdadera, $(n \wedge r)$ es falsa, $(m \vee n)$ es verdadera, y que $(p \vee m)$ es falsa. Determinar (sin hacer la tabla de verdad) el valor de verdad de: $[(m \vee \neg n) \rightarrow(p \wedge \neg r)] \leftrightarrow(m \wedge q)$.
+3. Simbolice la siguiente inferencia y demuéstrela: "Si $x=a$ e $y=b$, entonces $z=c$. Si, si $y=b, z=c$, entonces $w=k . x=a$. Por consiguiente, $w=k$."
+4. Se sabe que $(r \rightarrow q)$ es verdadera, $(n \wedge r)$ es falsa, $(m \vee n)$ es verdadera, y que $(p \vee m)$ es falsa. Determinar (sin hacer la tabla de verdad) el valor de verdad de: $[(m \vee \neg n) \rightarrow(p \wedge \neg r)] \leftrightarrow(m \wedge q)$.
+5. Definimos el símbolo $\lim _{x \rightarrow a} f(x)=f(a)$ por $(\forall \varepsilon>0)(\exists \delta>0)(\forall x)(0 \leq|x-a|<\delta \Rightarrow|f(x)-f(a)|<\varepsilon)$. Escriba la negación de esta definición.
 
 #### Teoría de Conjuntos
-- **Examen 1.1**: Demuestre que $(A \times B) \backslash(C \times D)=[(A \backslash C) \times B] \cup[A \times(B \backslash D)]$.
-- **Examen 1.4**: Considere la familia de conjuntos $\left\{Z_j\right\}_{j \in \mathbb{N}}$, donde $Z_j=(-\infty, j] \cup[j, \infty)$. Calcule $\left(\bigcap_{j \in \mathbb{N}} Z_j\right)^c$.
-- **Examen 1.5**: Simplifique lo siguiente: $\left\{\left[(A \cup B) \cap(B \backslash C)^c\right] \cup\left[C \backslash\left(A^c \cap B\right)\right]^c\right\} \backslash(C \backslash B)$.
-- **Examen 2.1**: Demuestre que $(A \times B) \backslash(C \times D)=[(A \backslash C) \times B] \cup[A \times(B \backslash D)]$.
+1. Demuestre que $(A \times B) \backslash(C \times D)=[(A \backslash C) \times B] \cup[A \times(B \backslash D)]$.
+2. Considere la familia de conjuntos $\left\{Z_j\right\}_{j \in \mathbb{N}}$, donde $Z_j=(-\infty, j] \cup[j, \infty)$. Calcule $\left(\bigcap_{j \in \mathbb{N}} Z_j\right)^c$.
+3. Simplifique lo siguiente: $\left\{\left[(A \cup B) \cap(B \backslash C)^c\right] \cup\left[C \backslash\left(A^c \cap B\right)\right]^c\right\} \backslash(C \backslash B)$.
+4. Demuestre que $(A \times B) \backslash(C \times D)=[(A \backslash C) \times B] \cup[A \times(B \backslash D)]$.
 - **Examen 2.5**: Simplifique lo siguiente: $\left\{\left[(A \cup B) \cap(B \backslash C)^c\right] \cup\left[C \backslash\left(A^c \cap B\right)\right]^c\right\} \backslash(C \backslash B)$.
 
 #### Funciones
@@ -36,14 +36,14 @@
 - **Examen 6.3**: Sean $z, w \in \mathbb{C}$. Demuestre la ley del paralelogramo: $|z+w|^2+|z-w|^2=2\left(|z|^2+|w|^2\right)$.
 
 #### Inducción Matemática
-- **Examen 5.1**: Demostrar la desigualdad de Bernoulli: para todo $c \in \mathbb{R}$ y $n \in \mathbb{N}$, $(1+c)^n \geq 1+n c$.
-- **Examen 5.3**: Demostrar que, para todo $a \in \mathbb{R}$ y todo $n \in \mathbb{N}$, $\frac{1}{a(a+1)}+\frac{1}{(a+1)(a+2)}+\cdots+\frac{1}{(a+n-1)(a+n)}=\frac{n}{a(a+n)}$.
+1. Demostrar la desigualdad de Bernoulli: para todo $c \in \mathbb{R}$ y $n \in \mathbb{N}$, $(1+c)^n \geq 1+n c$.
+2. Demostrar que, para todo $a \in \mathbb{R}$ y todo $n \in \mathbb{N}$, $\frac{1}{a(a+1)}+\frac{1}{(a+1)(a+2)}+\cdots+\frac{1}{(a+n-1)(a+n)}=\frac{n}{a(a+n)}$.
 
 #### Axiomas de Peano
-- **Examen 5.2**: En la axiomátización de Peano de los números naturales, demuestre que, para todo $m, n, p \in \mathbb{N}$, $m \cdot(n+p)=m \cdot n+m \cdot p$.
+1. En la axiomátización de Peano de los números naturales, demuestre que, para todo $m, n, p \in \mathbb{N}$, $m \cdot(n+p)=m \cdot n+m \cdot p$.
 
 #### Combinatoria
-- **Examen 5.4**: Calcular el valor de $\binom{n}{0}+2\binom{n}{1}+2^2\binom{n}{2}+\cdots+2^k\binom{n}{k}+\cdots+2^n\binom{n}{n}$.
+1. Calcular el valor de $\binom{n}{0}+2\binom{n}{1}+2^2\binom{n}{2}+\cdots+2^k\binom{n}{k}+\cdots+2^n\binom{n}{n}$.
 
 #### Teoría de Números
-- **Examen 5.5**: Demostrar que si $c \mid a$ y $(a, b)=1$, entonces $(b, c)=1$.
+1. Demostrar que si $c \mid a$ y $(a, b)=1$, entonces $(b, c)=1$.
