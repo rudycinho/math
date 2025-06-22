@@ -96,3 +96,57 @@ $$
 $$
 g^*(Y \backslash B)=X \backslash g^*(B)
 $$
+
+
+## Examen 5
+
+1. (20\%) Demostrar la desigualdad de Bernoulli: para todo $c \in \mathbb{R}$ y $n \in \mathbb{N}$,
+$$
+(1+c)^n \geq 1+n c
+$$
+2. (30\%) En la axiomátización de Peano de los números naturales, recordemos que la adición y la multiplicación están definidas de la siguiente forma
+$$
+\begin{array}{rlrl}
+0+m & =m & 0 \cdot n & =0 \\
+s(m)+n & =s(m+n) & s(m) \cdot n & =m \cdot n+n
+\end{array}
+$$
+
+Demostrar que, para todo $m, n, p \in \mathbb{N}$,
+$$
+m \cdot(n+p)=m \cdot n+m \cdot p
+$$
+3. ( $20 \%$ ) Demostrar que, para todo $a \in \mathbb{R}$ y todo $n \in \mathbb{N}$,
+$$
+\frac{1}{a(a+1)}+\frac{1}{(a+1)(a+2)}+\cdots+\frac{1}{(a+n-1)(a+n)}=\frac{n}{a(a+n)} .
+$$
+4. (20\%) Calcular el valor de
+$$
+\binom{n}{0}+2\binom{n}{1}+2^2\binom{n}{2}+\cdots+2^k\binom{n}{k}+\cdots+2^n\binom{n}{n}
+$$
+5. (10\%) Demostrar que si $c \mid a$ y $(a, b)=1$, entonces $(b, c)=1$.
+
+## Examen 6
+
+1. (20\%) Sea $f: X \rightarrow Y$ una función. Demuestre que:
+(a) Si $A \subset X$, entonces $A \subset f^{-1}[f(A)]$.
+(b) Si $f$ es inyectiva, entonces $f^{-1}[f(A)]=A$ para todo $A \subset X$.
+2. En $\mathbb{N}^2$ definimos la relación
+$$
+(a, b) \sim(c, d) \quad \Leftrightarrow \quad a+d=b+c
+$$
+(a) $(10 \%)$ Demuestre que $\sim \subset \mathbb{N}^2 \times \mathbb{N}^2$ es una relación de equivalencia.
+(b) $(15 \%)$ Calcule las clases de equivalencia $[(1,2)],[(2,1)]$ y $[(1,1)]$, y haga un gráfico en el plano $\mathbb{N}^2$.
+(c) $(15 \%)$ Si en $\mathbb{N}^2 / \sim$ definimos la adición $[(a, b)]+[(c, d)]=[(a+c, b+d)]$.
+i. Calcule $[(2,1)]+[(1,1)]$. ¿Qué le dice esto sobre la clase $[(1,1)]$ para esta adición?
+ii. Calcule $[(2,1)]+[(1,2)]$. ¿Qué le dice esto sobre la clase $[(1,2)]$ respecto de la clase $[(2,1)]$ para esta adición?
+3. (20\%) Sean $z, w \in \mathbb{C}$. Demuestre la ley del paralelogramo:
+$$
+|z+w|^2+|z-w|^2=2\left(|z|^2+|w|^2\right)
+$$
+4. (20\%) Sea $X=\{x, y, z\}$. En el conjunto $\mathcal{W}=2^X \backslash\{X\}$ definimos la relación de orden
+$$
+A \preceq B \quad \Leftrightarrow \quad A \supseteq B .
+$$
+(a) Dibuje el diagrama de Hasse de este orden.
+(b) ¿Cuáles son los elementos minimales y maximales de $\mathcal{W}$ ?
