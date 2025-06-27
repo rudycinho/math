@@ -1,3 +1,6 @@
 Curso de Griego
 Curso de Costura
-Curso de Co
+Curso de Conducción
+Curso de Piano
+Curso de Calculo
+Curso Ingles
